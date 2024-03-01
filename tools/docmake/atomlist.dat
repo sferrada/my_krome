@@ -1,0 +1,38 @@
+#atoms and mass
+#NOTE: case sensitive!
+# electron is "E"
+#
+#definitions are:
+#me = electron mass
+#mp = proton mass
+#mn = neutron mass
+#mep = me + mp
+#mepn = me + mp + mn
+
+H	mep
+D	mepn
+He	2*mepn
+C	6*mepn
+N	7*mepn
+O	8*mepn
+F	9*mep+10*mn
+Na	11*mep+12*mn
+Mg	12*mepn
+Al  13*mepn+mn
+P	15*mep+16*mn
+S	16*mepn
+Cl	17*mep+18*mn
+Ti	22*mepn+4*mn
+Fe	26*mep+30*mn
+E	me
+Si	14*mepn
+CR	0
+g	0
+l_	0
+c_ 	0
+_dust	0
+GRAIN0  0
+GRAIN   0
+_para	0
+_ortho	0
+_meta	0
