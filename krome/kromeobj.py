@@ -1,52 +1,52 @@
-# KROME is a nice and friendly chemistry package for a wide range of
-# astrophysical simulations. Given a chemical network (in CSV format)
-# it automatically generates all the routines needed to solve the kinetic
-# of the system, modelled as system of coupled Ordinary Differential
-# Equations.
-# It provides different options which make it unique and very flexible.
-# Any suggestions and comments are welcomed. KROME is an open-source
-# package, GNU-licensed, and any improvements provided by
-# the users is well accepted. See disclaimer below and GNU License
-# in gpl-3.0.txt.
-#
-# more details in http://kromepackage.org/
-# also see https://bitbucket.org/krome/krome_stable
-#
-# Written and developed by Tommaso Grassi
-# tgrassi@nbi.dk,
-# Starplan Center, Copenhagen.
-# Niels Bohr Institute, Copenhagen.
-#
-# and Stefano Bovino
-# stefano.bovino@uni-hamburg.de
-# Hamburger Sternwarte, Hamburg.
-#
-# Contributors: J.Boulangier, T.Frostholm, D.Galli, F.A.Gianturco, T.Haugboelle,
-#  A.Lupi, J.Prieto, J.Ramsey, D.R.G.Schleicher, D.Seifried, E.Simoncini,
-#  E.Tognelli
-#
-# KROME is provided "as it is", without any warranty.
-# The Authors assume no liability for any damages of any kind
-# (direct or indirect damages, contractual or non-contractual
-# damages, pecuniary or non-pecuniary damages), directly or
-# indirectly derived or arising from the correct or incorrect
-# usage of KROME, in any possible environment, or arising from
-# the impossibility to use, fully or partially, the software,
-# or any bug or malefunction.
-# Such exclusion of liability expressly includes any damages
-# including the loss of data of any kind (including personal data)
+"""
+	KROME is a nice and friendly chemistry package for a wide range of
+	astrophysical simulations. Given a chemical network (in CSV format)
+	it automatically generates all the routines needed to solve the kinetic
+	of the system, modelled as system of coupled Ordinary Differential
+	Equations.
+	It provides different options which make it unique and very flexible.
+	Any suggestions and comments are welcomed. KROME is an open-source
+	package, GNU-licensed, and any improvements provided by
+	the users is well accepted. See disclaimer below and GNU License
+	in gpl-3.0.txt.
 
+	more details in http://kromepackage.org/
+	also see https://bitbucket.org/krome/krome_stable
+
+	Written and developed by Tommaso Grassi
+	tgrassi@nbi.dk,
+	Starplan Center, Copenhagen.
+	Niels Bohr Institute, Copenhagen.
+
+	and Stefano Bovino
+	stefano.bovino@uni-hamburg.de
+	Hamburger Sternwarte, Hamburg.
+
+	Others (alphabetically): D.Galli, F.A.Gianturco, T.Haugboelle,
+	J.Prieto, J.Ramsey, D.R.G.Schleicher, D.Seifried, E.Simoncini,
+	E.Tognelli
+
+	KROME is provided \"as it is\", without any warranty.
+	The Authors assume no liability for any damages of any kind
+	(direct or indirect damages, contractual or non-contractual
+	damages, pecuniary or non-pecuniary damages), directly or
+	indirectly derived or arising from the correct or incorrect
+	usage of KROME, in any possible environment, or arising from
+	the impossibility to use, fully or partially, the software,
+	or any bug or malefunction.
+	Such exclusion of liability expressly includes any damages
+	including the loss of data of any kind (including personal data)
+"""
 # THIS FILE CONTAINS THE KROME CLASS
-
 import os
+import re
 import glob
 import shutil
 import argparse
-import re
 import copy
-from kromelib import *
 from os import listdir
 from os.path import isfile, join
+from kromelib import *
 
 class krome:
 	#set defaults
@@ -1172,9 +1172,9 @@ class krome:
 		#determine Tgas limit operators
 		if args.Tlimit:
 			self.myTlimit = args.Tlimit
-			self.myTlimit = myTlimit.replace("[","").replace("]","").split(",")
-			self.TlimitOpHigh = myTlimit[1].strip().upper()
-			self.TlimitOpLow = myTlimit[0].strip().upper()
+			self.myTlimit = self.myTlimit.replace("[","").replace("]","").split(",")
+			self.TlimitOpHigh = self.myTlimit[1].strip().upper()
+			self.TlimitOpLow = self.myTlimit[0].strip().upper()
 			allOps = ["LE","LT","GE","GT"]
 			if self.TlimitOpLow not in allOps or self.TlimitOpHigh not in allOps:
 				die("ERROR: on -Tlimit operators must be one of the followings: "
@@ -1275,7 +1275,7 @@ class krome:
 					#add also neutral in case of anions
 					if "-" in met["name"]:
 						neutral_name = met["name"].replace("-", "")
-						if neutral_name not in self.Zcools: self.Zcools.append(netural_name)
+						if neutral_name not in self.Zcools: self.Zcools.append(neutral_name)
 
 			self.allCoolings = myCools
 			if len(self.Zcools)>0:
@@ -1380,9 +1380,9 @@ class krome:
 
 		#force rwork size
 		if args.forceRWORK:
-			myrwork = args.forceRWORK
+			self.myrwork = args.forceRWORK
 			self.force_rwork = True
-			print("Reading option -forceRWORK (RWORK="+str(myrwork)+")")
+			print("Reading option -forceRWORK (RWORK="+str(self.myrwork)+")")
 
 		#use custom function for coefficient instead of coe_tab()
 		if args.useCustomCoe:
@@ -1952,7 +1952,7 @@ class krome:
 				group = srow.replace("group:", "").strip().replace(" ", "_")
 				if not group.isalnum(): die("ERROR: group must be alphanumeric. Found " + group)
 				print("Found reactions group " + group)
-				if group not in self.groups: groups.append(group)
+				if group not in self.groups: self.groups.append(group)
 				continue
 
 			#search for custom cooling and append to the list
@@ -3580,7 +3580,7 @@ class krome:
 			if srow == "#IFKROME_use_coolingGH" and not self.useCoolingGH: skip = True
 			if srow == "#IFKROME_useXrays" and not self.useXRay: skip = True
 			if srow == "#IFKROME_useDust" and not self.useDust: skip = True
-			if srow == "#IFKROME_has_electrons" and not hasElectrons: skip = True
+			if srow == "#IFKROME_has_electrons" and not self.hasElectrons: skip = True
 			if srow == "#IFKROME_useTabsTdust" and not self.useDustTabs: skip = True
 			if srow == "#IFKROME_dust_opacity" and not self.useDust: skip = True
 
@@ -3749,7 +3749,7 @@ class krome:
 			if srow == "#IFKROME_use_coolingGH" and not self.useCoolingGH: skip = True
 			if srow == "#IFKROME_useXrays" and not self.useXRay: skip = True
 			if srow == "#IFKROME_useDust" and not self.useDust: skip = True
-			if srow == "#IFKROME_has_electrons" and not hasElectrons: skip = True
+			if srow == "#IFKROME_has_electrons" and not self.hasElectrons: skip = True
 			if srow == "#IFKROME_useTabsTdust" and not self.useDustTabs: skip = True
 			if srow == "#IFKROME_dust_opacity" and not self.useDust: skip = True
 
@@ -4354,7 +4354,7 @@ class krome:
 			die("ERROR: solver_MF value "+str(solver_MF)+" unknown in LRW calculation!")
 
 		if self.force_rwork:
-			lrw = myrwork
+			lrw = self.myrwork
 		#lrw = int(20+(2+0.5)*nnz + (11+4.5)*neq) #RWORK size
 
 		print(" LWM:", lwm, "LRW:", lrw)

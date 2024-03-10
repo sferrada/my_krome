@@ -1,0 +1,5639 @@
+C -> C+ + E
+CL -> CL+ + E
+FE -> FE+ + E
+H -> H+ + E
+HE -> HE+ + E
+MG -> MG+ + E
+N -> N+ + E
+NA -> NA+ + E
+O -> O+ + E
+P -> P+ + E
+S -> S+ + E
+SI -> SI+ + E
+C2 -> C + C
+CCL -> C + CL
+CH -> C + H
+CLO -> CL + O
+CN -> C + N
+CO -> C + O
+CO -> CO+ + E
+CP -> C + P
+CS -> C + S
+H2 -> H + H
+H2 -> H+ + H + E
+H2 -> H+ + H-
+H2 -> H2+ + E
+HCL -> H + CL
+HS -> H + S
+MGH -> MG + H
+N2 -> N + N
+NAH -> NA + H
+NH -> N + H
+NO -> N + O
+NO -> NO+ + E
+NS -> N + S
+O2 -> O + O
+O2 -> O2+ + E
+OH -> O + H
+PH -> P + H
+PN -> P + N
+PO -> P + O
+S2 -> S + S
+SIC -> SI + C
+SIH -> SI + H
+SIN -> SI + N
+SIO -> SI + O
+SIS -> SI + S
+SO -> S + O
+C2H -> C2 + H
+C2N -> C + CN
+C2S -> CS + C
+C3 -> C2 + C
+CCO -> C2 + O
+CCO -> CO + C
+CCP -> C2 + P
+CCP -> CP + C
+CH2 -> CH2+ + E
+CO2 -> CO + O
+H2O -> OH + H
+H2S -> H2 + S
+H2S -> H2S+ + E
+HCN -> CN + H
+HCO -> CO + H
+HCO -> HCO+ + E
+HCP -> CP + H
+HCS -> HCS+ + E
+HCSI -> CH + SI
+HNC -> CN + H
+HNO -> HNO+ + E
+HNSI -> SIN + H
+HPO -> PO + H
+HS2 -> HS + S
+N2O -> NO + N
+NAOH -> NA + OH
+NH2 -> NH + H
+NH2 -> NH2+ + E
+NO2 -> NO + O
+O2H -> O + OH
+O2H -> O2 + H
+OCN -> CN + O
+OCS -> CO + S
+OCS -> OCS+ + E
+PH2 -> PH + H
+SIC2 -> SIC + C
+SIH2 -> SIH + H
+SINC -> SI + CN
+SIO2 -> SIO + O
+SO2 -> SO + O
+C2H2 -> C2H + H
+C2H2 -> C2H2+ + E
+C3H -> C3 + H
+C3N -> C2 + CN
+C3O -> C2 + CO
+C3P -> CCP + C
+C3S -> C2 + CS
+C4 -> C3 + C
+CH3 -> CH2 + H
+CH3 -> CH3+ + E
+H2CO -> CO + H2
+H2CS -> H2 + CS
+H2O2 -> OH + OH
+H2S2 -> HS + HS
+H2SIO -> SIO + H2
+HCCP -> CCP + H
+NH3 -> NH + H2
+NH3 -> NH2 + H
+NH3 -> NH3+ + E
+SIC2H -> SIC2 + H
+SIC3 -> SIC2 + C
+SICH2 -> SIC + H2
+SIH3 -> SIH2 + H
+C2H2N -> CH2 + CN
+C2H2O -> CH2 + CO
+C2H2O -> C2H2O+ + E
+C2H3 -> C2H2 + H
+C3H2 -> C3H + H
+C4H -> C4 + H
+C4N -> C3 + CN
+C4P -> C3P + C
+C4S -> C3 + CS
+C5 -> C4 + C
+CH2O2 -> HCO + OH
+CH2O2 -> CH2O2+ + E
+CH2PH -> HCP + H2
+CH3N -> HCN + H2
+CH4 -> CH2 + H2
+HC3N -> C2H + CN
+SIC2H2 -> SIC2 + H2
+SIC3H -> SIC3 + H
+SIC4 -> SIC2 + C2
+SICH3 -> SICH2 + H
+SIH4 -> SIH2 + H2
+C2H3N -> CH3 + CN
+C2H3N -> C2H3N+ + E
+C2H4 -> C2H2 + H2
+C2H4 -> C2H4+ + E
+C3H3 -> C3H2 + H
+C4H2 -> C2H + C2H
+C4H2 -> C4H + H
+C4H2 -> C4H2+ + E
+C5H -> C5 + H
+C5N -> C4 + CN
+C6 -> C5 + C
+CH4O -> CH3 + OH
+CH4O -> H2CO + H2
+CH4O -> H3CO+ + H + E
+CH4O -> CH4O+ + E
+C2H4O -> CH3 + HCO
+C2H4O -> CH4 + CO
+C2H4O -> C2H4O+ + E
+C2H5 -> C2H4 + H
+C3H3N -> C2H3 + CN
+C3H4 -> C3H3 + H
+C3H4 -> C3H4+ + E
+C5H2 -> C5H + H
+C6H -> C6 + H
+C7 -> C6 + C
+CH5N -> HCN + H2 + H + H
+CH5N -> CH5N+ + E
+HC5N -> C4H + CN
+C6H2 -> C6H + H
+C7H -> C7 + H
+C7N -> C6 + CN
+C8 -> C7 + C
+CH3C3N -> CH3 + C3N
+HCOOCH3 -> H2CO + H2CO
+C2H5OH -> C2H5OH+ + E
+C7H2 -> C7H + H
+C8H -> C8 + H
+C9 -> C8 + C
+CH3C4H -> CH3 + C4H
+CH3OCH3 -> H2CO + CH4
+CH3OCH3 -> CH3OCH3+ + E
+HC7N -> C6H + CN
+C2H6CO -> C2H2O + CH4
+C8H2 -> C8H + H
+C9H -> C9 + H
+C9N -> C8 + CN
+C10 -> C9 + C
+CH3C5N -> CH3 + C5N
+C9H2 -> C9H + H
+CH3C6H -> CH3 + C6H
+CH3C7N -> CH3 + C7N
+HC9N -> C8H + CN
+C4H4 -> C3H4 + C
+CH+ -> C + H+
+C+ + FE -> FE+ + C
+C+ + MG -> MG+ + C
+C+ + NA -> NA+ + C
+C+ + P -> P+ + C
+C+ + S -> S+ + C
+C+ + SI -> SI+ + C
+C+ + CCL -> CCL+ + C
+C+ + CH -> C2+ + H
+C+ + CH -> CH+ + C
+C+ + CLO -> CLO+ + C
+C+ + CP -> CP+ + C
+C+ + HCL -> CCL+ + H
+C+ + HS -> CS+ + H
+C+ + MGH -> MG+ + CH
+C+ + NAH -> NA+ + CH
+C+ + NH -> CN+ + H
+C+ + NO -> NO+ + C
+C+ + NS -> CS+ + N
+C+ + NS -> NS+ + C
+C+ + O2 -> O+ + CO
+C+ + O2 -> CO+ + O
+C+ + OH -> CO+ + H
+C+ + PH -> PH+ + C
+C+ + PO -> PO+ + C
+C+ + SIC -> SI+ + C2
+C+ + SIC -> SIC+ + C
+C+ + SIH -> SIC+ + H
+C+ + SIN -> SIC+ + N
+C+ + SIN -> SIN+ + C
+C+ + SIO -> SI+ + CO
+C+ + SIS -> SIC+ + S
+C+ + SIS -> SIS+ + C
+C+ + SO -> S+ + CO
+C+ + SO -> CO+ + S
+C+ + SO -> CS+ + O
+C+ + SO -> SO+ + C
+C+ + C2H -> C3+ + H
+C+ + C2S -> C2S+ + C
+C+ + C2S -> C3+ + S
+C+ + CCO -> C2O+ + C
+C+ + CCP -> CP+ + C2
+C+ + CCP -> CCP+ + C
+C+ + CH2 -> C2H+ + H
+C+ + CH2 -> CH2+ + C
+C+ + CO2 -> CO+ + CO
+C+ + H2O -> HCO+ + H
+C+ + H2O -> HOC+ + H
+C+ + H2S -> H2S+ + C
+C+ + H2S -> HCS+ + H
+C+ + HCN -> C2N+ + H
+C+ + HCN -> CNC+ + H
+C+ + HCO -> CH+ + CO
+C+ + HCO -> HCO+ + C
+C+ + HCP -> CCP+ + H
+C+ + HCP -> HCP+ + C
+C+ + HCSI -> SIC2+ + H
+C+ + HNC -> C2N+ + H
+C+ + HNSI -> SINC+ + H
+C+ + HPO -> HPO+ + C
+C+ + NAOH -> HCO+ + NA
+C+ + NH2 -> HCN+ + H
+C+ + OCN -> CO+ + CN
+C+ + OCS -> CS+ + CO
+C+ + OCS -> OCS+ + C
+C+ + SIC2 -> SIC2+ + C
+C+ + SIH2 -> SIC+ + H2
+C+ + SIH2 -> CHSI+ + H
+C+ + SIH2 -> SIH2+ + C
+C+ + SO2 -> SO+ + CO
+C+ + C2H2 -> C3H+ + H
+C+ + C3H -> C4+ + H
+C+ + C3O -> C3+ + CO
+C+ + C3O -> C3O+ + C
+C+ + C3O -> C4+ + O
+C+ + C3P -> C4+ + P
+C+ + C3S -> C3S+ + C
+C+ + C3S -> C4+ + S
+C+ + CH3 -> C2H+ + H2
+C+ + CH3 -> C2H2+ + H
+C+ + CH3 -> CH3+ + C
+C+ + H2CO -> CH2+ + CO
+C+ + H2CO -> HCO+ + CH
+C+ + H2CO -> H2CO+ + C
+C+ + H2CS -> CH2+ + CS
+C+ + H2SIO -> H2SIO+ + C
+C+ + HCCP -> CP+ + C2H
+C+ + HCCP -> CCP+ + CH
+C+ + NH3 -> HCN+ + H2
+C+ + NH3 -> HCNH+ + H
+C+ + NH3 -> NH3+ + C
+C+ + SIC2H -> SIC2H+ + C
+C+ + SIC2H -> SIC3+ + H
+C+ + SIC3 -> SIC3+ + C
+C+ + SICH2 -> SIC2+ + H2
+C+ + SICH2 -> CH2SI+ + C
+C+ + SICH2 -> SIC2H+ + H
+C+ + SIH3 -> CHSI+ + H2
+C+ + SIH3 -> CH2SI+ + H
+C+ + SIH3 -> SIH3+ + C
+C+ + C2H2N -> C2H2N+ + C
+C+ + C2H2O -> C2H2O+ + C
+C+ + C2H3 -> C3H+ + H2
+C+ + C2H3 -> C2H3+ + C
+C+ + C2H3 -> C3H2+ + H
+C+ + C2H3 -> H2C3+ + H
+C+ + C3H2 -> C4+ + H2
+C+ + C3H2 -> C4H+ + H
+C+ + C4H -> C5+ + H
+C+ + C4P -> C5+ + P
+C+ + C4S -> C4S+ + C
+C+ + C4S -> C5+ + S
+C+ + CH2PH -> PC2H+ + H2
+C+ + CH3N -> C2H2N+ + H
+C+ + CH4 -> C2H2+ + H2
+C+ + CH4 -> C2H3+ + H
+C+ + HCNC2 -> C3N+ + CH
+C+ + HCNC2 -> C2H+ + C2N
+C+ + HCNC2 -> HCN+ + C3
+C+ + HCNC2 -> C4N+ + H
+C+ + HCNC2 -> C2N+ + C2H
+C+ + HC2NC -> C3H+ + CN
+C+ + HC2NC -> C2H+ + C2N
+C+ + HC2NC -> CNC+ + C2H
+C+ + HC2NC -> C4N+ + H
+C+ + HC2NC -> C3HN+ + C
+C+ + HC3N -> C3+ + HCN
+C+ + HC3N -> C3H+ + CN
+C+ + HC3N -> C4N+ + H
+C+ + HNC3 -> C3+ + HNC
+C+ + HNC3 -> HNC+ + C3
+C+ + HNC3 -> C3N+ + CH
+C+ + HNC3 -> C4N+ + H
+C+ + SIC2H2 -> SIC3H+ + H
+C+ + SIC3H -> SIC4+ + H
+C+ + SICH3 -> SIC2H+ + H2
+C+ + SICH3 -> SIC2H2+ + H
+C+ + SICH3 -> SICH3+ + C
+C+ + SIH4 -> CH2SI+ + H2
+C+ + SIH4 -> SICH3+ + H
+C+ + C2H3N -> C2H3+ + CN
+C+ + C2H3N -> HC2NCH+ + H
+C+ + C2H4 -> C3H+ + H2 + H
+C+ + C2H4 -> C2H3+ + CH
+C+ + C2H4 -> C3H2+ + H2
+C+ + C2H4 -> H2C3+ + H2
+C+ + C2H4 -> C2H4+ + C
+C+ + C2H4 -> C3H3+ + H
+C+ + C3H3 -> C4H+ + H2
+C+ + C3H3 -> C3H3+ + C
+C+ + C3H3 -> H3C3+ + C
+C+ + C3H3 -> C4H2+ + H
+C+ + C4H2 -> C3H+ + C2H
+C+ + C4H2 -> C5+ + H2
+C+ + C4H2 -> C4H2+ + C
+C+ + C4H2 -> C5H+ + H
+C+ + C5H -> C6+ + H
+C+ + CH4O -> CH3+ + HCO
+C+ + CH4O -> H3CO+ + CH
+C+ + CH4O -> CH4O+ + C
+C+ + NH2CHO -> C2H3O+ + N
+C+ + NH2CHO -> H3CO+ + CN
+C+ + NH2CHO -> H2CO+ + HCN
+C+ + NH2CHO -> HCN+ + H2CO
+C+ + NH2CHO -> C2H2N+ + OH
+C+ + NH2CHO -> C2H3N+ + O
+C+ + C2H4O -> C2H3O+ + CH
+C+ + C2H4O -> C2H4O+ + C
+C+ + C2H5 -> C3H3+ + H2
+C+ + C2H5 -> H3C3+ + H2
+C+ + C2H5 -> C2H5+ + C
+C+ + C3H3N -> C3H3N+ + C
+C+ + C3H4 -> C2H2+ + C2H2
+C+ + C3H4 -> C2H3+ + C2H
+C+ + C3H4 -> C3H3+ + CH
+C+ + C3H4 -> H3C3+ + CH
+C+ + C3H4 -> C4H2+ + H2
+C+ + C3H4 -> C3H4+ + C
+C+ + C4H3 -> C5H2+ + H
+C+ + C4H3 -> C5H+ + H2
+C+ + C4H3 -> C4H3+ + C
+C+ + C4H3 -> C3H2+ + C2H
+C+ + C4H3 -> H2C3+ + C2H
+C+ + C5H2 -> C6+ + H2
+C+ + C5H2 -> C6H+ + H
+C+ + C6H -> C7+ + H
+C+ + CH5N -> CH4N+ + CH
+C+ + CH5N -> CH5N+ + C
+C+ + HC5N -> C5H+ + CN
+C+ + HC5N -> C5HN+ + C
+C+ + C6H2 -> C7+ + H2
+C+ + C6H2 -> C7H+ + H
+C+ + C7H -> C8+ + H
+C+ + CH3C3N -> C2H3+ + C3N
+C+ + CH3C3N -> C4H3+ + CN
+C+ + HCOOCH3 -> COOCH4+ + C
+C+ + C2H5OH -> H3CO+ + C2H3
+C+ + C2H5OH -> C2H5O+ + CH
+C+ + C2H5OH -> C2H5OH+ + C
+C+ + C7H2 -> C8+ + H2
+C+ + C7H2 -> C8H+ + H
+C+ + C8H -> C9+ + H
+C+ + CH3C4H -> C5H3+ + CH
+C+ + CH3C4H -> C6H2+ + H2
+C+ + CH3C4H -> C6H3+ + H
+C+ + CH3OCH3 -> CH3OCH3+ + C
+C+ + HC7N -> C7H+ + CN
+C+ + C2H6CO -> C2H6CO+ + C
+C+ + C8H2 -> C9+ + H2
+C+ + C8H2 -> C9H+ + H
+C+ + C9H -> C10+ + H
+C+ + CH3C5N -> C6H3+ + CN
+C+ + C9H2 -> C10+ + H2
+C+ + CH3C6H -> C7H3+ + CH
+C+ + CH3C6H -> C8H2+ + H2
+C+ + CH3C7N -> C8H3+ + CN
+C+ + HC9N -> C9H+ + CN
+CL+ + H2 -> HCL+ + H
+CL+ + O2 -> O2+ + CL
+FE+ + NA -> NA+ + FE
+H+ + FE -> FE+ + H
+H+ + MG -> MG+ + H
+H+ + NA -> NA+ + H
+H+ + O -> O+ + H
+H+ + P -> P+ + H
+H+ + S -> S+ + H
+H+ + SI -> SI+ + H
+H+ + C2 -> C2+ + H
+H+ + CH -> CH+ + H
+H+ + CP -> CP+ + H
+H+ + CS -> CS+ + H
+H+ + HCL -> HCL+ + H
+H+ + HS -> S+ + H2
+H+ + HS -> HS+ + H
+H+ + MGH -> MG+ + H2
+H+ + NAH -> NA+ + H2
+H+ + NH -> NH+ + H
+H+ + NO -> NO+ + H
+H+ + NS -> NS+ + H
+H+ + O2 -> O2+ + H
+H+ + OH -> OH+ + H
+H+ + PH -> PH+ + H
+H+ + PN -> PN+ + H
+H+ + PO -> PO+ + H
+H+ + S2 -> S2+ + H
+H+ + SIC -> SIC+ + H
+H+ + SIH -> SI+ + H2
+H+ + SIH -> SIH+ + H
+H+ + SIN -> SIN+ + H
+H+ + SIO -> SIO+ + H
+H+ + SIS -> SIS+ + H
+H+ + SO -> SO+ + H
+H+ + C2H -> C2+ + H2
+H+ + C2H -> C2H+ + H
+H+ + C2N -> C2N+ + H
+H+ + C2S -> C2S+ + H
+H+ + C3 -> C3+ + H
+H+ + CCO -> C2O+ + H
+H+ + CCP -> CCP+ + H
+H+ + CH2 -> CH+ + H2
+H+ + CH2 -> CH2+ + H
+H+ + CO2 -> HCO+ + O
+H+ + H2O -> H2O+ + H
+H+ + H2S -> H2S+ + H
+H+ + HCN -> HCN+ + H
+H+ + HCO -> CO+ + H2
+H+ + HCO -> H2+ + CO
+H+ + HCO -> HCO+ + H
+H+ + HCP -> HCP+ + H
+H+ + HCS -> CS+ + H2
+H+ + HCSI -> SIC+ + H2
+H+ + HCSI -> CHSI+ + H
+H+ + HNC -> H+ + HCN
+H+ + HNO -> NO+ + H2
+H+ + HNSI -> SIN+ + H2
+H+ + HNSI -> HNSI+ + H
+H+ + HPO -> HPO+ + H
+H+ + HS2 -> S2H+ + H
+H+ + NAOH -> NA+ + H2O
+H+ + NH2 -> NH2+ + H
+H+ + OCS -> HS+ + CO
+H+ + PH2 -> PH2+ + H
+H+ + SIC2 -> SIC2+ + H
+H+ + SIH2 -> SIH+ + H2
+H+ + SIH2 -> SIH2+ + H
+H+ + SINC -> SINC+ + H
+H+ + C2H2 -> C2H+ + H2
+H+ + C2H2 -> C2H2+ + H
+H+ + C3H -> C3+ + H2
+H+ + C3H -> C3H+ + H
+H+ + C3O -> C3O+ + H
+H+ + C3S -> C3S+ + H
+H+ + C4 -> C4+ + H
+H+ + CH3 -> CH3+ + H
+H+ + H2CO -> HCO+ + H2
+H+ + H2CO -> H2CO+ + H
+H+ + H2CS -> H2CS+ + H
+H+ + H2S2 -> H2S2+ + H
+H+ + H2SIO -> HSIO+ + H2
+H+ + H2SIO -> H2SIO+ + H
+H+ + HCCP -> PC2H+ + H
+H+ + NH3 -> NH3+ + H
+H+ + SIC2H -> SIC2+ + H2
+H+ + SIC2H -> SIC2H+ + H
+H+ + SIC3 -> SIC3+ + H
+H+ + SICH2 -> CHSI+ + H2
+H+ + SICH2 -> CH2SI+ + H
+H+ + SIH3 -> SIH2+ + H2
+H+ + SIH3 -> SIH3+ + H
+H+ + C2H2N -> C2H2N+ + H
+H+ + C2H2O -> C2H2O+ + H
+H+ + C2H3 -> C2H2+ + H2
+H+ + C2H3 -> C2H3+ + H
+H+ + C3H2 -> C3H+ + H2
+H+ + C3H2 -> C3H2+ + H
+H+ + C4H -> C4+ + H2
+H+ + C4H -> C4H+ + H
+H+ + C4P -> C4P+ + H
+H+ + C4S -> C4S+ + H
+H+ + C5 -> C5+ + H
+H+ + CH2O2 -> HCO2+ + H2
+H+ + CH2O2 -> CH2O2+ + H
+H+ + CH2PH -> PCH3+ + H
+H+ + CH3N -> HCNH+ + H2
+H+ + CH4 -> CH3+ + H2
+H+ + CH4 -> CH4+ + H
+H+ + HCNC2 -> HCN+ + C2H
+H+ + HCNC2 -> C2H+ + HCN
+H+ + HCNC2 -> C3N+ + H2
+H+ + HCNC2 -> C2NH+ + CH
+H+ + HC2NC -> C2H2N+ + C
+H+ + HC2NC -> C2H2+ + CN
+H+ + HC2NC -> C3N+ + H2
+H+ + HC3N -> C3HN+ + H
+H+ + HNC3 -> H+ + HC3N
+H+ + HNC3 -> C3HN+ + H
+H+ + HNC3 -> C3H+ + NH
+H+ + HNC3 -> C3N+ + H2
+H+ + HNC3 -> HNC+ + C2H
+H+ + HNC3 -> C2H+ + HNC
+H+ + NH2CN -> HNC+ + NH2
+H+ + NH2CN -> NH2+ + HNC
+H+ + SIC2H2 -> SIC2H+ + H2
+H+ + SIC2H2 -> SIC2H2+ + H
+H+ + SIC3H -> SIC3+ + H2
+H+ + SIC3H -> SIC3H+ + H
+H+ + SIC4 -> SIC4+ + H
+H+ + SICH3 -> CH2SI+ + H2
+H+ + SICH3 -> SICH3+ + H
+H+ + SIH4 -> SIH3+ + H2
+H+ + SIH4 -> SIH4+ + H
+H+ + C2H3N -> C2H2N+ + H2
+H+ + C2H3N -> C2H3N+ + H
+H+ + C2H4 -> C2H3+ + H2
+H+ + C2H4 -> C2H4+ + H
+H+ + C3H3 -> C3H2+ + H2
+H+ + C3H3 -> H2C3+ + H2
+H+ + C3H3 -> C3H3+ + H
+H+ + C3H3 -> H3C3+ + H
+H+ + C4H2 -> C4H+ + H2
+H+ + C4H2 -> C4H2+ + H
+H+ + C5H -> C5+ + H2
+H+ + C5H -> C5H+ + H
+H+ + C6 -> C6+ + H
+H+ + CH4O -> H3CO+ + H2
+H+ + CH4O -> CH4O+ + H
+H+ + NH2CHO -> NH4+ + CO
+H+ + NH2CHO -> HCO+ + NH3
+H+ + NH2CHO -> H2NC+ + H2O
+H+ + NH2CHO -> NH2+ + H2CO
+H+ + C2H4O -> C2H3O+ + H2
+H+ + C2H4O -> C2H4O+ + H
+H+ + C2H5 -> C2H4+ + H2
+H+ + C2H5 -> C2H5+ + H
+H+ + C3H3N -> C3H2N+ + H2
+H+ + C3H3N -> C3H3N+ + H
+H+ + C3H4 -> C3H3+ + H2
+H+ + C3H4 -> H3C3+ + H2
+H+ + C3H4 -> C3H4+ + H
+H+ + C4H3 -> C4H3+ + H
+H+ + C4H3 -> C4H2+ + H2
+H+ + C5H2 -> C5H+ + H2
+H+ + C5H2 -> C5H2+ + H
+H+ + C6H -> C6+ + H2
+H+ + C6H -> C6H+ + H
+H+ + C7 -> C7+ + H
+H+ + CH5N -> CH4N+ + H2
+H+ + CH5N -> CH5N+ + H
+H+ + HC5N -> C5HN+ + H
+H+ + C6H2 -> C6H+ + H2
+H+ + C6H2 -> C6H2+ + H
+H+ + C7H -> C7+ + H2
+H+ + C7H -> C7H+ + H
+H+ + C8 -> C8+ + H
+H+ + CH3C3N -> CH3+ + HC3N
+H+ + HCOOCH3 -> COOCH4+ + H
+H+ + C2H5OH -> C2H5O+ + H2
+H+ + C2H5OH -> C2H5OH+ + H
+H+ + C7H2 -> C7H+ + H2
+H+ + C7H2 -> C7H2+ + H
+H+ + C8H -> C8+ + H2
+H+ + C8H -> C8H+ + H
+H+ + C9 -> C9+ + H
+H+ + CH3C4H -> C5H3+ + H2
+H+ + CH3C4H -> C5H4+ + H
+H+ + CH3OCH3 -> C2H5O+ + H2
+H+ + CH3OCH3 -> CH3OCH3+ + H
+H+ + HC7N -> C7HN+ + H
+H+ + C2H6CO -> C2H6CO+ + H
+H+ + C8H2 -> C8H+ + H2
+H+ + C8H2 -> C8H2+ + H
+H+ + C9H -> C9+ + H2
+H+ + C9H -> C9H+ + H
+H+ + CH3C5N -> CH3+ + HC5N
+H+ + C10 -> C10+ + H
+H+ + C9H2 -> C9H+ + H2
+H+ + C9H2 -> C9H2+ + H
+H+ + CH3C6H -> C7H3+ + H2
+H+ + CH3C6H -> C7H4+ + H
+H+ + CH3C7N -> CH3+ + HC7N
+H+ + HC9N -> C9HN+ + H
+HE+ + H -> H+ + HE
+HE+ + P -> P+ + HE
+HE+ + SI -> SI+ + HE
+HE+ + C2 -> C+ + C + HE
+HE+ + C2 -> C2+ + HE
+HE+ + CCL -> C+ + CL + HE
+HE+ + CH -> C+ + H + HE
+HE+ + CH -> CH+ + HE
+HE+ + CLO -> CL+ + O + HE
+HE+ + CN -> C+ + N + HE
+HE+ + CN -> N+ + C + HE
+HE+ + CO -> C+ + O + HE
+HE+ + CP -> C+ + P + HE
+HE+ + CP -> P+ + C + HE
+HE+ + CS -> C+ + S + HE
+HE+ + CS -> S+ + C + HE
+HE+ + H2 -> H+ + H + HE
+HE+ + H2 -> H2+ + HE
+HE+ + HCL -> CL+ + H + HE
+HE+ + HS -> S+ + H + HE
+HE+ + MGH -> MG+ + H + HE
+HE+ + N2 -> N+ + N + HE
+HE+ + N2 -> N2+ + HE
+HE+ + NAH -> NA+ + H + HE
+HE+ + NH -> N+ + H + HE
+HE+ + NO -> N+ + O + HE
+HE+ + NO -> O+ + N + HE
+HE+ + NS -> N+ + S + HE
+HE+ + NS -> S+ + N + HE
+HE+ + O2 -> O+ + O + HE
+HE+ + O2 -> O2+ + HE
+HE+ + OH -> O+ + H + HE
+HE+ + PH -> P+ + H + HE
+HE+ + PN -> P+ + N + HE
+HE+ + PO -> P+ + O + HE
+HE+ + S2 -> S+ + S + HE
+HE+ + SIC -> C+ + SI + HE
+HE+ + SIC -> SI+ + C + HE
+HE+ + SIH -> SI+ + H + HE
+HE+ + SIN -> SI+ + N + HE
+HE+ + SIO -> O+ + SI + HE
+HE+ + SIO -> SI+ + O + HE
+HE+ + SIS -> S+ + SI + HE
+HE+ + SIS -> SI+ + S + HE
+HE+ + SO -> O+ + S + HE
+HE+ + SO -> S+ + O + HE
+HE+ + C2H -> C+ + CH + HE
+HE+ + C2H -> C2+ + H + HE
+HE+ + C2H -> CH+ + C + HE
+HE+ + C2N -> C+ + CN + HE
+HE+ + C2S -> C+ + CS + HE
+HE+ + C2S -> S+ + C2 + HE
+HE+ + C2S -> C2+ + S + HE
+HE+ + C2S -> CS+ + C + HE
+HE+ + C3 -> C+ + C2 + HE
+HE+ + C3 -> C2+ + C + HE
+HE+ + CCO -> C+ + CO + HE
+HE+ + CCP -> C+ + CP + HE
+HE+ + CCP -> P+ + C2 + HE
+HE+ + CH2 -> C+ + H2 + HE
+HE+ + CH2 -> CH+ + H + HE
+HE+ + CO2 -> C+ + O2 + HE
+HE+ + CO2 -> O+ + CO + HE
+HE+ + CO2 -> CO+ + O + HE
+HE+ + CO2 -> O2+ + C + HE
+HE+ + CO2 -> CO2+ + HE
+HE+ + H2O -> H+ + OH + HE
+HE+ + H2O -> OH+ + H + HE
+HE+ + H2O -> H2O+ + HE
+HE+ + H2S -> S+ + H2 + HE
+HE+ + H2S -> HS+ + H + HE
+HE+ + H2S -> H2S+ + HE
+HE+ + HCN -> C+ + N + H + HE
+HE+ + HCN -> N+ + CH + HE
+HE+ + HCN -> CH+ + N + HE
+HE+ + HCN -> CN+ + H + HE
+HE+ + HCO -> CH+ + O + HE
+HE+ + HCO -> CO+ + H + HE
+HE+ + HCO -> HEH+ + CO
+HE+ + HCP -> C+ + PH + HE
+HE+ + HCP -> P+ + CH + HE
+HE+ + HCS -> H+ + CS + HE
+HE+ + HCS -> CS+ + H + HE
+HE+ + HCSI -> SI+ + CH + HE
+HE+ + HCSI -> SIC+ + H + HE
+HE+ + HNC -> C+ + N + H + HE
+HE+ + HNC -> CN+ + H + HE
+HE+ + HNC -> NH+ + C + HE
+HE+ + HNO -> H+ + NO + HE
+HE+ + HNO -> NO+ + H + HE
+HE+ + HNSI -> SIN+ + H + HE
+HE+ + HPO -> PH+ + O + HE
+HE+ + HPO -> PO+ + H + HE
+HE+ + HS2 -> S+ + HS + HE
+HE+ + HS2 -> S2+ + H + HE
+HE+ + N2O -> N+ + NO + HE
+HE+ + N2O -> O+ + N2 + HE
+HE+ + N2O -> N2+ + O + HE
+HE+ + N2O -> NO+ + N + HE
+HE+ + NAOH -> NA+ + OH + HE
+HE+ + NH2 -> N+ + H2 + HE
+HE+ + NH2 -> NH+ + H + HE
+HE+ + OCN -> O+ + CN + HE
+HE+ + OCN -> CN+ + O + HE
+HE+ + OCS -> O+ + CS + HE
+HE+ + OCS -> S+ + CO + HE
+HE+ + OCS -> CO+ + S + HE
+HE+ + OCS -> CS+ + O + HE
+HE+ + PH2 -> P+ + H2 + HE
+HE+ + SIC2 -> SI+ + C2 + HE
+HE+ + SIH2 -> SI+ + H2 + HE
+HE+ + SIH2 -> SIH+ + H + HE
+HE+ + SINC -> CN+ + SI + HE
+HE+ + SIO2 -> SI+ + O2 + HE
+HE+ + SO2 -> S+ + O2 + HE
+HE+ + SO2 -> O2+ + S + HE
+HE+ + SO2 -> SO+ + O + HE
+HE+ + SO2 -> SO2+ + HE
+HE+ + C2H2 -> C2+ + H2 + HE
+HE+ + C2H2 -> CH+ + CH + HE
+HE+ + C2H2 -> C2H+ + H + HE
+HE+ + C2H2 -> C2H2+ + HE
+HE+ + C3H -> C3+ + H + HE
+HE+ + C3N -> C2+ + CN + HE
+HE+ + C3N -> C3N+ + HE
+HE+ + C3O -> C2+ + CO + HE
+HE+ + C3O -> C3+ + O + HE
+HE+ + C3P -> P+ + C3 + HE
+HE+ + C3P -> C3+ + P + HE
+HE+ + C3S -> C2+ + CS + HE
+HE+ + C3S -> CS+ + C2 + HE
+HE+ + C4 -> C+ + C3 + HE
+HE+ + C4 -> C2+ + C2 + HE
+HE+ + C4 -> C3+ + C + HE
+HE+ + CH3 -> CH+ + H2 + HE
+HE+ + CH3 -> CH2+ + H + HE
+HE+ + H2CO -> CO+ + H2 + HE
+HE+ + H2CO -> HCO+ + H + HE
+HE+ + H2CS -> S+ + CH2 + HE
+HE+ + H2CS -> CS+ + H2 + HE
+HE+ + H2CS -> CH2+ + S + HE
+HE+ + H2S2 -> HS+ + HS + HE
+HE+ + H2S2 -> S2H+ + H + HE
+HE+ + H2SIO -> HSIO+ + H + HE
+HE+ + HCCP -> CH+ + CP + HE
+HE+ + HCCP -> CP+ + CH + HE
+HE+ + NH3 -> NH+ + H2 + HE
+HE+ + NH3 -> NH2+ + H + HE
+HE+ + NH3 -> NH3+ + HE
+HE+ + SIC2H -> SI+ + C2H + HE
+HE+ + SIC2H -> SIC2+ + H + HE
+HE+ + SIC3 -> SIC2+ + C + HE
+HE+ + SICH2 -> SIH+ + CH + HE
+HE+ + SICH2 -> CHSI+ + H + HE
+HE+ + SIH3 -> SIH+ + H2 + HE
+HE+ + SIH3 -> SIH2+ + H + HE
+HE+ + C2H2N -> CH2+ + CN + HE
+HE+ + C2H2O -> CO+ + CH2 + HE
+HE+ + C2H2O -> CH2+ + CO + HE
+HE+ + C2H3 -> C2H+ + H2 + HE
+HE+ + C2H3 -> C2H2+ + H + HE
+HE+ + C3H2 -> C3+ + H2 + HE
+HE+ + C3H2 -> C3H+ + H + HE
+HE+ + C4H -> C2H+ + C2 + HE
+HE+ + C4H -> C4+ + H + HE
+HE+ + C4P -> C2+ + CCP + HE
+HE+ + C4P -> CCP+ + C2 + HE
+HE+ + C4S -> CS+ + C3 + HE
+HE+ + C4S -> C3+ + CS + HE
+HE+ + C5 -> C3+ + C2 + HE
+HE+ + C5 -> C4+ + C + HE
+HE+ + CH2O2 -> CO2+ + H + H + HE
+HE+ + CH2O2 -> HCO2+ + H + HE
+HE+ + CH2PH -> PH+ + CH2 + HE
+HE+ + CH2PH -> CH2+ + PH + HE
+HE+ + CH3N -> NH+ + CH2 + HE
+HE+ + CH3N -> CH2+ + NH + HE
+HE+ + CH3N -> HCN+ + H2 + HE
+HE+ + CH3N -> HCNH+ + H + HE
+HE+ + CH4 -> H+ + CH3 + HE
+HE+ + CH4 -> CH+ + H2 + H + HE
+HE+ + CH4 -> CH2+ + H2 + HE
+HE+ + CH4 -> CH3+ + H + HE
+HE+ + CH4 -> CH4+ + HE
+HE+ + HCNC2 -> C2+ + HCN + HE
+HE+ + HCNC2 -> C2N+ + CH + HE
+HE+ + HCNC2 -> C3N+ + H + HE
+HE+ + HCNC2 -> HCN+ + C2 + HE
+HE+ + HC2NC -> CN+ + C2H + HE
+HE+ + HC2NC -> C2H+ + CN + HE
+HE+ + HC2NC -> C3N+ + H + HE
+HE+ + HC2NC -> CNC+ + CH + HE
+HE+ + HC3N -> C2+ + HCN + HE
+HE+ + HC3N -> CN+ + C2H + HE
+HE+ + HC3N -> C2H+ + CN + HE
+HE+ + HC3N -> C2N+ + CH + HE
+HE+ + HC3N -> C3+ + NH + HE
+HE+ + HC3N -> C3H+ + N + HE
+HE+ + HC3N -> C3N+ + H + HE
+HE+ + HNC3 -> C2+ + HNC + HE
+HE+ + HNC3 -> C3+ + NH + HE
+HE+ + HNC3 -> C3N+ + H + HE
+HE+ + HNC3 -> NH+ + C3 + HE
+HE+ + HNC3 -> C2NH+ + C + HE
+HE+ + NH2CN -> NH2 + CN+ + HE
+HE+ + NH2CN -> NH2+ + CN + HE
+HE+ + SIC2H2 -> SIH+ + C2H + HE
+HE+ + SIC2H2 -> SIC2H+ + H + HE
+HE+ + SIC3H -> SI+ + C3H + HE
+HE+ + SIC3H -> SIC3+ + H + HE
+HE+ + SIC4 -> SIC3+ + C + HE
+HE+ + SICH3 -> SIH+ + CH2 + HE
+HE+ + SICH3 -> CH2SI+ + H + HE
+HE+ + SIH4 -> SIH2+ + H2 + HE
+HE+ + SIH4 -> SIH3+ + H + HE
+HE+ + C2H3N -> CN+ + CH3 + HE
+HE+ + C2H3N -> CH3+ + CN + HE
+HE+ + C2H4 -> C2H+ + H + H2 + HE
+HE+ + C2H4 -> CH2+ + CH2 + HE
+HE+ + C2H4 -> C2H2+ + H2 + HE
+HE+ + C2H4 -> C2H3+ + H + HE
+HE+ + C2H4 -> C2H4+ + HE
+HE+ + C3H3 -> C3+ + H + H2 + HE
+HE+ + C3H3 -> C3H+ + H2 + HE
+HE+ + C3H3 -> C3H2+ + H + HE
+HE+ + C3H3 -> H2C3+ + H + HE
+HE+ + C4H2 -> C2H+ + C2H + HE
+HE+ + C4H2 -> C4+ + H2 + HE
+HE+ + C4H2 -> C4H+ + H + HE
+HE+ + C5H -> C3H+ + C2 + HE
+HE+ + C5H -> C5+ + H + HE
+HE+ + C5N -> C4+ + CN + HE
+HE+ + C6 -> C4+ + C2 + HE
+HE+ + C6 -> C5+ + C + HE
+HE+ + CH4O -> OH+ + CH3 + HE
+HE+ + CH4O -> CH3+ + OH + HE
+HE+ + NH2CHO -> HCO+ + NH2 + HE
+HE+ + NH2CHO -> H2CO+ + NH + HE
+HE+ + NH2CHO -> NH+ + H2CO + HE
+HE+ + NH2CHO -> NH3+ + CO + HE
+HE+ + NH2CHO -> CO+ + NH3 + HE
+HE+ + C2H4O -> HCO+ + CH3 + HE
+HE+ + C2H4O -> CH3+ + HCO + HE
+HE+ + C2H4O -> C2H2O+ + H2 + HE
+HE+ + C2H4O -> C2H3O+ + H + HE
+HE+ + C2H5 -> C2H3+ + H2 + HE
+HE+ + C2H5 -> C2H4+ + H + HE
+HE+ + C2H5 -> C2H5+ + HE
+HE+ + C3H3N -> C2H3+ + CN + HE
+HE+ + C3H4 -> C3+ + H2 + H2 + HE
+HE+ + C3H4 -> C3H+ + HE + H + H2
+HE+ + C3H4 -> C3H2+ + HE + H2
+HE+ + C3H4 -> H2C3+ + HE + H2
+HE+ + C3H4 -> C3H3+ + HE + H
+HE+ + C3H4 -> H3C3+ + HE + H
+HE+ + C4H3 -> C4H2+ + HE + H
+HE+ + C4H3 -> C3H3+ + HE + C
+HE+ + C4H3 -> H3C3+ + HE + C
+HE+ + C4H3 -> C3H2+ + CH + HE
+HE+ + C4H3 -> H2C3+ + CH + HE
+HE+ + C5H2 -> C3H+ + C2H + HE
+HE+ + C5H2 -> C5+ + H2 + HE
+HE+ + C5H2 -> C5H+ + H + HE
+HE+ + C6H -> C4H+ + C2 + HE
+HE+ + C6H -> C6+ + H + HE
+HE+ + C7 -> C5+ + C2 + HE
+HE+ + C7 -> C6+ + C + HE
+HE+ + CH5N -> NH2+ + CH3 + HE
+HE+ + CH5N -> CH3+ + NH2 + HE
+HE+ + CH5N -> HCNH+ + H + H2 + HE
+HE+ + CH5N -> CH4N+ + H + HE
+HE+ + HC5N -> C4H + CN+ + HE
+HE+ + HC5N -> C2H+ + C3N + HE
+HE+ + HC5N -> C4H+ + CN + HE
+HE+ + C6H2 -> C4H+ + C2H + HE
+HE+ + C6H2 -> C6+ + H2 + HE
+HE+ + C6H2 -> C6H+ + H + HE
+HE+ + C7H -> C5H+ + C2 + HE
+HE+ + C7H -> C7+ + H + HE
+HE+ + C7N -> C6+ + CN + HE
+HE+ + C8 -> C6+ + C2 + HE
+HE+ + C8 -> C7+ + C + HE
+HE+ + CH3C3N -> CH3+ + C3N + HE
+HE+ + HCOOCH3 -> HCO2+ + CH3 + HE
+HE+ + C2H5OH -> C2H2O+ + H2 + H2 + HE
+HE+ + C2H5OH -> C2H3O+ + H + H2 + HE
+HE+ + C2H5OH -> C2H4O+ + H2 + HE
+HE+ + C2H5OH -> C2H5+ + OH + HE
+HE+ + C2H5OH -> C2H5O+ + H + HE
+HE+ + C7H2 -> C5H+ + C2H + HE
+HE+ + C7H2 -> C7+ + H2 + HE
+HE+ + C7H2 -> C7H+ + H + HE
+HE+ + C8H -> C6H+ + C2 + HE
+HE+ + C8H -> C8+ + H + HE
+HE+ + C9 -> C7+ + C2 + HE
+HE+ + C9 -> C8+ + C + HE
+HE+ + CH3C4H -> C5H2+ + H2 + HE
+HE+ + CH3C4H -> C5H3+ + H + HE
+HE+ + CH3OCH3 -> CH3+ + H2CO + HE + H
+HE+ + CH3OCH3 -> H3CO+ + CH3 + HE
+HE+ + HC7N -> C6H+ + CN + HE
+HE+ + C2H6CO -> C2H3O+ + CH3 + HE
+HE+ + C8H2 -> C6H+ + C2H + HE
+HE+ + C8H2 -> C8+ + H2 + HE
+HE+ + C8H2 -> C8H+ + H + HE
+HE+ + C9H -> C7H+ + C2 + HE
+HE+ + C9H -> C9+ + H + HE
+HE+ + C9N -> C8+ + CN + HE
+HE+ + CH3C5N -> CH3+ + C5N + HE
+HE+ + C10 -> C8+ + C2 + HE
+HE+ + C10 -> C9+ + C + HE
+HE+ + C9H2 -> C7H+ + C2H + HE
+HE+ + C9H2 -> C9+ + H2 + HE
+HE+ + C9H2 -> C9H+ + H + HE
+HE+ + CH3C6H -> C7H2+ + H2 + HE
+HE+ + CH3C6H -> C7H3+ + H + HE
+HE+ + CH3C7N -> CH3+ + C7N + HE
+HE+ + HC9N -> C8H+ + CN + HE
+HE+ + C6H6 -> C6H5+ + H + HE
+HE+ + C6H6 -> C5H5+ + CH + HE
+MG+ + NA -> NA+ + MG
+MG+ + NAH -> NA+ + MGH
+N+ + FE -> FE+ + N
+N+ + MG -> MG+ + N
+N+ + C2 -> C2+ + N
+N+ + CH -> CH+ + N
+N+ + CH -> CN+ + H
+N+ + CN -> CN+ + N
+N+ + CO -> CO+ + N
+N+ + CO -> NO+ + C
+N+ + H2 -> NH+ + H
+N+ + NH -> N2+ + H
+N+ + NH -> NH+ + N
+N+ + NO -> N2+ + O
+N+ + NO -> NO+ + N
+N+ + O2 -> O+ + NO
+N+ + O2 -> NO+ + O
+N+ + O2 -> O2+ + N
+N+ + OH -> NO+ + H
+N+ + OH -> OH+ + N
+N+ + C2H -> C2H+ + N
+N+ + CH2 -> CH2+ + N
+N+ + CO2 -> CO+ + NO
+N+ + CO2 -> CO2+ + N
+N+ + H2O -> H2O+ + N
+N+ + H2S -> HS+ + NH
+N+ + H2S -> H2S+ + N
+N+ + HCN -> HCN+ + N
+N+ + HCO -> NH+ + CO
+N+ + HCO -> HCO+ + N
+N+ + NH2 -> NH2+ + N
+N+ + OCS -> S+ + CO + N
+N+ + OCS -> CS+ + NO
+N+ + OCS -> OCS+ + N
+N+ + H2CO -> NO+ + CH2
+N+ + H2CO -> HCO+ + NH
+N+ + H2CO -> H2CO+ + N
+N+ + NH3 -> N2H+ + H2
+N+ + NH3 -> NH2+ + NH
+N+ + NH3 -> NH3+ + N
+N+ + CH4 -> HCN+ + H2 + H
+N+ + CH4 -> CH3+ + N + H
+N+ + CH4 -> CH3+ + NH
+N+ + CH4 -> HCNH+ + H + H
+N+ + CH4 -> HCNH+ + H2
+N+ + CH4 -> CH4+ + N
+N+ + CH4O -> NO+ + CH3 + H
+N+ + CH4O -> CH3+ + NO + H
+N+ + CH4O -> H2CO+ + NH + H
+N+ + CH4O -> H3CO+ + NH
+N+ + CH4O -> CH4O+ + N
+O+ + FE -> FE+ + O
+O+ + H -> H+ + O
+O+ + C2 -> C2+ + O
+O+ + C2 -> CO+ + C
+O+ + CH -> CH+ + O
+O+ + CH -> CO+ + H
+O+ + CN -> NO+ + C
+O+ + H2 -> OH+ + H
+O+ + N2 -> NO+ + N
+O+ + NH -> NH+ + O
+O+ + NH -> NO+ + H
+O+ + NO -> NO+ + O
+O+ + O2 -> O2+ + O
+O+ + OH -> O2+ + H
+O+ + OH -> OH+ + O
+O+ + C2H -> CO+ + CH
+O+ + C2H -> C2H+ + O
+O+ + CH2 -> CH2+ + O
+O+ + CO2 -> O2+ + CO
+O+ + H2O -> H2O+ + O
+O+ + H2S -> H2O + S+
+O+ + H2S -> HS+ + OH
+O+ + H2S -> H2S+ + O
+O+ + HCN -> CO+ + NH
+O+ + HCN -> NO+ + CH
+O+ + HCN -> HCO+ + N
+O+ + HCO -> OH+ + CO
+O+ + HCO -> HCO+ + O
+O+ + N2O -> NO+ + NO
+O+ + NH2 -> NH2+ + O
+O+ + NO2 -> NO2+ + O
+O+ + OCS -> S+ + CO2
+O+ + OCS -> OCS+ + O
+O+ + SO2 -> O2+ + SO
+O+ + H2CO -> HCO+ + OH
+O+ + H2CO -> H2CO+ + O
+O+ + NH3 -> NH3+ + O
+O+ + CH4 -> CH3+ + OH
+O+ + CH4 -> CH4+ + O
+O+ + CH4O -> H2CO+ + H2O
+O+ + CH4O -> H3CO+ + OH
+O+ + CH4O -> CH4O+ + O
+P+ + SI -> P + SI+
+P+ + O2 -> PO+ + O
+P+ + OH -> PO+ + H
+P+ + H2O -> PO+ + H2
+P+ + H2O -> HPO+ + H
+P+ + C2H2 -> PC2H+ + H
+P+ + C2H2 -> PC2H2+
+P+ + NH3 -> NH3+ + P
+P+ + NH3 -> PNH2+ + H
+P+ + CH4 -> PCH2+ + H2
+P+ + C2H4 -> PC2H2+ + H2
+S+ + FE -> FE+ + S
+S+ + MG -> MG+ + S
+S+ + NA -> NA+ + S
+S+ + SI -> SI+ + S
+S+ + C2 -> CS+ + C
+S+ + CH -> CS+ + H
+S+ + NH -> NS+ + H
+S+ + NO -> NO+ + S
+S+ + O2 -> SO+ + O
+S+ + OH -> SO+ + H
+S+ + SIC -> SIC+ + S
+S+ + SIH -> SIH+ + S
+S+ + SIH -> SIS+ + H
+S+ + SIS -> SIS+ + S
+S+ + C2H -> C2S+ + H
+S+ + CH2 -> HCS+ + H
+S+ + H2S -> S2+ + H2
+S+ + H2S -> S2H+ + H
+S+ + H2S -> H2S+ + S
+S+ + HCO -> HS+ + CO
+S+ + HCO -> HCO+ + S
+S+ + OCS -> S2+ + CO
+S+ + C2H2 -> HC2S+ + H
+S+ + C3H -> C3S+ + H
+S+ + CH3 -> H2CS+ + H
+S+ + H2CO -> H2S+ + CO
+S+ + H2CO -> HCO+ + HS
+S+ + NH3 -> NH3+ + S
+S+ + C2H3 -> HC2S+ + H2
+S+ + C3H2 -> HC3S+ + H
+S+ + C4H -> C4S+ + H
+S+ + CH4 -> H3CS+ + H
+S+ + C4H2 -> C3H2+ + CS
+S+ + C4H2 -> H2C3+ + CS
+S+ + C4H2 -> C4H+ + HS
+S+ + C4H2 -> C4H2+ + S
+S+ + C4H2 -> HC4S+ + H
+SI+ + FE -> FE+ + SI
+SI+ + MG -> MG+ + SI
+SI+ + NA -> NA+ + SI
+SI+ + CH -> SIC+ + H
+SI+ + NH -> SIN+ + H
+SI+ + OH -> SIO+ + H
+SI+ + CH2 -> CHSI+ + H
+SI+ + H2O -> HSIO+ + H
+SI+ + HCN -> SINC+ + H
+SI+ + HNC -> SINC+ + H
+SI+ + OCS -> SIS+ + CO
+SI+ + C2H2 -> SIC2H+ + H
+SI+ + C3H -> SIC3+ + H
+SI+ + CH3 -> CHSI+ + H2
+SI+ + CH3 -> CH2SI+ + H
+SI+ + NH3 -> SINH2+ + H
+SI+ + C2H3 -> SIC2H2+ + H
+SI+ + C3H2 -> SIC3H+ + H
+SI+ + C4H -> SIC4+ + H
+SI+ + C2H4 -> SIC2H3+ + H
+SI+ + C3H3 -> SIC3H2+ + H
+SI+ + C4H2 -> C4H+ + SIH
+SI+ + C3H4 -> SIC3H2+ + H2
+C2+ + C -> C+ + C2
+C2+ + N -> C+ + CN
+C2+ + O -> CO+ + C
+C2+ + S -> S+ + C2
+C2+ + S -> CS+ + C
+C2+ + C2 -> C3+ + C
+C2+ + CH -> CH+ + C2
+C2+ + CH -> C3+ + H
+C2+ + H2 -> C2H+ + H
+C2+ + NH -> C2H+ + N
+C2+ + NH -> C2N+ + H
+C2+ + NO -> NO+ + C2
+C2+ + O2 -> CO+ + CO
+C2+ + CH2 -> CH2+ + C2
+C2+ + CH2 -> C3H+ + H
+C2+ + H2O -> C2H+ + OH
+C2+ + H2O -> C2HO+ + H
+C2+ + HCN -> C3H+ + N
+C2+ + HCN -> C3N+ + H
+C2+ + HCO -> C2H+ + CO
+C2+ + HCO -> HCO+ + C2
+C2+ + NH2 -> NH2+ + C2
+C2+ + NH2 -> C2NH+ + H
+C2+ + C2H2 -> C4H+ + H
+C2+ + CH4 -> C2H+ + CH3
+C2+ + CH4 -> C2H2+ + CH2
+C2+ + CH4 -> C3H+ + H2 + H
+C2+ + CH4 -> C3H2+ + H2
+C2+ + CH4 -> H2C3+ + H2
+C2+ + CH4 -> C3H3+ + H
+C2+ + CH4 -> H3C3+ + H
+CH+ + C -> C2+ + H
+CH+ + FE -> FE+ + CH
+CH+ + H -> C+ + H2
+CH+ + MG -> MG+ + CH
+CH+ + N -> CN+ + H
+CH+ + NA -> NA+ + CH
+CH+ + O -> CO+ + H
+CH+ + S -> S+ + CH
+CH+ + S -> CS+ + H
+CH+ + S -> HS+ + C
+CH+ + SI -> SI+ + CH
+CH+ + C2 -> C3+ + H
+CH+ + CH -> C2+ + H2
+CH+ + CN -> C2N+ + H
+CH+ + CN -> CNC+ + H
+CH+ + H2 -> CH2+ + H
+CH+ + NH -> CN+ + H2
+CH+ + NO -> NO+ + CH
+CH+ + O2 -> HCO + O+
+CH+ + O2 -> CO+ + OH
+CH+ + O2 -> HCO+ + O
+CH+ + OH -> CO+ + H2
+CH+ + C2H -> C3+ + H2
+CH+ + CH2 -> C2H+ + H2
+CH+ + CO2 -> HCO+ + CO
+CH+ + H2O -> HCO+ + H2
+CH+ + H2O -> H2CO+ + H
+CH+ + H2O -> H3O+ + C
+CH+ + H2S -> HCS+ + H2
+CH+ + H2S -> H3S+ + C
+CH+ + HCN -> C2N+ + H2
+CH+ + HCN -> C2NH+ + H
+CH+ + HCN -> HCNH+ + C
+CH+ + HCO -> CH2+ + CO
+CH+ + HCO -> HCO+ + CH
+CH+ + HNC -> HCNH+ + C
+CH+ + NH2 -> HCN+ + H2
+CH+ + OCS -> HCS+ + CO
+CH+ + OCS -> HOCS+ + C
+CH+ + C2H2 -> C3H2+ + H
+CH+ + C2H2 -> H2C3+ + H
+CH+ + H2CO -> HCO+ + CH2
+CH+ + H2CO -> CH3+ + CO
+CH+ + H2CO -> H3CO+ + C
+CH+ + NH3 -> H2NC+ + H2
+CH+ + NH3 -> NH3+ + CH
+CH+ + NH3 -> NH4+ + C
+CH+ + CH4 -> C2H2+ + H2 + H
+CH+ + CH4 -> C2H3+ + H2
+CH+ + CH4 -> C2H4+ + H
+CH+ + CH4O -> CH3+ + H2CO
+CH+ + CH4O -> H3CO+ + CH2
+CH+ + CH4O -> CH5O+ + C
+CN+ + C -> C+ + CN
+CN+ + H -> H+ + CN
+CN+ + O -> O+ + CN
+CN+ + S -> S+ + CN
+CN+ + C2 -> C2+ + CN
+CN+ + CH -> CH+ + CN
+CN+ + CO -> CO+ + CN
+CN+ + H2 -> HCN+ + H
+CN+ + NH -> NH+ + CN
+CN+ + NO -> NO+ + CN
+CN+ + NO -> NCO+ + N
+CN+ + O2 -> NO+ + CO
+CN+ + O2 -> O2+ + CN
+CN+ + O2 -> NCO+ + O
+CN+ + OH -> OH+ + CN
+CN+ + C2H -> C2H+ + CN
+CN+ + CH2 -> CH2+ + CN
+CN+ + CO2 -> C2O+ + NO
+CN+ + CO2 -> CO2+ + CN
+CN+ + CO2 -> NCO+ + CO
+CN+ + H2O -> HCN+ + OH
+CN+ + H2O -> HCO+ + NH
+CN+ + H2O -> H2NC+ + O
+CN+ + H2O -> HNCO+ + H
+CN+ + HCN -> HCN+ + CN
+CN+ + HCN -> C2N2+ + H
+CN+ + HCO -> HCN+ + CO
+CN+ + HCO -> HCO+ + CN
+CN+ + NH2 -> NH2+ + CN
+CN+ + H2CO -> HCO+ + HCN
+CN+ + H2CO -> H2CO+ + CN
+CO+ + C -> C+ + CO
+CO+ + H -> H+ + CO
+CO+ + N -> NO+ + C
+CO+ + O -> O+ + CO
+CO+ + S -> S+ + CO
+CO+ + C2 -> C2+ + CO
+CO+ + CH -> CH+ + CO
+CO+ + CH -> HCO+ + C
+CO+ + H2 -> HCO+ + H
+CO+ + NH -> NH+ + CO
+CO+ + NH -> HCO+ + N
+CO+ + NO -> NO+ + CO
+CO+ + O2 -> O2+ + CO
+CO+ + OH -> OH+ + CO
+CO+ + OH -> HCO+ + O
+CO+ + C2H -> C2H+ + CO
+CO+ + C2H -> HCO+ + C2
+CO+ + CH2 -> CH2+ + CO
+CO+ + CH2 -> HCO+ + CH
+CO+ + CO2 -> CO2+ + CO
+CO+ + H2O -> H2O+ + CO
+CO+ + H2O -> HCO+ + OH
+CO+ + H2S -> H2S+ + CO
+CO+ + H2S -> HCO+ + HS
+CO+ + HCN -> HCN+ + CO
+CO+ + HCO -> HCO+ + CO
+CO+ + NH2 -> HCO+ + NH
+CO+ + NH2 -> NH2+ + CO
+CO+ + SO2 -> SO+ + CO2
+CO+ + H2CO -> HCO+ + HCO
+CO+ + H2CO -> H2CO+ + CO
+CO+ + NH3 -> HCO+ + NH2
+CO+ + NH3 -> NH3+ + CO
+CO+ + CH4 -> HCO+ + CH3
+CO+ + CH4 -> CH4+ + CO
+CO+ + CH4 -> C2H3O+ + H
+CP+ + O -> P+ + CO
+CP+ + H2 -> HCP+ + H
+CS+ + C -> C+ + CS
+CS+ + FE -> FE+ + CS
+CS+ + MG -> MG+ + CS
+CS+ + NA -> NA+ + CS
+CS+ + O -> CO+ + S
+CS+ + SI -> SI+ + CS
+CS+ + H2 -> HCS+ + H
+CS+ + O2 -> OCS+ + O
+CS+ + CH4 -> HCS+ + CH3
+H2+ + C -> CH+ + H
+H2+ + H -> H+ + H2
+H2+ + N -> NH+ + H
+H2+ + O -> OH+ + H
+H2+ + C2 -> C2+ + H2
+H2+ + C2 -> C2H+ + H
+H2+ + CH -> CH+ + H2
+H2+ + CH -> CH2+ + H
+H2+ + CN -> CN+ + H2
+H2+ + CN -> HCN+ + H
+H2+ + CO -> CO+ + H2
+H2+ + CO -> HCO+ + H
+H2+ + H2 -> H3+ + H
+H2+ + N2 -> N2H+ + H
+H2+ + NH -> NH+ + H2
+H2+ + NH -> NH2+ + H
+H2+ + NO -> NO+ + H2
+H2+ + NO -> HNO+ + H
+H2+ + O2 -> O2+ + H2
+H2+ + O2 -> O2H+ + H
+H2+ + OH -> OH+ + H2
+H2+ + OH -> H2O+ + H
+H2+ + C2H -> C2H+ + H2
+H2+ + C2H -> C2H2+ + H
+H2+ + CH2 -> CH2+ + H2
+H2+ + CH2 -> CH3+ + H
+H2+ + CO2 -> CO+ + H2O
+H2+ + CO2 -> CO2+ + H2
+H2+ + CO2 -> HCO2+ + H
+H2+ + H2O -> H2O+ + H2
+H2+ + H2O -> H3O+ + H
+H2+ + H2S -> S+ + H2 + H2
+H2+ + H2S -> HS+ + H + H2
+H2+ + H2S -> H2S+ + H2
+H2+ + HCN -> HCN+ + H2
+H2+ + HCO -> H3+ + CO
+H2+ + HCO -> HCO+ + H2
+H2+ + NH2 -> NH2+ + H2
+H2+ + C2H2 -> C2H2+ + H2
+H2+ + C2H2 -> C2H3+ + H
+H2+ + H2CO -> HCO+ + H + H2
+H2+ + H2CO -> H2CO+ + H2
+H2+ + NH3 -> NH3+ + H2
+H2+ + CH4 -> CH3+ + H + H2
+H2+ + CH4 -> CH4+ + H2
+H2+ + CH4 -> CH5+ + H
+H2+ + C2H4 -> C2H2+ + H2 + H2
+H2+ + C2H4 -> C2H3+ + H2 + H
+H2+ + C2H4 -> C2H4+ + H2
+HCL+ + H2 -> H2CL+ + H
+HEH+ + H -> H2+ + HE
+HEH+ + H2 -> H3+ + HE
+HS+ + C -> CS+ + H
+HS+ + FE -> FE+ + HS
+HS+ + H -> S+ + H2
+HS+ + MG -> MG+ + HS
+HS+ + N -> NS+ + H
+HS+ + NA -> NA+ + HS
+HS+ + O -> S+ + OH
+HS+ + O -> SO+ + H
+HS+ + S -> S+ + HS
+HS+ + SI -> SI+ + HS
+HS+ + CH -> CH2+ + S
+HS+ + NO -> NO+ + HS
+HS+ + H2O -> H3O+ + S
+HS+ + H2S -> S2H+ + H2
+HS+ + H2S -> H3S+ + S
+HS+ + HCN -> HCNH+ + S
+HS+ + HNC -> HCNH+ + S
+HS+ + NH3 -> NH3+ + HS
+HS+ + NH3 -> NH4+ + S
+HS+ + CH4 -> H3CS+ + H2
+N2+ + C -> C+ + N2
+N2+ + FE -> FE+ + N2
+N2+ + H -> H+ + N2
+N2+ + MG -> MG+ + N2
+N2+ + N -> N+ + N2
+N2+ + NA -> NA+ + N2
+N2+ + O -> O+ + N2
+N2+ + O -> NO+ + N
+N2+ + S -> S+ + N2
+N2+ + C2 -> C2+ + N2
+N2+ + CH -> CH+ + N2
+N2+ + CN -> CN+ + N2
+N2+ + CO -> CO+ + N2
+N2+ + H2 -> N2H+ + H
+N2+ + NH -> NH+ + N2
+N2+ + NO -> NO+ + N2
+N2+ + O2 -> O2+ + N2
+N2+ + OH -> OH+ + N2
+N2+ + C2H -> C2H+ + N2
+N2+ + CH2 -> CH2+ + N2
+N2+ + CO2 -> CO2+ + N2
+N2+ + H2O -> H2O+ + N2
+N2+ + H2O -> N2H+ + OH
+N2+ + H2S -> S+ + N2 + H2
+N2+ + H2S -> HS+ + N2 + H
+N2+ + H2S -> H2S+ + N2
+N2+ + HCN -> HCN+ + N2
+N2+ + HCO -> HCO+ + N2
+N2+ + HCO -> N2H+ + CO
+N2+ + NH2 -> NH2+ + N2
+N2+ + OCS -> S+ + N2 + CO
+N2+ + OCS -> OCS+ + N2
+N2+ + H2CO -> HCO+ + N2 + H
+N2+ + H2CO -> H2CO+ + N2
+N2+ + NH3 -> NH3+ + N2
+N2+ + CH4 -> CH2+ + H2 + N2
+N2+ + CH4 -> CH3+ + N2 + H
+NH+ + C -> CH+ + N
+NH+ + N -> N2+ + H
+NH+ + O -> OH+ + N
+NH+ + S -> S+ + NH
+NH+ + S -> HS+ + N
+NH+ + S -> NS+ + H
+NH+ + C2 -> C2H+ + N
+NH+ + C2 -> C2N+ + H
+NH+ + C2 -> HCN+ + C
+NH+ + CH -> CH2+ + N
+NH+ + CN -> HCN+ + N
+NH+ + CO -> HCO+ + N
+NH+ + CO -> NCO+ + H
+NH+ + H2 -> H3+ + N
+NH+ + H2 -> NH2+ + H
+NH+ + N2 -> N2H+ + N
+NH+ + NH -> NH2+ + N
+NH+ + NO -> NO+ + NH
+NH+ + NO -> N2H+ + O
+NH+ + O2 -> NO+ + OH
+NH+ + O2 -> O2+ + NH
+NH+ + O2 -> O2H+ + N
+NH+ + OH -> H2O+ + N
+NH+ + C2H -> C2H2+ + N
+NH+ + CH2 -> CH3+ + N
+NH+ + CO2 -> NO+ + HCO
+NH+ + CO2 -> HNO+ + CO
+NH+ + CO2 -> HCO2+ + N
+NH+ + H2O -> H2O+ + NH
+NH+ + H2O -> HNO+ + H2
+NH+ + H2O -> NH2+ + OH
+NH+ + H2O -> H3O+ + N
+NH+ + H2O -> NH3+ + O
+NH+ + HCN -> HCNH+ + N
+NH+ + HCO -> H2CO+ + N
+NH+ + HNC -> HCNH+ + N
+NH+ + NH2 -> NH3+ + N
+NH+ + H2CO -> HCO+ + NH2
+NH+ + H2CO -> H2CO+ + NH
+NH+ + H2CO -> H3CO+ + N
+NH+ + NH3 -> NH3+ + NH
+NH+ + NH3 -> NH4+ + N
+NO+ + FE -> FE+ + NO
+NO+ + MG -> MG+ + NO
+NO+ + NA -> NA+ + NO
+NO+ + SI -> SI+ + NO
+NS+ + O -> NO+ + S
+O2+ + C -> C+ + O2
+O2+ + C -> CO+ + O
+O2+ + FE -> FE+ + O2
+O2+ + MG -> MG+ + O2
+O2+ + N -> NO+ + O
+O2+ + NA -> NA+ + O2
+O2+ + S -> S+ + O2
+O2+ + S -> SO+ + O
+O2+ + SI -> SI+ + O2
+O2+ + C2 -> CO+ + CO
+O2+ + CH -> CH+ + O2
+O2+ + CH -> HCO+ + O
+O2+ + NH -> HNO+ + O
+O2+ + NH -> NO2+ + H
+O2+ + NO -> NO+ + O2
+O2+ + CH2 -> CH2+ + O2
+O2+ + CH2 -> H2CO+ + O
+O2+ + H2S -> H2S+ + O2
+O2+ + HCO -> HCO+ + O2
+O2+ + HCO -> O2H+ + CO
+O2+ + NH2 -> NH2+ + O2
+O2+ + NO2 -> NO2+ + O2
+O2+ + H2CO -> HCO+ + O2 + H
+O2+ + H2CO -> H2CO+ + O2
+O2+ + NH3 -> NH3+ + O2
+O2+ + CH4 -> CH3O2+ + H
+O2+ + CH4O -> H3CO+ + O2 + H
+O2+ + CH4O -> CH4O+ + O2
+OH+ + C -> CH+ + O
+OH+ + N -> NO+ + H
+OH+ + O -> O2+ + H
+OH+ + S -> S+ + OH
+OH+ + S -> HS+ + O
+OH+ + S -> SO+ + H
+OH+ + SI -> SIH+ + O
+OH+ + C2 -> C2+ + OH
+OH+ + C2 -> C2H+ + O
+OH+ + CH -> CH+ + OH
+OH+ + CH -> CH2+ + O
+OH+ + CN -> HCN+ + O
+OH+ + CO -> HCO+ + O
+OH+ + H2 -> H2O+ + H
+OH+ + N2 -> N2H+ + O
+OH+ + NH -> NH2+ + O
+OH+ + NO -> NO+ + OH
+OH+ + NO -> HNO+ + O
+OH+ + O2 -> O2+ + OH
+OH+ + OH -> H2O+ + O
+OH+ + SIC -> CHSI+ + O
+OH+ + SIH -> SIH2+ + O
+OH+ + SIO -> HSIO+ + O
+OH+ + C2H -> C2H+ + OH
+OH+ + C2H -> C2H2+ + O
+OH+ + CH2 -> CH2+ + OH
+OH+ + CH2 -> CH3+ + O
+OH+ + CO2 -> HCO2+ + O
+OH+ + H2O -> H2O+ + OH
+OH+ + H2O -> H3O+ + O
+OH+ + H2S -> H2S+ + OH
+OH+ + H2S -> H3S+ + O
+OH+ + HCN -> HCNH+ + O
+OH+ + HCO -> H2O+ + CO
+OH+ + HCO -> HCO+ + OH
+OH+ + HCO -> H2CO+ + O
+OH+ + HNC -> HCNH+ + O
+OH+ + NH2 -> NH2+ + OH
+OH+ + NH2 -> NH3+ + O
+OH+ + H2CO -> H2CO+ + OH
+OH+ + H2CO -> H3CO+ + O
+OH+ + NH3 -> NH3+ + OH
+OH+ + NH3 -> NH4+ + O
+OH+ + CH4 -> H3O+ + CH2
+OH+ + CH4 -> CH5+ + O
+PH+ + O -> PO+ + H
+PH+ + O2 -> PO+ + OH
+PH+ + H2O -> HPO+ + H2
+PH+ + H2O -> H2PO+ + H
+PH+ + H2O -> H3O+ + P
+PH+ + HCN -> HCNH+ + P
+PH+ + C2H2 -> PC2H2+ + H
+PH+ + NH3 -> PNH2+ + H2
+PH+ + NH3 -> NH4+ + P
+PH+ + NH3 -> PNH3+ + H
+PH+ + CH4 -> PCH3+ + H2
+PH+ + CH4 -> PCH4+ + H
+PH+ + C2H4 -> PCH2+ + CH3
+PH+ + C2H4 -> PC2H3+ + H2
+S2+ + NO -> NO+ + S2
+S2+ + C2H5OH -> C2H5O+ + HS2
+S2+ + C2H5OH -> H2S2+ + C2H4O
+S2+ + CH3OCH3 -> C2H5O+ + HS2
+SIC+ + N -> SI+ + CN
+SIC+ + O -> SIO+ + C
+SIC+ + H2 -> CHSI+ + H
+SIH+ + C -> SIC+ + H
+SIH+ + H -> SI+ + H2
+SIH+ + N -> SIN+ + H
+SIH+ + O -> SIO+ + H
+SIH+ + NH3 -> NH4+ + SI
+SIN+ + O -> SIO+ + N
+SIO+ + C -> SI+ + CO
+SIO+ + FE -> FE+ + SIO
+SIO+ + MG -> MG+ + SIO
+SIO+ + N -> SI+ + NO
+SIO+ + N -> NO+ + SI
+SIO+ + O -> SI+ + O2
+SIO+ + S -> SI+ + SO
+SIO+ + C2 -> SIC+ + CO
+SIO+ + CH -> HCO+ + SI
+SIO+ + CO -> SI+ + CO2
+SIO+ + H2 -> HSIO+ + H
+SIO+ + NO -> NO+ + SIO
+SIO+ + CH2 -> SI+ + H2CO
+SIO+ + HCO -> HCO+ + SIO
+SIS+ + H -> SI+ + HS
+SIS+ + H2 -> HSIS+ + H
+SO+ + FE -> FE+ + SO
+SO+ + MG -> MG+ + SO
+SO+ + N -> NS+ + O
+SO+ + NA -> NA+ + SO
+SO+ + H2S -> S2+ + H2O
+SO+ + NH3 -> NH3+ + SO
+C2H+ + C -> C3+ + H
+C2H+ + N -> CH+ + CN
+C2H+ + N -> C2N+ + H
+C2H+ + O -> HCO+ + C
+C2H+ + S -> S+ + C2H
+C2H+ + CH -> CH2+ + C2
+C2H+ + CH -> C3H+ + H
+C2H+ + CN -> C3N+ + H
+C2H+ + H2 -> C2H2+ + H
+C2H+ + NO -> NO+ + C2H
+C2H+ + CH2 -> CH3+ + C2
+C2H+ + CH2 -> C3H2+ + H
+C2H+ + CH2 -> H2C3+ + H
+C2H+ + CO2 -> C2HO+ + CO
+C2H+ + H2O -> C2H2O+ + H
+C2H+ + HCN -> C2H2+ + CN
+C2H+ + HCN -> HCNH+ + C2
+C2H+ + HCN -> C3HN+ + H
+C2H+ + HCO -> C2H2+ + CO
+C2H+ + HNC -> HCNH+ + C2
+C2H+ + NH2 -> NH3+ + C2
+C2H+ + NH2 -> C2H2N+ + H
+C2H+ + C2H2 -> C4H2+ + H
+C2H+ + H2CO -> H3CO+ + C2
+C2H+ + NH3 -> C2H2N+ + H2
+C2H+ + NH3 -> NH4+ + C2
+C2H+ + CH4 -> C2H2+ + CH3
+C2H+ + CH4 -> C3H3+ + H2
+C2H+ + CH4 -> H3C3+ + H2
+C2H+ + CH4 -> C3H4+ + H
+C2N+ + H2 -> HCNH+ + C
+C2N+ + CH4 -> C2H3+ + HCN
+C2N+ + CH4 -> C3H2N+ + H2
+C2N+ + CH4 -> HCNH+ + C2H2
+C2N+ + NH3 -> HCNH+ + HCN
+C2N+ + H2O -> HCO+ + HCN
+C2N+ + H2O -> HCNH+ + CO
+C2N+ + C2H2 -> C3H+ + HCN
+C2N+ + C2H2 -> HCNH+ + C3
+C2N+ + H2S -> HCS+ + HCN
+C3+ + H2 -> C3H+ + H
+C3+ + C2H2 -> C5H+ + H
+CH2+ + C -> C2H+ + H
+CH2+ + N -> HCN+ + H
+CH2+ + O -> HCO+ + H
+CH2+ + S -> HCS+ + H
+CH2+ + C2 -> C3H+ + H
+CH2+ + CH -> C2H2+ + H
+CH2+ + H2 -> CH3+ + H
+CH2+ + NH -> HCNH+ + H
+CH2+ + NO -> NO+ + CH2
+CH2+ + O2 -> HCO+ + OH
+CH2+ + O2 -> HCO2+ + H
+CH2+ + OH -> H2CO+ + H
+CH2+ + C2H -> C3H2+ + H
+CH2+ + C2H -> H2C3+ + H
+CH2+ + CH2 -> C2H3+ + H
+CH2+ + CO2 -> H2CO+ + CO
+CH2+ + H2O -> H3CO+ + H
+CH2+ + H2S -> HCS+ + H2 + H
+CH2+ + H2S -> H3CS+ + H
+CH2+ + HCN -> C2H2N+ + H
+CH2+ + HCO -> CH3+ + CO
+CH2+ + HCO -> C2H2O+ + H
+CH2+ + NH2 -> HCNH+ + H2
+CH2+ + OCS -> HCS+ + HCO
+CH2+ + OCS -> H2CS+ + CO
+CH2+ + H2CO -> HCO+ + CH3
+CH2+ + H2CO -> C2H2O+ + H2
+CH2+ + H2CO -> C2H3O+ + H
+CH2+ + NH3 -> NH4+ + CH
+CH2+ + NH3 -> CH4N+ + H
+CH2+ + CH4 -> C2H4+ + H2
+CH2+ + CH4 -> C2H5+ + H
+CHSI+ + H2 -> CH2SI+ + H
+CNC+ + NH3 -> HCNH+ + HCN
+CNC+ + H2O -> HCO+ + HCN
+CNC+ + C2H2 -> C3H+ + HCN
+CNC+ + C2H2 -> HCNH+ + C3
+CO2+ + H -> H+ + CO2
+CO2+ + H -> HCO+ + O
+CO2+ + O -> O+ + CO2
+CO2+ + O -> O2+ + CO
+CO2+ + H2 -> HCO2+ + H
+CO2+ + NO -> NO+ + CO2
+CO2+ + O2 -> O2+ + CO2
+CO2+ + H2O -> H2O+ + CO2
+CO2+ + H2O -> HCO2+ + OH
+CO2+ + H2S -> H2S+ + CO2
+CO2+ + NH3 -> NH3+ + CO2
+CO2+ + CH4 -> HCO2+ + CH3
+CO2+ + CH4 -> CH4+ + CO2
+H2CL+ + CO -> HCO+ + HCL
+H2CL+ + H2O -> H3O+ + HCL
+H2O+ + C -> CH+ + OH
+H2O+ + FE -> FE+ + H2O
+H2O+ + MG -> MG+ + H2O
+H2O+ + N -> HNO+ + H
+H2O+ + NA -> NA+ + H2O
+H2O+ + O -> O2+ + H2
+H2O+ + S -> S+ + H2O
+H2O+ + S -> HS+ + OH
+H2O+ + S -> HSO+ + H
+H2O+ + SI -> SI+ + H2O
+H2O+ + C2 -> C2+ + H2O
+H2O+ + C2 -> C2H+ + OH
+H2O+ + CH -> CH+ + H2O
+H2O+ + CH -> CH2+ + OH
+H2O+ + CO -> HCO+ + OH
+H2O+ + H2 -> H3O+ + H
+H2O+ + NH -> H3O+ + N
+H2O+ + NO -> NO+ + H2O
+H2O+ + O2 -> O2+ + H2O
+H2O+ + OH -> H3O+ + O
+H2O+ + C2H -> C2H+ + H2O
+H2O+ + C2H -> C2H2+ + OH
+H2O+ + CH2 -> CH2+ + H2O
+H2O+ + CH2 -> CH3+ + OH
+H2O+ + H2O -> H3O+ + OH
+H2O+ + H2S -> H2S+ + H2O
+H2O+ + H2S -> H3O+ + HS
+H2O+ + H2S -> H3S+ + OH
+H2O+ + HCN -> HCNH+ + OH
+H2O+ + HCO -> HCO+ + H2O
+H2O+ + HCO -> H2CO+ + OH
+H2O+ + HCO -> H3O+ + CO
+H2O+ + HNC -> HCNH+ + OH
+H2O+ + NH2 -> NH2+ + H2O
+H2O+ + NH2 -> NH3+ + OH
+H2O+ + H2CO -> H2CO+ + H2O
+H2O+ + H2CO -> H3CO+ + OH
+H2O+ + NH3 -> NH3+ + H2O
+H2O+ + NH3 -> NH4+ + OH
+H2O+ + CH4 -> H3O+ + CH3
+H2S+ + C -> HCS+ + H
+H2S+ + FE -> FE+ + H2S
+H2S+ + H -> HS+ + H2
+H2S+ + MG -> MG+ + H2S
+H2S+ + N -> NS+ + H2
+H2S+ + NA -> NA+ + H2S
+H2S+ + O -> HS+ + OH
+H2S+ + O -> SO+ + H2
+H2S+ + S -> S+ + H2S
+H2S+ + SI -> SI+ + H2S
+H2S+ + NO -> NO+ + H2S
+H2S+ + H2O -> H3O+ + HS
+H2S+ + H2S -> H3S+ + HS
+H2S+ + HCO -> HCO+ + H2S
+H2S+ + NH3 -> NH3+ + H2S
+H2S+ + NH3 -> NH4+ + HS
+H3+ + C -> CH+ + H2
+H3+ + CL -> HCL+ + H2
+H3+ + FE -> FE+ + H + H2
+H3+ + MG -> MG+ + H + H2
+H3+ + N -> NH2+ + H
+H3+ + NA -> NA+ + H + H2
+H3+ + O -> OH+ + H2
+H3+ + P -> PH+ + H2
+H3+ + S -> HS+ + H2
+H3+ + SI -> SIH+ + H2
+H3+ + C2 -> C2H+ + H2
+H3+ + CH -> CH2+ + H2
+H3+ + CN -> HCN+ + H2
+H3+ + CO -> HCO+ + H2
+H3+ + CO -> HOC+ + H2
+H3+ + CP -> HCP+ + H2
+H3+ + CS -> HCS+ + H2
+H3+ + HCL -> H2CL+ + H2
+H3+ + HS -> H2S+ + H2
+H3+ + MGH -> MG+ + H2 + H2
+H3+ + N2 -> N2H+ + H2
+H3+ + NAH -> NA+ + H2 + H2
+H3+ + NH -> NH2+ + H2
+H3+ + NO -> HNO+ + H2
+H3+ + NS -> HNS+ + H2
+H3+ + O2 -> O2H+ + H2
+H3+ + OH -> H2O+ + H2
+H3+ + PH -> PH2+ + H2
+H3+ + PN -> HPN+ + H2
+H3+ + PO -> HPO+ + H2
+H3+ + S2 -> S2H+ + H2
+H3+ + SIC -> CHSI+ + H2
+H3+ + SIH -> SIH2+ + H2
+H3+ + SIN -> HNSI+ + H2
+H3+ + SIO -> HSIO+ + H2
+H3+ + SIS -> HSIS+ + H2
+H3+ + SO -> HSO+ + H2
+H3+ + C2H -> C2H2+ + H2
+H3+ + C2N -> C2NH+ + H2
+H3+ + C2S -> HC2S+ + H2
+H3+ + C3 -> C3H+ + H2
+H3+ + CCO -> C2HO+ + H2
+H3+ + CCP -> PC2H+ + H2
+H3+ + CH2 -> CH3+ + H2
+H3+ + CO2 -> HCO2+ + H2
+H3+ + H2O -> H3O+ + H2
+H3+ + H2S -> H3S+ + H2
+H3+ + HCN -> HCNH+ + H2
+H3+ + HCO -> H2CO+ + H2
+H3+ + HCP -> PCH2+ + H2
+H3+ + HCS -> H2CS+ + H2
+H3+ + HCSI -> CH2SI+ + H2
+H3+ + HNC -> HCNH+ + H2
+H3+ + HNO -> H2NO+ + H2
+H3+ + HNSI -> SINH2+ + H2
+H3+ + HPO -> H2PO+ + H2
+H3+ + HS2 -> H2S2+ + H2
+H3+ + NAOH -> NAH2O+ + H2
+H3+ + NH2 -> NH3+ + H2
+H3+ + NO2 -> NO+ + H2 + OH
+H3+ + OCS -> HOCS+ + H2
+H3+ + PH2 -> PH3+ + H2
+H3+ + SIC2 -> SIC2H+ + H2
+H3+ + SIH2 -> SIH3+ + H2
+H3+ + SINC -> SINCH+ + H2
+H3+ + SIO2 -> HSIO2+ + H2
+H3+ + SO2 -> HSO2+ + H2
+H3+ + C2H2 -> C2H3+ + H2
+H3+ + C3H -> C3H2+ + H2
+H3+ + C3N -> C3HN+ + H2
+H3+ + C3O -> HC3O+ + H2
+H3+ + C3P -> PC3H+ + H2
+H3+ + C3S -> HC3S+ + H2
+H3+ + C4 -> C4H+ + H2
+H3+ + CH3 -> CH4+ + H2
+H3+ + H2CO -> H3CO+ + H2
+H3+ + H2CS -> H3CS+ + H2
+H3+ + H2S2 -> H3S2+ + H2
+H3+ + H2SIO -> H3SIO+ + H2
+H3+ + HCCP -> PC2H2+ + H2
+H3+ + NH3 -> NH4+ + H2
+H3+ + SIC2H -> SIC2H2+ + H2
+H3+ + SIC3 -> SIC3H+ + H2
+H3+ + SICH2 -> SICH3+ + H2
+H3+ + SIH3 -> SIH4+ + H2
+H3+ + C2H2N -> C2H3N+ + H2
+H3+ + C2H2O -> C2H3O+ + H2
+H3+ + C2H3 -> C2H4+ + H2
+H3+ + C3H2 -> C3H3+ + H2
+H3+ + C4H -> C4H2+ + H2
+H3+ + C4P -> PC4H+ + H2
+H3+ + C4S -> HC4S+ + H2
+H3+ + C5 -> C5H+ + H2
+H3+ + CH2O2 -> HCO+ + H2O + H2
+H3+ + CH2O2 -> H3O+ + CO + H2
+H3+ + CH2PH -> PCH4+ + H2
+H3+ + CH3N -> CH4N+ + H2
+H3+ + CH4 -> CH5+ + H2
+H3+ + HCNC2 -> HC2NCH+ + H2
+H3+ + HC2NC -> HC2NCH+ + H2
+H3+ + HC3N -> C3H2N+ + H2
+H3+ + HNC3 -> C3H2N+ + H2
+H3+ + NH2CN -> NH2CNH+ + H2
+H3+ + SIC2H2 -> SIC2H3+ + H2
+H3+ + SIC3H -> SIC3H2+ + H2
+H3+ + SIC4 -> SIC4H+ + H2
+H3+ + SICH3 -> SICH4+ + H2
+H3+ + SIH4 -> SIH5+ + H2
+H3+ + C2H3N -> C2H4N+ + H2
+H3+ + C2H4 -> C2H3+ + H2 + H2
+H3+ + C2H4 -> C2H5+ + H2
+H3+ + C3H3 -> C3H4+ + H2
+H3+ + C4H2 -> C4H3+ + H2
+H3+ + C5H -> C5H2+ + H2
+H3+ + C5N -> C5HN+ + H2
+H3+ + C6 -> C6H+ + H2
+H3+ + CH4O -> CH3+ + H2O + H2
+H3+ + CH4O -> H3CO+ + H2 + H2
+H3+ + CH4O -> CH5O+ + H2
+H3+ + NH2CHO -> NH2CH2O+ + H2
+H3+ + C2H4O -> C2H5O+ + H2
+H3+ + C2H5 -> C2H6+ + H2
+H3+ + C3H3N -> C3H4N+ + H2
+H3+ + C3H4 -> C3H3+ + H2 + H2
+H3+ + C3H4 -> H3C3+ + H2 + H2
+H3+ + C3H4 -> C3H5+ + H2
+H3+ + C4H3 -> C4H4+ + H2
+H3+ + C5H2 -> C5H3+ + H2
+H3+ + C6H -> C6H2+ + H2
+H3+ + C7 -> C7H+ + H2
+H3+ + CH5N -> CH6N+ + H2
+H3+ + HC5N -> C5H2N+ + H2
+H3+ + C6H2 -> C6H3+ + H2
+H3+ + C7H -> C7H2+ + H2
+H3+ + C7N -> C7HN+ + H2
+H3+ + C8 -> C8H+ + H2
+H3+ + CH3C3N -> C4H4N+ + H2
+H3+ + HCOOCH3 -> H5C2O2+ + H2
+H3+ + C2H5OH -> H3O+ + C2H4 + H2
+H3+ + C2H5OH -> C2H5+ + H2O + H2
+H3+ + C2H5OH -> C2H5OH2+ + H2
+H3+ + C7H2 -> C7H3+ + H2
+H3+ + C8H -> C8H2+ + H2
+H3+ + C9 -> C9H+ + H2
+H3+ + CH3C4H -> C5H5+ + H2
+H3+ + CH3OCH3 -> CH3OCH4+ + H2
+H3+ + HC7N -> C7H2N+ + H2
+H3+ + C2H6CO -> C3H6OH+ + H2
+H3+ + C8H2 -> C8H3+ + H2
+H3+ + C9H -> C9H2+ + H2
+H3+ + C9N -> C9HN+ + H2
+H3+ + CH3C5N -> C6H4N+ + H2
+H3+ + C10 -> C10H+ + H2
+H3+ + C9H2 -> C9H3+ + H2
+H3+ + CH3C6H -> C7H5+ + H2
+H3+ + CH3C7N -> C8H4N+ + H2
+H3+ + HC9N -> C9H2N+ + H2
+H3+ + C6H6 -> C6H7+ + H2
+HCN+ + C -> CH+ + CN
+HCN+ + H -> H+ + HCN
+HCN+ + O -> O+ + HCN
+HCN+ + S -> S+ + HCN
+HCN+ + S -> HS+ + CN
+HCN+ + C2 -> C2H+ + CN
+HCN+ + CH -> CH2+ + CN
+HCN+ + CO -> HCO+ + CN
+HCN+ + H2 -> HCNH+ + H
+HCN+ + NH -> NH2+ + CN
+HCN+ + NO -> NO+ + HCN
+HCN+ + O2 -> O2+ + HCN
+HCN+ + OH -> H2O+ + CN
+HCN+ + C2H -> C2H2+ + CN
+HCN+ + CH2 -> CH3+ + CN
+HCN+ + CO2 -> HCO2+ + CN
+HCN+ + H2O -> H2O+ + HCN
+HCN+ + H2O -> H3O+ + CN
+HCN+ + HCN -> HCNH+ + CN
+HCN+ + HCO -> HCNH+ + CO
+HCN+ + HCO -> H2CO+ + CN
+HCN+ + HNC -> HCNH+ + CN
+HCN+ + NH2 -> NH3+ + CN
+HCN+ + H2CO -> H3CO+ + CN
+HCN+ + NH3 -> HCNH+ + NH2
+HCN+ + NH3 -> NH3+ + HCN
+HCN+ + CH4 -> HCNH+ + CH3
+HCN+ + CH4 -> C2H3+ + NH2
+HCO+ + C -> CH+ + CO
+HCO+ + FE -> FE+ + HCO
+HCO+ + MG -> MG+ + HCO
+HCO+ + NA -> NA+ + HCO
+HCO+ + P -> PH+ + CO
+HCO+ + S -> HS+ + CO
+HCO+ + SI -> SIH+ + CO
+HCO+ + C2 -> C2H+ + CO
+HCO+ + CH -> CH2+ + CO
+HCO+ + CP -> HCP+ + CO
+HCO+ + CS -> HCS+ + CO
+HCO+ + HS -> H2S+ + CO
+HCO+ + MGH -> MG+ + CO + H2
+HCO+ + NAH -> NA+ + CO + H2
+HCO+ + NH -> NH2+ + CO
+HCO+ + NS -> HNS+ + CO
+HCO+ + OH -> H2O+ + CO
+HCO+ + OH -> HCO2+ + H
+HCO+ + PH -> PH2+ + CO
+HCO+ + PN -> HPN+ + CO
+HCO+ + PO -> HPO+ + CO
+HCO+ + S2 -> S2H+ + CO
+HCO+ + SIC -> CHSI+ + CO
+HCO+ + SIH -> SIH2+ + CO
+HCO+ + SIO -> HSIO+ + CO
+HCO+ + SIS -> HSIS+ + CO
+HCO+ + SO -> HSO+ + CO
+HCO+ + C2H -> C2H2+ + CO
+HCO+ + C2S -> HC2S+ + CO
+HCO+ + C3 -> C3H+ + CO
+HCO+ + CCO -> C2HO+ + CO
+HCO+ + CCP -> PC2H+ + CO
+HCO+ + CH2 -> CH3+ + CO
+HCO+ + H2O -> H3O+ + CO
+HCO+ + H2S -> H3S+ + CO
+HCO+ + HCN -> HCNH+ + CO
+HCO+ + HCO -> H2CO+ + CO
+HCO+ + HCP -> PCH2+ + CO
+HCO+ + HCSI -> CH2SI+ + CO
+HCO+ + HNC -> HCNH+ + CO
+HCO+ + HNO -> H2NO+ + CO
+HCO+ + HNSI -> SINH2+ + CO
+HCO+ + HPO -> H2PO+ + CO
+HCO+ + HS2 -> H2S2+ + CO
+HCO+ + NAOH -> NAH2O+ + CO
+HCO+ + NH2 -> NH3+ + CO
+HCO+ + OCS -> HOCS+ + CO
+HCO+ + PH2 -> PH3+ + CO
+HCO+ + SIC2 -> SIC2H+ + CO
+HCO+ + SIH2 -> SIH3+ + CO
+HCO+ + SINC -> SINCH+ + CO
+HCO+ + SIO2 -> HSIO2+ + CO
+HCO+ + C2H2 -> C2H3+ + CO
+HCO+ + C3H -> C3H2+ + CO
+HCO+ + C3N -> C3HN+ + CO
+HCO+ + C3O -> HC3O+ + CO
+HCO+ + C3P -> PC3H+ + CO
+HCO+ + C3S -> HC3S+ + CO
+HCO+ + C4 -> C4H+ + CO
+HCO+ + H2CO -> H3CO+ + CO
+HCO+ + H2CS -> H3CS+ + CO
+HCO+ + H2S2 -> H3S2+ + CO
+HCO+ + H2SIO -> H3SIO+ + CO
+HCO+ + HCCP -> PC2H2+ + CO
+HCO+ + NH3 -> NH4+ + CO
+HCO+ + SIC2H -> SIC2H2+ + CO
+HCO+ + SIC3 -> SIC3H+ + CO
+HCO+ + SICH2 -> SICH3+ + CO
+HCO+ + C2H2O -> C2H3O+ + CO
+HCO+ + C2H3 -> C2H4+ + CO
+HCO+ + C3H2 -> C3H3+ + CO
+HCO+ + C4H -> C4H2+ + CO
+HCO+ + C4P -> PC4H+ + CO
+HCO+ + C4S -> HC4S+ + CO
+HCO+ + C5 -> C5H+ + CO
+HCO+ + CH2O2 -> CH3O2+ + CO
+HCO+ + CH2PH -> PCH4+ + CO
+HCO+ + CH3N -> CH4N+ + CO
+HCO+ + HCNC2 -> HC2NCH+ + CO
+HCO+ + HC2NC -> HC2NCH+ + CO
+HCO+ + HC3N -> C3H2N+ + CO
+HCO+ + HNC3 -> C3H2N+ + CO
+HCO+ + NH2CN -> NH2CNH+ + CO
+HCO+ + SIC2H2 -> SIC2H3+ + CO
+HCO+ + SIC3H -> SIC3H2+ + CO
+HCO+ + SIC4 -> SIC4H+ + CO
+HCO+ + SICH3 -> SICH4+ + CO
+HCO+ + SIH4 -> SIH5+ + CO
+HCO+ + C2H3N -> C2H4N+ + CO
+HCO+ + C2H4 -> C2H5+ + CO
+HCO+ + C3H3 -> C3H4+ + CO
+HCO+ + C4H2 -> C4H3+ + CO
+HCO+ + C5H -> C5H2+ + CO
+HCO+ + C5N -> C5HN+ + CO
+HCO+ + C6 -> C6H+ + CO
+HCO+ + CH4O -> CH5O+ + CO
+HCO+ + NH2CHO -> NH2CH2O+ + CO
+HCO+ + C2H4O -> C2H5O+ + CO
+HCO+ + C2H5 -> C2H6+ + CO
+HCO+ + C3H3N -> C3H4N+ + CO
+HCO+ + C3H4 -> C3H5+ + CO
+HCO+ + C4H3 -> C4H4+ + CO
+HCO+ + C5H2 -> C5H3+ + CO
+HCO+ + C6H -> C6H2+ + CO
+HCO+ + C7 -> C7H+ + CO
+HCO+ + CH5N -> CH6N+ + CO
+HCO+ + HC5N -> C5H2N+ + CO
+HCO+ + C6H2 -> C6H3+ + CO
+HCO+ + C7H -> C7H2+ + CO
+HCO+ + C7N -> C7HN+ + CO
+HCO+ + C8 -> C8H+ + CO
+HCO+ + CH3C3N -> C4H4N+ + CO
+HCO+ + HCOOCH3 -> H5C2O2+ + CO
+HCO+ + C2H5OH -> H3O+ + C2H4 + CO
+HCO+ + C2H5OH -> C2H5OH2+ + CO
+HCO+ + C7H2 -> C7H3+ + CO
+HCO+ + C8H -> C8H2+ + CO
+HCO+ + C9 -> C9H+ + CO
+HCO+ + CH3C4H -> C5H5+ + CO
+HCO+ + CH3OCH3 -> CH3OCH4+ + CO
+HCO+ + HC7N -> C7H2N+ + CO
+HCO+ + C2H6CO -> C3H6OH+ + CO
+HCO+ + C8H2 -> C8H3+ + CO
+HCO+ + C9H -> C9H2+ + CO
+HCO+ + C9N -> C9HN+ + CO
+HCO+ + C10 -> C10H+ + CO
+HCO+ + CH3C5N -> C6H4N+ + CO
+HCO+ + C9H2 -> C9H3+ + CO
+HCO+ + CH3C6H -> C7H5+ + CO
+HCO+ + CH3C7N -> C8H4N+ + CO
+HCO+ + HC9N -> C9H2N+ + CO
+HCO+ + C6H6 -> C6H7+ + CO
+HCP+ + C -> CCP+ + H
+HCP+ + O -> PH+ + CO
+HCP+ + H2 -> PCH2+ + H
+HCS+ + O -> HCO+ + S
+HCS+ + O -> OCS+ + H
+HCS+ + NH3 -> NH4+ + CS
+HNC+ + C -> CH+ + CN
+HNC+ + S -> S+ + HNC
+HNC+ + S -> HS+ + CN
+HNC+ + C2 -> C2H+ + CN
+HNC+ + CH -> CH2+ + CN
+HNC+ + H2 -> HCNH+ + H
+HNC+ + NH -> NH2+ + CN
+HNC+ + NO -> NO+ + HNC
+HNC+ + O2 -> NO+ + HCO
+HNC+ + OH -> H2O+ + CN
+HNC+ + C2H -> C2H2+ + CN
+HNC+ + CH2 -> CH3+ + CN
+HNC+ + H2O -> H3O+ + CN
+HNC+ + HCN -> HCNH+ + CN
+HNC+ + HCO -> HCNH+ + CO
+HNC+ + HCO -> H2CO+ + CN
+HNC+ + NH2 -> NH3+ + CN
+HNC+ + H2CO -> H3CO+ + CN
+HNC+ + NH3 -> NH3+ + HNC
+HNO+ + C -> CH+ + NO
+HNO+ + O -> NO2+ + H
+HNO+ + S -> HS+ + NO
+HNO+ + C2 -> C2H+ + NO
+HNO+ + CH -> CH2+ + NO
+HNO+ + CO -> HCO+ + NO
+HNO+ + NH -> NH2+ + NO
+HNO+ + NO -> NO+ + HNO
+HNO+ + OH -> H2O+ + NO
+HNO+ + C2H -> C2H2+ + NO
+HNO+ + CH2 -> CH3+ + NO
+HNO+ + CO2 -> HCO2+ + NO
+HNO+ + H2O -> H3O+ + NO
+HNO+ + HCN -> HCNH+ + NO
+HNO+ + HCO -> H2CO+ + NO
+HNO+ + HNC -> HCNH+ + NO
+HNO+ + NH2 -> NH3+ + NO
+HNO+ + H2CO -> H3CO+ + NO
+HNO+ + NH3 -> NH4+ + NO
+HNO+ + CH4 -> CH5+ + NO
+HNSI+ + CO -> HCO+ + SIN
+HNSI+ + H2 -> SINH2+ + H
+HNSI+ + H2O -> H3O+ + SIN
+HOC+ + CO -> HCO+ + CO
+HOC+ + H2 -> HCO+ + H2
+HOC+ + N2 -> N2H+ + CO
+HPO+ + H2O -> H3O+ + PO
+N2H+ + C -> CH+ + N2
+N2H+ + S -> HS+ + N2
+N2H+ + C2 -> C2H+ + N2
+N2H+ + CH -> CH2+ + N2
+N2H+ + CO -> HCO+ + N2
+N2H+ + NH -> NH2+ + N2
+N2H+ + OH -> H2O+ + N2
+N2H+ + C2H -> C2H2+ + N2
+N2H+ + CH2 -> CH3+ + N2
+N2H+ + CO2 -> HCO2+ + N2
+N2H+ + H2O -> H3O+ + N2
+N2H+ + HCN -> HCNH+ + N2
+N2H+ + HCO -> H2CO+ + N2
+N2H+ + HNC -> HCNH+ + N2
+N2H+ + NH2 -> NH3+ + N2
+N2H+ + C2H2 -> C2H3+ + N2
+N2H+ + H2CO -> H3CO+ + N2
+N2H+ + NH3 -> NH4+ + N2
+N2H+ + CH4 -> CH5+ + N2
+N2H+ + HCNC2 -> HC2NCH+ + N2
+N2H+ + HC2NC -> HC2NCH+ + N2
+N2H+ + HC3N -> C3H2N+ + N2
+N2H+ + HNC3 -> C3H2N+ + N2
+N2H+ + NH2CHO -> NH2CH2O+ + N2
+N2H+ + C6H6 -> C6H7+ + N2
+NAH2+ + H2O -> NAH2O+ + H2
+NH2+ + N -> N2H+ + H
+NH2+ + O -> HNO+ + H
+NH2+ + S -> S+ + NH2
+NH2+ + S -> HS+ + NH
+NH2+ + S -> HNS+ + H
+NH2+ + C2 -> C2H+ + NH
+NH2+ + CH -> CH+ + NH2
+NH2+ + CH -> CH2+ + NH
+NH2+ + CN -> HCNH+ + N
+NH2+ + CN -> H2NC+ + N
+NH2+ + H2 -> NH3+ + H
+NH2+ + NH -> NH3+ + N
+NH2+ + NO -> NO+ + NH2
+NH2+ + O2 -> HNO+ + OH
+NH2+ + O2 -> H2NO+ + O
+NH2+ + C2H -> C2H2+ + NH
+NH2+ + CH2 -> CH2+ + NH2
+NH2+ + CH2 -> CH3+ + NH
+NH2+ + H2O -> H3O+ + NH
+NH2+ + H2O -> NH3+ + OH
+NH2+ + H2O -> NH4+ + O
+NH2+ + H2S -> HS+ + NH3
+NH2+ + H2S -> H2S+ + NH2
+NH2+ + H2S -> H3S+ + NH
+NH2+ + H2S -> NH3+ + HS
+NH2+ + H2S -> NH4+ + S
+NH2+ + HCN -> HCNH+ + NH
+NH2+ + HCO -> HCO+ + NH2
+NH2+ + HNC -> HCNH+ + NH
+NH2+ + NH2 -> NH3+ + NH
+NH2+ + H2CO -> NH3+ + HCO
+NH2+ + H2CO -> H3CO+ + NH
+NH2+ + NH3 -> NH3+ + NH2
+NH2+ + NH3 -> NH4+ + NH
+NO2+ + H -> NO+ + OH
+NO2+ + H2 -> NO+ + H2O
+O2H+ + C -> CH+ + O2
+O2H+ + N -> NO2+ + H
+O2H+ + O -> OH+ + O2
+O2H+ + S -> HS+ + O2
+O2H+ + C2 -> C2H+ + O2
+O2H+ + CH -> CH2+ + O2
+O2H+ + CN -> HCN+ + O2
+O2H+ + CO -> HCO+ + O2
+O2H+ + H2 -> H3+ + O2
+O2H+ + N2 -> N2H+ + O2
+O2H+ + NH -> NH2+ + O2
+O2H+ + NO -> HNO+ + O2
+O2H+ + OH -> H2O+ + O2
+O2H+ + C2H -> C2H2+ + O2
+O2H+ + CH2 -> CH3+ + O2
+O2H+ + CO2 -> HCO2+ + O2
+O2H+ + H2O -> H3O+ + O2
+O2H+ + HCN -> HCNH+ + O2
+O2H+ + HCO -> H2CO+ + O2
+O2H+ + HNC -> HCNH+ + O2
+O2H+ + NH2 -> NH3+ + O2
+O2H+ + H2CO -> H3CO+ + O2
+O2H+ + NH3 -> NH4+ + O2
+OCS+ + NH3 -> NH3+ + OCS
+PH2+ + C2H2 -> PC2H2+ + H2
+PH2+ + C2H4 -> PCH2+ + CH4
+PH2+ + C2H4 -> PC2H4+ + H2
+S2H+ + H2 -> H3S2+
+S2H+ + H2S -> H3S+ + S2
+SIC2+ + H2 -> SIC2H+ + H
+SIH2+ + C -> CHSI+ + H
+SIH2+ + N -> HNSI+ + H
+SIH2+ + O -> HSIO+ + H
+SIH2+ + S -> HSIS+ + H
+SIH2+ + O2 -> HSIO+ + OH
+SINC+ + O -> SIN+ + CO
+SO2+ + CO -> SO+ + CO2
+SO2+ + H2 -> HSO2+ + H
+SO2+ + O2 -> O2+ + SO2
+C2H2+ + C -> C2H2 + C+
+C2H2+ + C -> C3+ + H2
+C2H2+ + C -> C3H+ + H
+C2H2+ + FE -> FE+ + C2H2
+C2H2+ + MG -> MG+ + C2H2
+C2H2+ + N -> CH+ + HCN
+C2H2+ + N -> C2N+ + H2
+C2H2+ + N -> C2NH+ + H
+C2H2+ + NA -> NA+ + C2H2
+C2H2+ + O -> HCO+ + CH
+C2H2+ + O -> HOC+ + CH
+C2H2+ + O -> C2HO+ + H
+C2H2+ + P -> PC2H+ + H
+C2H2+ + SI -> SI+ + C2H2
+C2H2+ + SI -> SIC2+ + H2
+C2H2+ + SI -> SIC2H+ + H
+C2H2+ + CH -> C3H2+ + H
+C2H2+ + CH -> H2C3+ + H
+C2H2+ + CN -> C3HN+ + H
+C2H2+ + NH -> C2H2N+ + H
+C2H2+ + NO -> NO+ + C2H2
+C2H2+ + OH -> C2H2O+ + H
+C2H2+ + O2 -> HCO+ + HCO
+C2H2+ + C2H -> C4H2+ + H
+C2H2+ + CH2 -> C3H3+ + H
+C2H2+ + CH2 -> H3C3+ + H
+C2H2+ + H2S -> H2S+ + C2H2
+C2H2+ + H2S -> C2H3+ + HS
+C2H2+ + HCN -> C3H2N+ + H
+C2H2+ + HCO -> HCO+ + C2H2
+C2H2+ + HCO -> C2H3+ + CO
+C2H2+ + HNC -> HCNH+ + C2H
+C2H2+ + HNC -> C3H2N+ + H
+C2H2+ + NH2 -> NH3+ + C2H
+C2H2+ + NH2 -> C2H3N+ + H
+C2H2+ + C2H2 -> C4H2+ + H2
+C2H2+ + C2H2 -> C4H3+ + H
+C2H2+ + C3H -> C5H+ + H2
+C2H2+ + C3H -> C5H2+ + H
+C2H2+ + H2CO -> H2CO+ + C2H2
+C2H2+ + NH3 -> NH3+ + C2H2
+C2H2+ + NH3 -> NH4+ + C2H
+C2H2+ + C2H3 -> C2H3+ + C2H2
+C2H2+ + C2H3 -> C3H3+ + CH2
+C2H2+ + C2H3 -> H3C3+ + CH2
+C2H2+ + C2H3 -> C4H3+ + H2
+C2H2+ + C3H2 -> C5H2+ + H2
+C2H2+ + C3H2 -> C5H3+ + H
+C2H2+ + C4H -> C6H+ + H2
+C2H2+ + C4H -> C6H2+ + H
+C2H2+ + CH4 -> C3H4+ + H2
+C2H2+ + CH4 -> C3H5+ + H
+C2H2+ + C2H4 -> C2H4+ + C2H2
+C2H2+ + C2H4 -> C3H3+ + CH3
+C2H2+ + C2H4 -> H3C3+ + CH3
+C2H2+ + C2H4 -> C4H5+ + H
+C2H2+ + C3H3 -> C3H3+ + C2H2
+C2H2+ + C3H3 -> H3C3+ + C2H2
+C2H2+ + C3H3 -> C5H3+ + H2
+C2H2+ + C3H3 -> C5H4+ + H
+C2H2+ + C4H2 -> C4H2+ + C2H2
+C2H2+ + C4H2 -> C6H2+ + H2
+C2H2+ + C4H2 -> C6H3+ + H
+C2H2+ + C5H -> C7H+ + H2
+C2H2+ + C5H -> C7H2+ + H
+C2H2+ + C3H4 -> C3H4+ + C2H2
+C2H2+ + C3H4 -> C5H4+ + H2
+C2H2+ + C3H4 -> C5H5+ + H
+C2H2+ + C5H2 -> C5H2+ + C2H2
+C2H2+ + C5H2 -> C7H2+ + H2
+C2H2+ + C5H2 -> C7H3+ + H
+C2H2+ + C6H -> C8H+ + H2
+C2H2+ + C6H -> C8H2+ + H
+C2H2+ + C6H2 -> C6H2+ + C2H2
+C2H2+ + C6H2 -> C8H2+ + H2
+C2H2+ + C6H2 -> C8H3+ + H
+C2H2+ + C7H -> C9H+ + H2
+C2H2+ + C7H -> C9H2+ + H
+C2H2+ + C7H2 -> C7H2+ + C2H2
+C2H2+ + C7H2 -> C9H2+ + H2
+C2H2+ + C7H2 -> C9H3+ + H
+C3H+ + SI -> SIC3+ + H
+C3H+ + H2 -> C3H2+ + H
+C3H+ + NO -> NO+ + C3H
+C3H+ + NO -> C2NH+ + CO
+C3H+ + O2 -> HCO+ + CCO
+C3H+ + O2 -> C2HO+ + CO
+C3H+ + O2 -> HC3O+ + O
+C3H+ + CO2 -> HC3O+ + CO
+C3H+ + H2O -> HCO+ + C2H2
+C3H+ + H2O -> C2H3+ + CO
+C3H+ + H2O -> HC3O+ + H2
+C3H+ + H2S -> HCS+ + C2H2
+C3H+ + H2S -> C2H3+ + CS
+C3H+ + H2S -> HC3S+ + H2
+C3H+ + OCS -> CS+ + C3O + H
+C3H+ + OCS -> HC3O+ + CS
+C3H+ + OCS -> HC3S+ + CO
+C3H+ + C2H2 -> C5H2+ + H
+C3H+ + NH3 -> H2NC+ + C2H2
+C3H+ + NH3 -> NH3+ + C3H
+C3H+ + NH3 -> NH4+ + C3
+C3H+ + CH4 -> C2H3+ + C2H2
+C3H+ + CH4 -> C4H3+ + H2
+C3H+ + C2H4 -> C3H3+ + C2H2
+C3H+ + C2H4 -> H3C3+ + C2H2
+C3H+ + C2H4 -> C5H3+ + H2
+C3H+ + C4H2 -> C5H+ + C2H2
+C3H+ + C4H2 -> C5H2+ + C2H
+C3N+ + H2 -> C3HN+ + H
+C4+ + H2 -> C4H+ + H
+CH2SI+ + C -> SI+ + C2H2
+CH2SI+ + C -> SIC2+ + H2
+CH2SI+ + C -> SIC2H+ + H
+CH2SI+ + N -> SI+ + HCN + H
+CH2SI+ + O -> SI+ + H2CO
+CH2SI+ + O -> HCO+ + SIH
+CH2SI+ + S -> SI+ + H2CS
+CH3+ + C -> C2H+ + H2
+CH3+ + C -> C2H2+ + H
+CH3+ + FE -> FE+ + CH3
+CH3+ + MG -> MG+ + CH3
+CH3+ + N -> HCN+ + H2
+CH3+ + N -> H2NC+ + H
+CH3+ + NA -> NA+ + CH3
+CH3+ + O -> HOC+ + H2
+CH3+ + O -> HCO+ + H2
+CH3+ + O -> H2CO+ + H
+CH3+ + P -> PCH2+ + H
+CH3+ + S -> HCS+ + H2
+CH3+ + SI -> SI+ + CH3
+CH3+ + SI -> CHSI+ + H2
+CH3+ + SI -> CH2SI+ + H
+CH3+ + C2 -> C3H+ + H2
+CH3+ + CH -> C2H2+ + H2
+CH3+ + CN -> C2H2N+ + H
+CH3+ + HCL -> H2CCL+ + H2
+CH3+ + HS -> H2CS+ + H2
+CH3+ + NH -> HCNH+ + H2
+CH3+ + NO -> NO+ + CH3
+CH3+ + O2 -> H3CO+ + O
+CH3+ + OH -> H2CO+ + H2
+CH3+ + SIH -> CH2SI+ + H2
+CH3+ + SO -> HOCS+ + H2
+CH3+ + C2H -> C3H2+ + H2
+CH3+ + C2H -> H2C3+ + H2
+CH3+ + C2H -> C3H3+ + H
+CH3+ + C2H -> H3C3+ + H
+CH3+ + CH2 -> C2H3+ + H2
+CH3+ + H2S -> H3CS+ + H2
+CH3+ + HCO -> HCO+ + CH3
+CH3+ + HCO -> CH4+ + CO
+CH3+ + NH2 -> CH4N+ + H
+CH3+ + OCS -> H3CS+ + CO
+CH3+ + C2H2 -> C3H3+ + H2
+CH3+ + C3H -> C3H+ + CH3
+CH3+ + C3H -> C4H2+ + H2
+CH3+ + H2CO -> HCO+ + CH4
+CH3+ + NH3 -> NH4+ + CH2
+CH3+ + NH3 -> CH4N+ + H2
+CH3+ + C2H3 -> C2H3+ + CH3
+CH3+ + C2H3 -> C3H3+ + H + H2
+CH3+ + C2H3 -> H3C3+ + H + H2
+CH3+ + C2H3 -> C3H4+ + H2
+CH3+ + C3H2 -> C4H3+ + H2
+CH3+ + C4H -> C5H2+ + H2
+CH3+ + CH4 -> C2H5+ + H2
+CH3+ + HCNC2 -> C3H3+ + HCN
+CH3+ + HCNC2 -> H3C3+ + HCN
+CH3+ + HC2NC -> C3H3+ + HCN
+CH3+ + HC2NC -> H3C3+ + HCN
+CH3+ + HC3N -> C3H3+ + HCN
+CH3+ + HC3N -> H3C3+ + HCN
+CH3+ + HNC3 -> C3H3+ + HNC
+CH3+ + HNC3 -> H3C3+ + HNC
+CH3+ + C2H4 -> C2H3+ + CH4
+CH3+ + C2H4 -> C3H3+ + H2 + H2
+CH3+ + C2H4 -> H3C3+ + H2 + H2
+CH3+ + C2H4 -> C3H5+ + H2
+CH3+ + C3H3 -> C4H5+ + H
+CH3+ + C4H2 -> C3H3+ + C2H2
+CH3+ + C4H2 -> H3C3+ + C2H2
+CH3+ + C4H2 -> C5H3+ + H2
+CH3+ + C5H -> C6H2+ + H2
+CH3+ + CH4O -> H3CO+ + CH4
+CH3+ + NH2CHO -> CH5N+ + HCO
+CH3+ + C5H2 -> C6H3+ + H2
+CH3+ + C6H -> C7H2+ + H2
+CH3+ + C6H2 -> C7H3+ + H2
+CH3+ + C7H -> C8H2+ + H2
+CH3+ + C7H2 -> C8H3+ + H2
+CH3+ + C8H -> C9H2+ + H2
+CH3+ + C8H2 -> C9H3+ + H2
+HCNH+ + NA -> NA+ + HCN + H
+HCNH+ + NA -> NA+ + HNC + H
+HCNH+ + SI -> SINC+ + H2
+HCNH+ + CH -> CH2+ + HCN
+HCNH+ + CH2 -> CH3+ + HCN
+HCNH+ + CH2 -> CH3+ + HNC
+HCNH+ + NH2 -> NH3+ + HCN
+HCNH+ + NH2 -> NH3+ + HNC
+HCNH+ + H2CO -> H3CO+ + HCN
+HCNH+ + NH3 -> NH4+ + HCN
+HCNH+ + NH3 -> NH4+ + HNC
+H2CO+ + FE -> FE+ + H2CO
+H2CO+ + MG -> MG+ + H2CO
+H2CO+ + NA -> NA+ + H2CO
+H2CO+ + S -> S+ + H2CO
+H2CO+ + S -> HS+ + HCO
+H2CO+ + SI -> SI+ + H2CO
+H2CO+ + C2 -> C2H+ + HCO
+H2CO+ + CH -> CH+ + H2CO
+H2CO+ + CH -> CH2+ + HCO
+H2CO+ + NH -> H3CO+ + N
+H2CO+ + NO -> NO+ + H2CO
+H2CO+ + O2 -> HCO+ + O2H
+H2CO+ + C2H -> C2H2+ + HCO
+H2CO+ + CH2 -> CH2+ + H2CO
+H2CO+ + CH2 -> CH3+ + HCO
+H2CO+ + H2O -> H3O+ + HCO
+H2CO+ + HCN -> HCNH+ + HCO
+H2CO+ + HCO -> HCO+ + H2CO
+H2CO+ + HCO -> H3CO+ + CO
+H2CO+ + HNC -> HCNH+ + HCO
+H2CO+ + NH2 -> NH3+ + HCO
+H2CO+ + H2CO -> H3CO+ + HCO
+H2CO+ + NH3 -> NH3+ + H2CO
+H2CO+ + NH3 -> NH4+ + HCO
+H2CO+ + CH4 -> H3CO+ + CH3
+H2CO+ + CH4 -> C2H5O+ + H
+H2NC+ + SI -> SINC+ + H2
+H3O+ + C -> HCO+ + H2
+H3O+ + NA -> NA+ + H2O + H
+H3O+ + P -> HPO+ + H2
+H3O+ + SI -> SIH+ + H2O
+H3O+ + CH -> CH2+ + H2O
+H3O+ + CP -> HCP+ + H2O
+H3O+ + CS -> HCS+ + H2O
+H3O+ + PN -> HPN+ + H2O
+H3O+ + S2 -> S2H+ + H2O
+H3O+ + SIC -> CHSI+ + H2O
+H3O+ + SIH -> SIH2+ + H2O
+H3O+ + SIO -> HSIO+ + H2O
+H3O+ + C2S -> HC2S+ + H2O
+H3O+ + C3 -> C3H+ + H2O
+H3O+ + CCO -> C2HO+ + H2O
+H3O+ + CCP -> PC2H+ + H2O
+H3O+ + CH2 -> CH3+ + H2O
+H3O+ + H2S -> H3S+ + H2O
+H3O+ + HCN -> HCNH+ + H2O
+H3O+ + HCP -> PCH2+ + H2O
+H3O+ + HCSI -> CH2SI+ + H2O
+H3O+ + HNC -> HCNH+ + H2O
+H3O+ + HNSI -> SINH2+ + H2O
+H3O+ + HS2 -> H2S2+ + H2O
+H3O+ + NH2 -> NH3+ + H2O
+H3O+ + SIC2 -> SIC2H+ + H2O
+H3O+ + SIH2 -> SIH3+ + H2O
+H3O+ + SINC -> SINCH+ + H2O
+H3O+ + C3H -> C3H2+ + H2O
+H3O+ + C3N -> C3HN+ + H2O
+H3O+ + C3O -> HC3O+ + H2O
+H3O+ + C3P -> PC3H+ + H2O
+H3O+ + C3S -> HC3S+ + H2O
+H3O+ + C4 -> C4H+ + H2O
+H3O+ + H2CO -> H3CO+ + H2O
+H3O+ + H2S2 -> H3S2+ + H2O
+H3O+ + H2SIO -> H3SIO+ + H2O
+H3O+ + HCCP -> PC2H2+ + H2O
+H3O+ + NH3 -> NH4+ + H2O
+H3O+ + SIC2H -> SIC2H2+ + H2O
+H3O+ + C2H2O -> C2H3O+ + H2O
+H3O+ + C2H3 -> C2H4+ + H2O
+H3O+ + C3H2 -> C3H3+ + H2O
+H3O+ + C4H -> C4H2+ + H2O
+H3O+ + C4P -> PC4H+ + H2O
+H3O+ + C4S -> HC4S+ + H2O
+H3O+ + CH2PH -> PCH4+ + H2O
+H3O+ + HCNC2 -> HC2NCH+ + H2O
+H3O+ + HC2NC -> HC2NCH+ + H2O
+H3O+ + HC3N -> C3H2N+ + H2O
+H3O+ + HNC3 -> C3H2N+ + H2O
+H3O+ + SICH3 -> SICH4+ + H2O
+H3O+ + C2H3N -> C2H4N+ + H2O
+H3O+ + C3H3 -> C3H4+ + H2O
+H3O+ + C4H2 -> C4H3+ + H2O
+H3O+ + CH4O -> CH5O+ + H2O
+H3O+ + NH2CHO -> NH2CH2O+ + H2O
+H3O+ + C2H4O -> C2H5O+ + H2O
+H3O+ + C3H4 -> C3H5+ + H2O
+H3O+ + C4H3 -> C4H4+ + H2O
+H3O+ + HCOOCH3 -> H5C2O2+ + H2O
+H3O+ + C2H5OH -> C2H5OH2+ + H2O
+H3O+ + CH3OCH3 -> CH3OCH4+ + H2O
+H3O+ + C2H6CO -> C3H6OH+ + H2O
+H3O+ + C6H6 -> C6H7+ + H2O
+H3S+ + H -> H2S+ + H2
+H3S+ + HCN -> HCNH+ + H2S
+H3S+ + HNC -> HCNH+ + H2S
+H3S+ + H2CO -> H3CO+ + H2S
+H3S+ + NH3 -> NH4+ + H2S
+HCO2+ + C -> CH+ + CO2
+HCO2+ + O -> HCO+ + O2
+HCO2+ + CO -> HCO+ + CO2
+HCO2+ + H2O -> H3O+ + CO2
+HCO2+ + C2H2 -> C2H3+ + CO2
+HCO2+ + NH3 -> NH4+ + CO2
+HCO2+ + CH4 -> CH5+ + CO2
+HCO2+ + C2H3N -> C2H4N+ + CO2
+HSO2+ + H2O -> H3O+ + SO2
+HSO2+ + NH3 -> NH4+ + SO2
+NH3+ + FE -> FE+ + NH3
+NH3+ + MG -> MG+ + NH3
+NH3+ + NA -> NA+ + NH3
+NH3+ + O -> HNO+ + H2
+NH3+ + O -> H2NO+ + H
+NH3+ + SI -> SI+ + NH3
+NH3+ + C2 -> C2H2+ + NH
+NH3+ + CH -> NH4+ + C
+NH3+ + H2 -> NH4+ + H
+NH3+ + NH -> NH4+ + N
+NH3+ + NO -> NO+ + NH3
+NH3+ + OH -> NH4+ + O
+NH3+ + CH2 -> CH3+ + NH2
+NH3+ + H2O -> NH4+ + OH
+NH3+ + H2S -> NH4+ + HS
+NH3+ + HCO -> HCO+ + NH3
+NH3+ + HCO -> NH4+ + CO
+NH3+ + NH2 -> NH4+ + NH
+NH3+ + H2CO -> NH4+ + HCO
+NH3+ + NH3 -> NH4+ + NH2
+NH3+ + CH4 -> NH4+ + CH3
+PC2H+ + C2H2 -> PC4H2+ + H
+PH3+ + C2H2 -> PC2H3+ + H2
+SIC2H+ + C -> SIC3+ + H
+SIC2H+ + C2H2 -> SIC4H+ + H2
+SIH3+ + C -> CH2SI+ + H
+SIH3+ + N -> HNSI+ + H2
+SIH3+ + N -> SINH2+ + H
+SIH3+ + O -> HSIO+ + H2
+SIH3+ + O -> H2SIO+ + H
+SIH3+ + O2 -> H3SIO+ + O
+SINCH+ + O -> HCO+ + SIN
+SINH2+ + C -> SINC+ + H2
+SINH2+ + C -> SINCH+ + H
+C2H3+ + C -> C3H+ + H2
+C2H3+ + C -> C3H2+ + H
+C2H3+ + C -> H2C3+ + H
+C2H3+ + H -> C2H2+ + H2
+C2H3+ + N -> C2NH+ + H2
+C2H3+ + O -> C2H2O+ + H
+C2H3+ + O -> CH3+ + CO
+C2H3+ + S -> HC2S+ + H2
+C2H3+ + SI -> SIC2H+ + H2
+C2H3+ + SI -> SIC2H2+ + H
+C2H3+ + C2H -> C2H2+ + C2H2
+C2H3+ + C2H -> C4H2+ + H2
+C2H3+ + C2H -> C4H3+ + H
+C2H3+ + H2O -> H3O+ + C2H2
+C2H3+ + H2S -> H3S+ + C2H2
+C2H3+ + HCN -> HCNH+ + C2H2
+C2H3+ + HNC -> HCNH+ + C2H2
+C2H3+ + C2H2 -> C4H3+ + H2
+C2H3+ + C3H -> C3H2+ + C2H2
+C2H3+ + C3H -> C5H2+ + H2
+C2H3+ + C3H -> C5H3+ + H
+C2H3+ + NH3 -> NH4+ + C2H2
+C2H3+ + C2H3 -> C3H3+ + CH3
+C2H3+ + C2H3 -> H3C3+ + CH3
+C2H3+ + C2H3 -> C4H5+ + H
+C2H3+ + C3H2 -> C3H3+ + C2H2
+C2H3+ + C3H2 -> C5H3+ + H2
+C2H3+ + C3H2 -> C5H4+ + H
+C2H3+ + C4H -> C4H2+ + C2H2
+C2H3+ + C4H -> C6H2+ + H2
+C2H3+ + C4H -> C6H3+ + H
+C2H3+ + CH4 -> C3H5+ + H2
+C2H3+ + HC3N -> C3H2N+ + C2H2
+C2H3+ + C2H4 -> C2H5+ + C2H2
+C2H3+ + C3H3 -> C3H4+ + C2H2
+C2H3+ + C3H3 -> C5H4+ + H2
+C2H3+ + C3H3 -> C5H5+ + H
+C2H3+ + C4H2 -> C4H3+ + C2H2
+C2H3+ + C4H2 -> C6H3+ + H2
+C2H3+ + C4H2 -> C6H4+ + H
+C2H3+ + C5H -> C5H2+ + C2H2
+C2H3+ + C5H -> C7H2+ + H2
+C2H3+ + C5H -> C7H3+ + H
+C2H3+ + C3H4 -> C3H5+ + C2H2
+C2H3+ + C3H4 -> C5H5+ + H2
+C2H3+ + C5H2 -> C5H3+ + C2H2
+C2H3+ + C5H2 -> C7H3+ + H2
+C2H3+ + C5H2 -> C7H4+ + H
+C2H3+ + C6H -> C6H2+ + C2H2
+C2H3+ + C6H -> C8H2+ + H2
+C2H3+ + C6H -> C8H3+ + H
+C2H3+ + C6H2 -> C6H3+ + C2H2
+C2H3+ + C6H2 -> C8H3+ + H2
+C2H3+ + C6H2 -> C8H4+ + H
+C2H3+ + C7H -> C7H2+ + C2H2
+C2H3+ + C7H -> C9H2+ + H2
+C2H3+ + C7H -> C9H3+ + H
+C2H3+ + C7H2 -> C7H3+ + C2H2
+C2H3+ + C7H2 -> C9H3+ + H2
+C2H3+ + C7H2 -> C9H4+ + H
+C2H3+ + C6H6 -> C6H7+ + C2H2
+C3H2+ + C -> C4H+ + H
+H2C3+ + C -> C4H+ + H
+C3H2+ + H -> C3H+ + H2
+H2C3+ + H -> C3H+ + H2
+C3H2+ + N -> C3HN+ + H
+H2C3+ + N -> C3HN+ + H
+C3H2+ + O -> HCO+ + C2H
+H2C3+ + O -> HCO+ + C2H
+C3H2+ + P -> PC3H+ + H
+H2C3+ + P -> PC3H+ + H
+C3H2+ + S -> HC3S+ + H
+H2C3+ + S -> HC3S+ + H
+C3H2+ + SI -> SIC3+ + H2
+H2C3+ + SI -> SIC3+ + H2
+C3H2+ + SI -> SIC3H+ + H
+H2C3+ + SI -> SIC3H+ + H
+C3H2+ + C2H -> C5H2+ + H
+H2C3+ + C2H -> C5H2+ + H
+C3H2+ + C2H2 -> C5H3+ + H
+H2C3+ + C2H2 -> C5H3+ + H
+C3H2+ + C3H -> C6H2+ + H
+C3H2+ + C2H3 -> C5H3+ + H2
+H2C3+ + C2H3 -> C5H3+ + H2
+C3H2+ + C2H3 -> C5H4+ + H
+H2C3+ + C2H3 -> C5H4+ + H
+C3H2+ + C3H2 -> C6H2+ + H2
+C3H2+ + C3H2 -> C6H3+ + H
+C3H2+ + C4H -> C7H+ + H2
+H2C3+ + C4H -> C7H+ + H2
+C3H2+ + C4H -> C7H2+ + H
+H2C3+ + C4H -> C7H2+ + H
+C3H2+ + CH4 -> C3H3+ + CH3
+H2C3+ + CH4 -> C4H5+ + H
+H2C3+ + CH4 -> C3H3+ + CH3
+C3H2+ + C2H4 -> C4H3+ + CH3
+H2C3+ + C2H4 -> C4H3+ + CH3
+C3H2+ + C2H4 -> C5H5+ + H
+H2C3+ + C2H4 -> C5H5+ + H
+C3H2+ + C3H3 -> C6H4+ + H
+H2C3+ + C3H3 -> C6H4+ + H
+C3H2+ + C4H2 -> C7H2+ + H2
+H2C3+ + C4H2 -> C7H2+ + H2
+C3H2+ + C4H2 -> C7H3+ + H
+H2C3+ + C4H2 -> C7H3+ + H
+C3H2+ + C5H -> C8H+ + H2
+H2C3+ + C5H -> C8H+ + H2
+C3H2+ + C5H -> C8H2+ + H
+H2C3+ + C5H -> C8H2+ + H
+C3H2+ + C3H4 -> C4H2+ + C2H4
+H2C3+ + C3H4 -> C4H2+ + C2H4
+C3H2+ + C3H4 -> C4H3+ + C2H3
+H2C3+ + C3H4 -> C4H3+ + C2H3
+C3H2+ + C3H4 -> C4H4+ + C2H2
+H2C3+ + C3H4 -> C4H4+ + C2H2
+H2C3+ + C3H4 -> C5H3+ + CH3
+C3H2+ + C3H4 -> C5H3+ + CH3
+C3H2+ + C3H4 -> C6H5+ + H
+H2C3+ + C3H4 -> C6H5+ + H
+C3H2+ + C5H2 -> C8H2+ + H2
+H2C3+ + C5H2 -> C8H2+ + H2
+C3H2+ + C5H2 -> C8H3+ + H
+H2C3+ + C5H2 -> C8H3+ + H
+C3H2+ + C6H -> C9H+ + H2
+H2C3+ + C6H -> C9H+ + H2
+C3H2+ + C6H -> C9H2+ + H
+H2C3+ + C6H -> C9H2+ + H
+C3H2+ + C6H2 -> C9H2+ + H2
+H2C3+ + C6H2 -> C9H2+ + H2
+C3H2+ + C6H2 -> C9H3+ + H
+H2C3+ + C6H2 -> C9H3+ + H
+C3HN+ + H2 -> C2H2+ + HCN
+C3HN+ + H2 -> C3H2N+ + H
+C4H+ + C -> C5+ + H
+C4H+ + FE -> FE+ + C4H
+C4H+ + MG -> MG+ + C4H
+C4H+ + NA -> NA+ + C4H
+C4H+ + O -> HCO+ + C3
+C4H+ + H2 -> C4H2+ + H
+C4H+ + C2H -> C6+ + H2
+C4H+ + C2H -> C6H+ + H
+C4H+ + C2H2 -> C6H2+ + H
+C4H+ + C3H -> C7+ + H2
+C4H+ + C3H -> C7H+ + H
+C4H+ + C2H3 -> C6H3+ + H
+C4H+ + C3H2 -> C7H2+ + H
+C4H+ + C4H -> C4H2+ + C4
+C4H+ + C4H -> C8H+ + H
+C4H+ + CH4 -> C5H3+ + H2
+C4H+ + C2H4 -> C4H3+ + C2H2
+C4H+ + C2H4 -> C6H4+ + H
+C4H+ + C3H3 -> C7H3+ + H
+C4H+ + C4H2 -> C8H2+ + H
+C4H+ + C5H -> C9H+ + H
+C4H+ + C3H4 -> C7H4+ + H
+C4H+ + C5H2 -> C9H2+ + H
+C4N+ + H2 -> C3H+ + HCN
+C4N+ + H2O -> HCO+ + HC3N
+C4N+ + H2O -> C3H2N+ + CO
+C4N+ + C2H2 -> C5H+ + HCN
+C4N+ + CH4 -> C5H2N+ + H2
+C5+ + H2 -> C5H+ + H
+CH4+ + H -> CH3+ + H2
+CH4+ + O -> CH3+ + OH
+CH4+ + CO -> HCO+ + CH3
+CH4+ + H2 -> CH5+ + H
+CH4+ + O2 -> O2+ + CH4
+CH4+ + CO2 -> HCO2+ + CH3
+CH4+ + H2O -> H3O+ + CH3
+CH4+ + H2S -> H2S+ + CH4
+CH4+ + H2S -> H3S+ + CH3
+CH4+ + OCS -> OCS+ + CH4
+CH4+ + OCS -> HOCS+ + CH3
+CH4+ + C2H2 -> C2H2+ + CH4
+CH4+ + C2H2 -> C2H3+ + CH3
+CH4+ + C2H2 -> C3H3+ + H2 + H
+CH4+ + C2H2 -> H3C3+ + H2 + H
+CH4+ + H2CO -> H2CO+ + CH4
+CH4+ + H2CO -> H3CO+ + CH3
+CH4+ + NH3 -> NH3+ + CH4
+CH4+ + NH3 -> NH4+ + CH3
+CH4+ + NH3 -> CH5+ + NH2
+CH4+ + CH4 -> CH5+ + CH3
+CH4+ + C2H4 -> C2H4+ + CH4
+CH4+ + C2H4 -> C2H5+ + CH3
+CH4+ + CH4O -> CH4O+ + CH4
+CH4+ + CH4O -> CH5O+ + CH3
+H3CO+ + NA -> NA+ + H2CO + H
+H3CO+ + CH -> CH2+ + H2CO
+H3CO+ + HNC -> HCNH+ + H2CO
+H3CO+ + NH2 -> NH3+ + H2CO
+H3CO+ + NH3 -> NH4+ + H2CO
+NH4+ + C -> HCNH+ + H2
+NH4+ + C -> H2NC+ + H2
+SIC2H2+ + C -> SIC3H+ + H
+SIC3H+ + C -> SIC4+ + H
+SICH3+ + C -> SIC2H2+ + H
+SICH3+ + H2O -> H3O+ + SICH2
+SIH4+ + C -> CH2SI+ + H2
+SIH4+ + CO -> HCO+ + SIH3
+SIH4+ + H2 -> SIH5+ + H
+SIH4+ + H2O -> H3O+ + SIH3
+C2H3N+ + CO -> HCO+ + C2H2N
+C2H4+ + C -> C3H2+ + H2
+C2H4+ + C -> H2C3+ + H2
+C2H4+ + C -> C3H3+ + H
+C2H4+ + C -> H3C3+ + H
+C2H4+ + H -> C2H3+ + H2
+C2H4+ + N -> C2H2N+ + H2
+C2H4+ + N -> C2H3N+ + H
+C2H4+ + O -> HCO+ + CH3
+C2H4+ + O -> CH3+ + HCO
+C2H4+ + S -> HC2S+ + H2 + H
+C2H4+ + SI -> SIC2H2+ + H2
+C2H4+ + SI -> SIC2H3+ + H
+C2H4+ + C2H -> C3H3+ + CH2
+C2H4+ + C2H -> H3C3+ + CH2
+C2H4+ + C2H -> C4H3+ + H2
+C2H4+ + C2H2 -> C3H3+ + CH3
+C2H4+ + C2H2 -> H3C3+ + CH3
+C2H4+ + C2H2 -> C4H5+ + H
+C2H4+ + C3H -> C4H2+ + CH3
+C2H4+ + C3H -> C5H4+ + H
+C2H4+ + NH3 -> NH3+ + C2H4
+C2H4+ + NH3 -> NH4+ + C2H3
+C2H4+ + C2H3 -> C2H3+ + C2H4
+C2H4+ + C2H3 -> C2H5+ + C2H2
+C2H4+ + C2H3 -> C4H5+ + H2
+C2H4+ + C3H2 -> C4H3+ + CH3
+C2H4+ + C3H2 -> C5H5+ + H
+C2H4+ + C4H -> C5H2+ + CH3
+C2H4+ + C4H -> C6H4+ + H
+C2H4+ + HC3N -> C3H2N+ + C2H3
+C2H4+ + C2H4 -> C3H5+ + CH3
+C2H4+ + C2H4 -> C4H7+ + H
+C2H4+ + C3H3 -> C3H3+ + C2H4
+C2H4+ + C3H3 -> H3C3+ + C2H4
+C2H4+ + C3H3 -> C4H3+ + CH4
+C2H4+ + C3H3 -> C5H5+ + H2
+C2H4+ + C4H2 -> C5H3+ + CH3
+C2H4+ + C4H2 -> C6H4+ + H2
+C2H4+ + C5H -> C6H2+ + CH3
+C2H4+ + C5H -> C7H4+ + H
+C2H4+ + C3H4 -> C4H5+ + CH3
+C2H4+ + C5H2 -> C6H3+ + CH3
+C2H4+ + C5H2 -> C7H5+ + H
+C2H4+ + C6H -> C7H2+ + CH3
+C2H4+ + C6H -> C8H4+ + H
+C2H4+ + C6H2 -> C7H3+ + CH3
+C2H4+ + C6H2 -> C8H4+ + H2
+C2H4+ + C7H -> C8H2+ + CH3
+C2H4+ + C7H -> C9H4+ + H
+C2H4+ + C7H2 -> C8H3+ + CH3
+C2H4+ + C7H2 -> C9H4+ + H2
+C3H3+ + C -> C4H+ + H2
+H3C3+ + C -> C4H+ + H2
+C3H3+ + C -> C4H2+ + H
+H3C3+ + C -> C4H2+ + H
+C3H3+ + O -> C2H3+ + CO
+H3C3+ + O -> C2H3+ + CO
+C3H3+ + S -> HC3S+ + H2
+H3C3+ + S -> HC3S+ + H2
+C3H3+ + SI -> SIC3H+ + H2
+H3C3+ + SI -> SIC3H+ + H2
+C3H3+ + SI -> SIC3H2+ + H
+H3C3+ + SI -> SIC3H2+ + H
+C3H3+ + C2H -> C5H2+ + H2
+H3C3+ + C2H -> C5H2+ + H2
+C3H3+ + C2H -> C5H3+ + H
+H3C3+ + C2H -> C5H3+ + H
+C3H3+ + C2H2 -> C5H3+ + H2
+H3C3+ + C2H2 -> C5H3+ + H2
+C3H3+ + C3H -> C6H2+ + H2
+C3H3+ + C3H -> C6H3+ + H
+C3H3+ + C2H3 -> C5H4+ + H2
+H3C3+ + C2H3 -> C5H4+ + H2
+C3H3+ + C3H2 -> C6H3+ + H2
+C3H3+ + C3H2 -> C6H4+ + H
+C3H3+ + C4H -> C7H2+ + H2
+H3C3+ + C4H -> C7H2+ + H2
+C3H3+ + C4H -> C7H3+ + H
+H3C3+ + C4H -> C7H3+ + H
+C3H3+ + C2H4 -> C5H5+ + H2
+H3C3+ + C2H4 -> C5H5+ + H2
+C3H3+ + C3H3 -> C6H4+ + H2
+H3C3+ + C3H3 -> C6H4+ + H2
+C3H3+ + C3H3 -> C6H5+ + H
+H3C3+ + C3H3 -> C6H5+ + H
+C3H3+ + C4H2 -> C7H3+ + H2
+H3C3+ + C4H2 -> C7H3+ + H2
+C3H3+ + C5H -> C8H2+ + H2
+H3C3+ + C5H -> C8H2+ + H2
+C3H3+ + C5H -> C8H3+ + H
+H3C3+ + C5H -> C8H3+ + H
+C3H3+ + C3H4 -> C6H5+ + H2
+H3C3+ + C3H4 -> C6H5+ + H2
+C3H3+ + C5H2 -> C8H3+ + H2
+H3C3+ + C5H2 -> C8H3+ + H2
+C3H3+ + C5H2 -> C8H4+ + H
+H3C3+ + C5H2 -> C8H4+ + H
+C3H3+ + C6H -> C9H2+ + H2
+H3C3+ + C6H -> C9H2+ + H2
+C3H3+ + C6H -> C9H3+ + H
+H3C3+ + C6H -> C9H3+ + H
+C3H3+ + C6H2 -> C9H3+ + H2
+H3C3+ + C6H2 -> C9H3+ + H2
+C4H2+ + C -> C5+ + H2
+C4H2+ + C -> C5H+ + H
+C4H2+ + N -> HC4N+ + H
+C4H2+ + O -> HC4O+ + H
+C4H2+ + O -> C3H2+ + CO
+C4H2+ + O -> H2C3+ + CO
+C4H2+ + P -> PC4H+ + H
+C4H2+ + S -> HC4S+ + H
+C4H2+ + SI -> SIC4+ + H2
+C4H2+ + SI -> SIC4H+ + H
+C4H2+ + C2H -> C6H2+ + H
+C4H2+ + C2H2 -> C6H3+ + H
+C4H2+ + C3H -> C7H2+ + H
+C4H2+ + C2H3 -> C6H3+ + H2
+C4H2+ + C2H3 -> C6H4+ + H
+C4H2+ + C3H2 -> C7H3+ + H
+C4H2+ + C4H -> C8H2+ + H
+C4H2+ + CH4 -> C5H4+ + H2
+C4H2+ + CH4 -> C5H5+ + H
+C4H2+ + C2H4 -> C6H4+ + H2
+C4H2+ + C2H4 -> C6H5+ + H
+C4H2+ + C3H3 -> C7H3+ + H2
+C4H2+ + C3H3 -> C7H4+ + H
+C4H2+ + C4H2 -> C6H2+ + C2H2
+C4H2+ + C4H2 -> C8H2+ + H2
+C4H2+ + C5H -> C9H2+ + H
+C4H2+ + C3H4 -> C7H5+ + H
+C4H2+ + C5H2 -> C9H3+ + H
+C5H+ + C -> C6+ + H
+C5H+ + N -> C5N+ + H
+C5H+ + O -> HCO+ + C4
+C5H+ + H2 -> C5H2+ + H
+C5N+ + H2 -> C5HN+ + H
+C6+ + H2 -> C6H+ + H
+CH5+ + C -> CH+ + CH4
+CH5+ + C -> C2H3+ + H2
+CH5+ + C -> C2H4+ + H
+CH5+ + H -> CH4+ + H2
+CH5+ + MG -> MG+ + CH4 + H
+CH5+ + O -> H3O+ + CH2
+CH5+ + O -> H3CO+ + H2
+CH5+ + S -> HS+ + CH4
+CH5+ + SI -> SICH3+ + H2
+CH5+ + SI -> SICH4+ + H
+CH5+ + C2 -> C2H+ + CH4
+CH5+ + CH -> CH2+ + CH4
+CH5+ + CO -> HCO+ + CH4
+CH5+ + NH -> NH2+ + CH4
+CH5+ + OH -> H2O+ + CH4
+CH5+ + C2H -> C2H2+ + CH4
+CH5+ + CH2 -> CH3+ + CH4
+CH5+ + H2O -> H3O+ + CH4
+CH5+ + HCN -> HCNH+ + CH4
+CH5+ + HCO -> H2CO+ + CH4
+CH5+ + HNC -> HCNH+ + CH4
+CH5+ + NH2 -> NH3+ + CH4
+CH5+ + C2H2 -> C2H3+ + CH4
+CH5+ + H2CO -> H3CO+ + CH4
+CH5+ + NH3 -> NH4+ + CH4
+CH5+ + HC3N -> C3H2N+ + CH4
+CH5+ + C6H6 -> C6H7+ + CH4
+HC4N+ + H2 -> H2C4N+ + H
+SIC2H3+ + C -> SIC3H2+ + H
+SIC3H2+ + C -> SIC4H+ + H
+SICH4+ + C -> SIC2H3+ + H
+SIH5+ + C -> SICH4+ + H
+SIH5+ + O -> H3SIO+ + H2
+SIH5+ + H2O -> H3O+ + SIH4
+C2H5+ + C -> C3H3+ + H2
+C2H5+ + C -> H3C3+ + H2
+C2H5+ + C -> C3H4+ + H
+C2H5+ + H -> C2H4+ + H2
+C2H5+ + O -> HCO+ + CH4
+C2H5+ + O -> C2H4O+ + H
+C2H5+ + H2O -> H3O+ + C2H4
+C2H5+ + H2S -> H3S+ + C2H4
+C2H5+ + HCN -> HCNH+ + C2H4
+C2H5+ + HNC -> HCNH+ + C2H4
+C2H5+ + C2H2 -> C3H3+ + CH4
+C2H5+ + C2H2 -> H3C3+ + CH4
+C2H5+ + C2H2 -> C4H5+ + H2
+C2H5+ + H2CO -> H3CO+ + C2H4
+C2H5+ + NH3 -> NH4+ + C2H4
+C2H5+ + C2H4 -> C3H5+ + CH4
+C3H4+ + C -> C4H2+ + H2
+C3H4+ + C -> C4H3+ + H
+C3H4+ + H -> C3H3+ + H2
+C3H4+ + H -> H3C3+ + H2
+C3H4+ + N -> C3H2N+ + H2
+C3H4+ + N -> C3H3N+ + H
+C3H4+ + O -> HCO+ + C2H3
+C3H4+ + C2H2 -> C5H5+ + H
+C3H4+ + C3H4 -> C6H7+ + H
+C4H3+ + C -> C5H+ + H2
+C4H3+ + C -> C5H2+ + H
+C4H3+ + N -> H2C4N+ + H
+C4H3+ + O -> HCO+ + C3H2
+C4H3+ + S -> HC4S+ + H2
+C4H3+ + C2H -> C6H3+ + H
+C4H3+ + C3H -> C7H3+ + H
+C4H3+ + C2H3 -> C6H4+ + H2
+C4H3+ + C2H3 -> C6H5+ + H
+C4H3+ + C3H2 -> C7H4+ + H
+C4H3+ + C4H -> C8H3+ + H
+C4H3+ + CH4 -> C5H5+ + H2
+C4H3+ + C3H3 -> C7H4+ + H2
+C4H3+ + C3H3 -> C7H5+ + H
+C4H3+ + C4H2 -> C6H3+ + C2H2
+C4H3+ + C4H2 -> C8H4+ + H
+C4H3+ + C5H -> C9H3+ + H
+C4H3+ + C3H4 -> C5H5+ + C2H2
+C4H3+ + C5H2 -> C9H3+ + H2
+C4H3+ + C5H2 -> C9H4+ + H
+C5H2+ + C -> C6+ + H2
+C5H2+ + C -> C6H+ + H
+C5H2+ + N -> C5HN+ + H
+C5H2+ + O -> HCO+ + C4H
+C5H2+ + C2H -> C7H2+ + H
+C5H2+ + C2H2 -> C7H2+ + H2
+C5H2+ + C2H2 -> C7H3+ + H
+C5H2+ + C3H -> C8H2+ + H
+C5H2+ + C2H3 -> C7H3+ + H2
+C5H2+ + C2H3 -> C7H4+ + H
+C5H2+ + C3H2 -> C8H2+ + H2
+C5H2+ + C3H2 -> C8H3+ + H
+C5H2+ + C4H -> C9H2+ + H
+C5H2+ + CH4 -> C6H4+ + H2
+C5H2+ + CH4 -> C6H5+ + H
+C5H2+ + C2H4 -> C7H4+ + H2
+C5H2+ + C2H4 -> C7H5+ + H
+C5H2+ + C3H3 -> C8H3+ + H2
+C5H2+ + C3H3 -> C8H4+ + H
+C5H2+ + C4H2 -> C7H3+ + C2H
+C5H2+ + C4H2 -> C9H3+ + H
+C5H2+ + C3H4 -> C8H4+ + H2
+C5HN+ + H2 -> C5H2N+ + H
+C6H+ + C -> C7+ + H
+C6H+ + O -> HCO+ + C5
+C6H+ + H2 -> C6H2+ + H
+C7+ + H2 -> C7H+ + H
+CH5O+ + H2CO -> H5C2O2+ + H2
+CH5O+ + CH4O -> CH3OCH4+ + H2O
+H2C4N+ + H2 -> H3C4N+ + H
+C2H6+ + H -> C2H5+ + H2
+C3H5+ + C -> C4H3+ + H2
+C3H5+ + N -> C2H4+ + HCN
+C3H5+ + N -> C3H3N+ + H2
+C3H5+ + O -> HCO+ + C2H4
+C3H5+ + C6H6 -> C6H7+ + C3H4
+C4H4+ + C2H2 -> C6H4+ + H2
+C4H4+ + C2H2 -> C6H5+ + H
+C4H4+ + C4H2 -> C6H4+ + C2H2
+C5H3+ + C -> C6H+ + H2
+C5H3+ + C -> C6H2+ + H
+C5H3+ + N -> C5H2N+ + H
+C5H3+ + O -> HCO+ + C4H2
+C6H2+ + C -> C7+ + H2
+C6H2+ + C -> C7H+ + H
+C6H2+ + O -> HCO+ + C5H
+C6H2+ + C2H -> C8H2+ + H
+C6H2+ + C3H -> C9H2+ + H
+C6H2+ + C2H3 -> C8H3+ + H2
+C6H2+ + C2H3 -> C8H4+ + H
+C6H2+ + C3H2 -> C9H2+ + H2
+C6H2+ + C3H2 -> C9H3+ + H
+C6H2+ + CH4 -> C7H4+ + H2
+C6H2+ + CH4 -> C7H5+ + H
+C6H2+ + C2H4 -> C8H4+ + H2
+C6H2+ + C3H3 -> C9H3+ + H2
+C6H2+ + C3H3 -> C9H4+ + H
+C6H2+ + C3H4 -> C9H4+ + H2
+C7H+ + C -> C8+ + H
+C7H+ + N -> C7N+ + H
+C7H+ + O -> HCO+ + C6
+C7H+ + H2 -> C7H2+ + H
+C7N+ + H2 -> C7HN+ + H
+C8+ + H2 -> C8H+ + H
+H3C4N+ + H2 -> C4H4N+ + H
+C4H4N+ + C -> C5H3N+ + H
+C4H5+ + N -> C4H4N+ + H
+C5H4+ + N -> C5H3N+ + H
+C6H3+ + C -> C7H+ + H2
+C6H3+ + C -> C7H2+ + H
+C6H3+ + O -> HCO+ + C5H2
+C7H2+ + C -> C8+ + H2
+C7H2+ + C -> C8H+ + H
+C7H2+ + N -> C7HN+ + H
+C7H2+ + O -> HCO+ + C6H
+C7H2+ + C2H -> C9H2+ + H
+C7H2+ + C2H2 -> C9H2+ + H2
+C7H2+ + C2H2 -> C9H3+ + H
+C7H2+ + C2H3 -> C9H3+ + H2
+C7H2+ + C2H3 -> C9H4+ + H
+C7H2+ + CH4 -> C8H4+ + H2
+C7H2+ + C2H4 -> C9H4+ + H2
+C7HN+ + H2 -> C7H2N+ + H
+C8H+ + H2 -> C8H2+ + H
+C9+ + H2 -> C9H+ + H
+C10+ + H2 -> C10H+ + H
+C10H+ + H2 -> C10H2+ + H
+C5H5+ + N -> C5H3N+ + H2
+C7H3+ + C -> C8H+ + H2
+C7H3+ + C -> C8H2+ + H
+C7H3+ + N -> C7H2N+ + H
+C7H3+ + O -> HCO+ + C6H2
+C8H2+ + C -> C9+ + H2
+C8H2+ + C -> C9H+ + H
+C8H2+ + O -> HCO+ + C7H
+C8H2+ + CH4 -> C9H4+ + H2
+C9H+ + C -> C10+ + H
+C9H+ + N -> C9N+ + H
+C9H+ + O -> HCO+ + C8
+C9H+ + H2 -> C9H2+ + H
+C9N+ + H2 -> C9HN+ + H
+C6H4N+ + C -> C7H3N+ + H
+C6H5+ + N -> C6H4N+ + H
+C6H5+ + C2H4 -> C6H7+ + C2H2
+C6H5+ + O -> C5H5+ + CO
+C6H5+ + O2 -> C4H5+ + CO + CO
+C7H4+ + N -> C7H3N+ + H
+C8H3+ + C -> C9H+ + H2
+C8H3+ + C -> C9H2+ + H
+C8H3+ + O -> HCO+ + C7H2
+C9H2+ + C -> C10+ + H2
+C9H2+ + N -> C9HN+ + H
+C9H2+ + O -> HCO+ + C8H
+C9HN+ + H2 -> C9H2N+ + H
+C7H5+ + N -> C7H3N+ + H2
+C9H3+ + N -> C9H2N+ + H
+C9H3+ + O -> HCO+ + C8H2
+C8H4N+ + C -> C9H3N+ + H
+C9H4+ + N -> C9H3N+ + H
+CO+ + H2 -> HOC+ + H
+SO2+ + H -> SO+ + OH
+CN+ + H2 -> HNC+ + H
+C2N2+ + H -> HNC+ + CN
+C2N2+ + H -> C2H+ + N2
+C- + NO -> CN- + O
+C- + O2 -> O- + CO
+C- + CO2 -> CO + CO + E
+H- + H2O -> OH- + H2
+H- + HCN -> CN- + H2
+O- + CN -> CN- + O
+O- + H2 -> OH- + H
+O- + HCN -> CN- + OH
+O- + CH4 -> OH- + CH3
+OH- + CN -> CN- + OH
+OH- + HCN -> CN- + H2O
+C+ + H -> CH+
+C+ + O -> CO+
+C+ + H2 -> CH2+
+C+ + C3 -> C4+
+C+ + C4 -> C5+
+C+ + C5 -> C6+
+C+ + C6 -> C7+
+C+ + C7 -> C8+
+C+ + C8 -> C9+
+C+ + C9 -> C10+
+H+ + H -> H2+
+NA+ + H2 -> NAH2+
+NA+ + H2O -> NAH2O+
+P+ + H2 -> PH2+
+S+ + H2 -> H2S+
+SI+ + H -> SIH+
+SI+ + O -> SIO+
+SI+ + H2 -> SIH2+
+SI+ + HCN -> SINCH+
+SI+ + C2H2 -> SIC2H2+
+SI+ + CH4 -> SICH4+
+HS+ + H2 -> H3S+
+NO+ + H2 -> H2NO+
+PH+ + H2 -> PH3+
+SIH+ + H2 -> SIH3+
+C3+ + H -> C3H+
+HCO+ + H2O -> CH3O2+
+HCO+ + CH4 -> C2H5O+
+OCS+ + H2 -> OCS+H2
+C2H2+ + H -> C2H3+
+C2H2+ + CO -> H2C3O+
+C2H2+ + H2 -> C2H4+
+C2H2+ + HC3N -> C5H3N+
+C2H2+ + HC5N -> C7H3N+
+C2H2+ + HC7N -> C9H3N+
+C3H+ + H -> C3H2+
+C3H+ + H -> H2C3+
+C3H+ + CO -> HC4O+
+C3H+ + H2 -> H3C3+
+C3H+ + H2 -> C3H3+
+C3H+ + C2H2 -> C5H3+
+CH3+ + CO -> C2H3O+
+CH3+ + H2 -> CH5+
+CH3+ + H2O -> CH5O+
+CH3+ + HCN -> C2H4N+
+CH3+ + NH3 -> CH6N+
+CH3+ + HC3N -> C4H4N+
+CH3+ + CH4O -> CH3OCH4+
+CH3+ + C2H4O -> C3H6OH+
+CH3+ + HC5N -> C6H4N+
+CH3+ + HC7N -> C8H4N+
+HCNH+ + C2H2 -> C3H4N+
+H3O+ + C2H2 -> C2H5O+
+H3O+ + C2H4 -> C2H5OH2+
+SIC2H+ + H2 -> SIC2H3+
+SIH3+ + H2 -> SIH5+
+C2H3+ + CO -> H3C3O+
+C3H2+ + H -> C3H3+
+H2C3+ + H -> H3C3+
+C4H+ + H -> C4H2+
+H3CO+ + CH4 -> CH3OCH4+
+C3H2N+ + C2H2 -> C5H4N+
+C3H3+ + C4H2 -> C7H5+
+H3C3+ + C4H2 -> C7H5+
+C4H2+ + H -> C4H3+
+C4H2+ + C2H2 -> C6H4+
+C4H2+ + HC3N -> C7H3N+
+C4H2+ + C4H2 -> C8H4+
+C4H2+ + HC5N -> C9H3N+
+C5H+ + C4H2 -> C9H3+
+C6+ + H2 -> C6H2+
+CH5+ + CO -> C2H5O+
+C2H5+ + H2O -> C2H5OH2+
+C4H3+ + H -> C4H4+
+C4H3+ + C2H2 -> C6H5+
+C4H3+ + C4H2 -> C8H5+
+C5H2+ + C4H2 -> C9H4+
+C5H3+ + C4H2 -> C9H5+
+C6H2+ + C2H2 -> C8H4+
+C6H4+ + H -> C6H5+
+C6H5+ + H2 -> C6H7+
+C- + C -> C2 + E
+C- + H -> CH + E
+C- + N -> CN + E
+C- + O -> CO + E
+C- + CH -> C2H + E
+C- + H2 -> CH2 + E
+C- + NH -> HCN + E
+C- + O2 -> CO2 + E
+C- + OH -> HCO + E
+C- + CH2 -> C2H2 + E
+C- + H2O -> H2CO + E
+H- + C -> CH + E
+H- + H -> H2 + E
+H- + N -> NH + E
+H- + O -> OH + E
+H- + C2 -> C2H + E
+H- + CH -> CH2 + E
+H- + CN -> HCN + E
+H- + CO -> HCO + E
+H- + NH -> NH2 + E
+H- + OH -> H2O + E
+H- + C2H -> C2H2 + E
+H- + CH2 -> CH3 + E
+H- + HCO -> H2CO + E
+H- + NH2 -> NH3 + E
+H- + CH3 -> CH4 + E
+O- + C -> CO + E
+O- + H -> OH + E
+O- + N -> NO + E
+O- + O -> O2 + E
+O- + CH -> HCO + E
+O- + CO -> CO2 + E
+O- + H2 -> H2O + E
+O- + CH2 -> H2CO + E
+S- + C -> CS + E
+S- + H -> HS + E
+S- + N -> NS + E
+S- + O -> SO + E
+S- + CO -> OCS + E
+S- + O2 -> SO2 + E
+CN- + H -> HCN + E
+CN- + CH3 -> C2H3N + E
+OH- + C -> HCO + E
+OH- + H -> H2O + E
+OH- + CH -> H2CO + E
+OH- + CH3 -> CH4O + E
+O + CH -> HCO+ + E
+C + CH -> C2 + H
+C + HS -> CS + H
+C + NH -> CN + H
+C + NO -> CN + O
+C + NO -> CO + N
+C + NS -> CN + S
+C + O2 -> CO + O
+C + OH -> CO + H
+C + PH -> CP + H
+C + S2 -> S + CS
+C + SIH -> SIC + H
+C + SO -> CO + S
+C + SO -> CS + O
+C + CH2 -> C2H + H
+C + HCO -> CH + CO
+C + HCO -> CCO + H
+C + C2N -> C2 + CN
+C + C2H -> C3 + H
+C + CCO -> C2 + CO
+C + NH2 -> HNC + H
+C + NH2 -> HCN + H
+C + OCN -> CO + CN
+C + SIH2 -> HCSI + H
+C + SO2 -> CO + SO
+C + CH3 -> C2H2 + H
+C + C2H2 -> C3H + H
+C + C2H2 -> C3 + H2
+C + H2CN -> C2N + H2
+C + SIH3 -> SICH2 + H
+C + C2H4 -> C3H3 + H
+C + HCNC2 -> C3 + HCN
+C + HNC3 -> C3 + HNC
+C + C2H2N -> HC3N + H
+C + C2H3 -> C3H2 + H
+C + C3H -> C4 + H
+C + C3H2 -> C4H + H
+C + C3N -> C3 + CN
+C + C3O -> C3 + CO
+C + C3H3 -> C4H2 + H
+C + C3H4 -> C4H3 + H
+C + C2H5 -> C3H4 + H
+C + C4H -> C5 + H
+C + C4H2 -> C5H + H
+C + C4H3 -> C5H2 + H
+C + C5H -> C6 + H
+C + C5N -> C5 + CN
+C + C5H2 -> C6H + H
+C + C6H -> C7 + H
+C + C6H2 -> C7H + H
+C + C7H -> C8 + H
+C + C7N -> C7 + CN
+C + C7H2 -> C8H + H
+C + C8H -> C9 + H
+C + C8H2 -> C9H + H
+C + C9H -> C10 + H
+C + C9N -> C9 + CN
+C + CH3C4H -> C6H2 + H2
+C + CH3C6H -> C8H2 + H2
+C + C4 -> C2 + C3
+C + C5 -> C3 + C3
+C + C6 -> C2 + C5
+C + C6 -> C3 + C4
+C + C7 -> C3 + C5
+C + C8 -> C4 + C5
+C + C8 -> C3 + C6
+C + C8 -> C2 + C7
+C + C10 -> C8 + C3
+C + CH2 -> CH + CH
+C + NH2 -> CH + NH
+C + CN -> C2 + N
+C + N2 -> CN + N
+C + CO -> C2 + O
+H + HS -> S + H2
+H + HCO -> H2 + CO
+H + HCO -> O + CH2
+H + C2H3 -> C2H2 + H2
+H + H2CN -> H2 + HCN
+H + HCNC2 -> HC2NC + H
+H + HNC3 -> HC3N + H
+H + CH -> C + H2
+H + CH2 -> CH + H2
+H + CH3 -> CH2 + H2
+H + CH4 -> CH3 + H2
+H + OH -> O + H2
+H + NH3 -> NH2 + H2
+H + H2O -> OH + H2
+H + HCN -> CN + H2
+H + NO -> O + NH
+H + NO -> N + OH
+H + H2CO -> HCO + H2
+H + HNO -> NH2 + O
+H + HNO -> OH + NH
+H + O2 -> OH + O
+H + O2H -> O2 + H2
+H + O2H -> OH + OH
+H + O2H -> H2O + O
+H + H2O2 -> H2O + OH
+H + H2O2 -> O2H + H2
+H + H2S -> HS + H2
+H + CO2 -> CO + OH
+H + N2O -> OH + N2
+H + NO2 -> NO + OH
+H + OCS -> CO + HS
+H2 + C -> CH + H
+H2 + CH -> CH2 + H
+H2 + CH2 -> CH3 + H
+H2 + CH3 -> CH4 + H
+H2 + O -> OH + H
+H2 + OH -> H2O + H
+H2 + N -> NH + H
+H2 + NH -> NH2 + H
+H2 + NH2 -> NH3 + H
+H2 + O2H -> H2O2 + H
+N + C2 -> CN + C
+N + CH -> CN + H
+N + CN -> C + N2
+N + HS -> NS + H
+N + NH -> N2 + H
+N + NO -> N2 + O
+N + NS -> N2 + S
+N + OH -> NO + H
+N + O2 -> NO + O
+N + PH -> PN + H
+N + PO -> PN + O
+N + SIC -> CN + SI
+N + SIC -> SIN + C
+N + SIH -> SIN + H
+N + SO -> NO + S
+N + CH2 -> HCN + H
+N + CH2 -> HNC + H
+N + HCO -> OCN + H
+N + HCS -> HCN + S
+N + NO2 -> N2 + O2
+N + NO2 -> NO + NO
+N + NO2 -> N2O + O
+N + O2H -> NH + O2
+N + SIH2 -> HNSI + H
+N + C2H -> C2N + H
+N + C2N -> CN + CN
+N + CCO -> CN + CO
+N + C3 -> CN + C2
+N + C3H -> C3N + H
+N + C3N -> CN + C2N
+N + CH3 -> HCN + H + H
+N + CH3 -> H2CN + H
+N + H2CN -> NH + HCN
+N + SIH3 -> HNSI + H2
+N + C2H3 -> C2H2N + H
+N + C2H3 -> C2H2 + NH
+N + C3H2 -> HC3N + H
+N + C3H3 -> HC3N + H2
+N + C4 -> C3 + CN
+N + C5 -> CN + C4
+N + C4H -> C4N + H
+N + C4N -> CN + C3N
+N + C5H -> C5N + H
+N + C5N -> CN + C4N
+N + C2H5 -> H2CN + CH3
+N + C2H5 -> C2H4 + NH
+N + C5H2 -> HC5N + H
+N + C6 -> CN + C5
+N + C6H -> CN + C5H
+N + C7 -> CN + C6
+N + C7H -> C7N + H
+N + C7H2 -> HC7N + H
+N + C7N -> C2N + C5N
+N + C8 -> CN + C7
+N + C8H -> CN + C7H
+N + C9 -> CN + C8
+N + C9H -> C9N + H
+N + C9N -> C2N + C7N
+O + C2 -> CO + C
+O + CCL -> CLO + C
+O + CCL -> CL + CO
+O + CH -> CO + H
+O + CLO -> CL + O2
+O + CN -> CO + N
+O + CP -> P + CO
+O + CS -> CO + S
+O + HS -> SO + H
+O + NH -> NO + H
+O + NH -> OH + N
+O + NS -> NO + S
+O + NS -> SO + N
+O + OH -> O2 + H
+O + PH -> PO + H
+O + S2 -> SO + S
+O + SIC -> CO + SI
+O + SIC -> SIO + C
+O + SIH -> SIO + H
+O + SIN -> NO + SI
+O + SIN -> SIO + N
+O + C2H -> CO + CH
+O + C2N -> CO + CN
+O + CCO -> CO + CO
+O + CCP -> CP + CO
+O + CH2 -> CO + H + H
+O + CH2 -> CO + H2
+O + HCO -> H + CO2
+O + HCO -> OH + CO
+O + HCN -> OCN + H
+O + HCP -> CO + PH
+O + HCS -> OCS + H
+O + HCS -> OH + CS
+O + HCSI -> SIO + CH
+O + H2S -> HS + OH
+O + HNO -> OH + NO
+O + HNO -> NO2 + H
+O + HPO -> PO + OH
+O + NH2 -> NH + OH
+O + NH2 -> HNO + H
+O + NH2 -> NO + H2
+O + NO2 -> NO + O2
+O + O2H -> OH + O2
+O + OCN -> NO + CO
+O + OCN -> CN + O2
+O + PH2 -> HPO + H
+O + PH2 -> PH + OH
+O + C3 -> CO + C2
+O + SIC2 -> SIC + CO
+O + SIH2 -> SIO + H + H
+O + SIH2 -> SIO + H2
+O + SINC -> SIN + CO
+O + C2H3 -> C2H2O + H
+O + C2H5 -> C2H4O + H
+O + C2H5 -> H2CO + CH3
+O + C3H -> C2H + CO
+O + C3N -> CO + C2N
+O + C3O -> CCO + CO
+O + C3P -> CCP + CO
+O + C4 -> CO + C3
+O + CH3 -> H2CO + H
+O + H2CN -> OCN + H2
+O + HCCP -> HCP + CO
+O + SIC3 -> SIC2 + CO
+O + SIH3 -> H2SIO + H
+O + C5 -> CO + C4
+O + C4H -> C3H + CO
+O + C4N -> C3N + CO
+O + C4P -> C3P + CO
+O + CH2PH -> PH2 + CO + H
+O + SIC4 -> SIC3 + CO
+O + C5H -> CO + C4H
+O + C5N -> C4N + CO
+O + C6 -> CO + C5
+O + C6H -> CO + C5H
+O + C7 -> CO + C6
+O + C7H -> CO + C6H
+O + C7N -> OCN + C6
+O + C8 -> CO + C7
+O + C8H -> CO + C7H
+O + C9 -> CO + C8
+O + C9H -> CO + C8H
+O + C9N -> OCN + C8
+O + C10 -> CO + C9
+S + C2 -> CS + C
+S + CH -> CS + H
+S + NH -> NS + H
+S + HS -> S2 + H
+S + O2 -> SO + O
+S + OH -> SO + H
+S + CH2 -> HCS + H
+S + CH2 -> CS + H2
+S + CH3 -> H2CS + H
+SI + O2 -> SIO + O
+SI + NO -> SIO + N
+SI + OH -> SIO + H
+SI + CH2 -> HCSI + H
+SI + CH3 -> SICH2 + H
+SI + C2H2 -> SIC2H + H
+CH + NO -> HCN + O
+CH + O2 -> CO + OH
+CH + HNO -> NO + CH2
+CH + CH4 -> C2H4 + H
+CH + C2H2 -> C3H2 + H
+CH + C3H4 -> C4H4 + H
+CH + C4H2 -> C5H2 + H
+CH + C6H2 -> C7H2 + H
+CH + C2H4 -> C3H4 + H
+CH + C3 -> C4 + H
+CH + C5 -> C6 + H
+CH + C7 -> C8 + H
+CH + C9 -> C10 + H
+CH + C2 -> C3 + H
+CH + C4 -> C5 + H
+CH + C6 -> C7 + H
+CH + C8 -> C9 + H
+C2 + C2H2 -> C4H + H
+C2 + C2H4 -> C4H3 + H
+C2 + C4H2 -> C6H + H
+C2 + C6H2 -> C8H + H
+CN + NO -> N2 + CO
+CN + O2 -> O + OCN
+CN + HCO -> HCN + CO
+CN + OH -> OCN + H
+CN + OH -> HCN + O
+CN + HNO -> NO + HCN
+CN + C2H2 -> HC3N + H
+CN + NH3 -> NH2 + HCN
+CN + NH3 -> NH2CN + H
+CN + C2H4 -> C3H3N + H
+CN + C4H2 -> HC5N + H
+CN + C6H2 -> HC7N + H
+CN + C8H2 -> HC9N + H
+CO + OH -> CO2 + H
+CO + HNO -> NH + CO2
+HS + HS -> H2S + S
+NH + NH -> N2 + H + H
+NH + NO -> N2O + H
+NO + NH2 -> N2 + H2O
+OH + SIO -> SIO2 + H
+OH + SO -> SO2 + H
+OH + OH -> H2O + O
+OH + CH2 -> H2CO + H
+OH + H2S -> H2O + HS
+OH + HCO -> H2O + CO
+OH + HNO -> H2O + NO
+OH + NH2 -> NH + H2O
+OH + NH2 -> NH3 + O
+OH + O2H -> H2O + O2
+OH + H2CO -> HCO + H2O
+OH + H2CO -> CH2O2 + H
+OH + H2O2 -> H2O + O2H
+OH + C2H3 -> C2H2 + H2O
+OH + C2H5 -> C2H4 + H2O
+C2H + S -> C2S + H
+C2H + CS -> C3S + H
+C2H + O2 -> HCO + CO
+C2H + HCN -> HC3N + H
+C2H + HNC -> HC3N + H
+C2H + C2H2 -> C4H2 + H
+C2H + C3H2 -> C5H2 + H
+C2H + C4H2 -> C6H2 + H
+C2H + C5H2 -> C7H2 + H
+C2H + C6H2 -> C8H2 + H
+C2H + C7H2 -> C9H2 + H
+C2H + C3 -> C5 + H
+C2H + C5 -> C7 + H
+C2H + C7 -> C9 + H
+C2H + C2 -> C4 + H
+C2H + C4 -> C6 + H
+C2H + C6 -> C8 + H
+C2H + C8 -> C10 + H
+C2H + HC3N -> HC5N + H
+C2H + HC5N -> HC7N + H
+C2H + HC7N -> HC9N + H
+CH2 + HNO -> NO + CH3
+HCO + HCO -> H2CO + CO
+HCO + HNO -> H2CO + NO
+HCO + CH3 -> CH4 + CO
+HNO + CH3 -> CH4 + NO
+NH2 + H2CO -> NH2CHO + H
+C + C -> C2
+C + H -> CH
+C + N -> CN
+C + O -> CO
+C + H2 -> CH2
+H + O -> OH
+O + O -> O2
+O + SO -> SO2
+S + CO -> OCS
+CH + H2 -> CH3
+CN + C2H -> HC3N
+CN + CH3 -> C2H3N
+C + C2 -> C3
+C + C3 -> C4
+H + OH -> H2O
+OH + OH -> H2O2
+C2+ + E -> C + C
+CCL+ + E -> C + CL
+CH+ + E -> C + H
+CLO+ + E -> CL + O
+CN+ + E -> C + N
+CO+ + E -> O + C
+CP+ + E -> P + C
+CS+ + E -> C + S
+H2+ + E -> H + H
+HCL+ + E -> H + CL
+HEH+ + E -> H + HE
+HS+ + E -> S + H
+N2+ + E -> N + N
+NH+ + E -> N + H
+NO+ + E -> N + O
+NS+ + E -> N + S
+O2+ + E -> O + O
+OH+ + E -> O + H
+PH+ + E -> P + H
+PN+ + E -> P + N
+PO+ + E -> P + O
+S2+ + E -> S + S
+SIC+ + E -> SI + C
+SIH+ + E -> SI + H
+SIN+ + E -> SI + N
+SIO+ + E -> SI + O
+SIS+ + E -> SI + S
+SO+ + E -> O + S
+C2H+ + E -> C2 + H
+C2H+ + E -> CH + C
+C2H+ + E -> C + C + H
+C2N+ + E -> C + CN
+C2N+ + E -> C2 + N
+C2O+ + E -> CO + C
+C2S+ + E -> C2 + S
+C2S+ + E -> CS + C
+C3+ + E -> C2 + C
+CCP+ + E -> P + C2
+CCP+ + E -> CP + C
+CH2+ + E -> C + H2
+CH2+ + E -> CH + H
+CH2+ + E -> C + H + H
+CHSI+ + E -> SI + CH
+CHSI+ + E -> SIC + H
+CNC+ + E -> CN + C
+CO2+ + E -> O + CO
+H2CL+ + E -> CL + H + H
+H2CL+ + E -> HCL + H
+H2O+ + E -> O + H2
+H2O+ + E -> OH + H
+H2O+ + E -> O + H + H
+H2S+ + E -> S + H + H
+H2S+ + E -> HS + H
+H3+ + E -> H + H + H
+H3+ + E -> H2 + H
+HCN+ + E -> CN + H
+HCO+ + E -> CO + H
+HCP+ + E -> P + CH
+HCP+ + E -> CP + H
+HCS+ + E -> CS + H
+HCS+ + E -> CH + S
+HNC+ + E -> CN + H
+HNO+ + E -> NO + H
+HNS+ + E -> NS + H
+HNSI+ + E -> NH + SI
+HNSI+ + E -> SIN + H
+HOC+ + E -> CO + H
+HPN+ + E -> PH + N
+HPN+ + E -> PN + H
+HPO+ + E -> PH + O
+HPO+ + E -> PO + H
+HSIO+ + E -> SI + OH
+HSIO+ + E -> SIO + H
+HSIS+ + E -> SI + HS
+HSIS+ + E -> SIS + H
+HSO+ + E -> SO + H
+N2H+ + E -> N2 + H
+N2H+ + E -> NH + N
+NAH2+ + E -> NA + H2
+NAH2+ + E -> NAH + H
+NCO+ + E -> CO + N
+NH2+ + E -> N + H + H
+NH2+ + E -> NH + H
+NO2+ + E -> O + NO
+O2H+ + E -> O2 + H
+OCS+ + E -> CO + S
+OCS+ + E -> CS + O
+OCS+ + E -> C + SO
+PH2+ + E -> P + H2
+PH2+ + E -> PH + H
+S2H+ + E -> HS + S
+S2H+ + E -> S2 + H
+SIC2+ + E -> SI + C2
+SIC2+ + E -> SIC + C
+SIH2+ + E -> SI + H + H
+SIH2+ + E -> SI + H2
+SIH2+ + E -> SIH + H
+SINC+ + E -> SI + CN
+SO2+ + E -> SO + O
+C2H2+ + E -> C2H + H
+C2H2+ + E -> C2 + H + H
+C2H2+ + E -> CH + CH
+C2H2+ + E -> CH2 + C
+C2H2+ + E -> C2 + H2
+C2HO+ + E -> CO + C + H
+C2HO+ + E -> CO + CH
+C2HO+ + E -> C2H + O
+C2HO+ + E -> CCO + H
+C2N2+ + E -> CN + CN
+C2N2+ + E -> C2N + N
+C2NH+ + E -> CH + CN
+C2NH+ + E -> C2N + H
+C3H+ + E -> C2H + C
+C3H+ + E -> C3 + H
+C3N+ + E -> C2 + CN
+C3O+ + E -> C2 + CO
+C3S+ + E -> C2 + CS
+C3S+ + E -> C2S + C
+C3S+ + E -> C3 + S
+C4+ + E -> C2 + C2
+C4+ + E -> C3 + C
+CH2SI+ + E -> SI + CH2
+CH2SI+ + E -> SIC + H2
+CH2SI+ + E -> HCSI + H
+CH3+ + E -> H2 + C + H
+CH3+ + E -> CH + H + H
+CH3+ + E -> CH + H2
+CH3+ + E -> CH2 + H
+H2CCL+ + E -> CCL + H + H
+HCNH+ + E -> CN + H + H
+HCNH+ + E -> HCN + H
+HCNH+ + E -> HNC + H
+H2CO+ + E -> CO + H + H
+H2CO+ + E -> HCO + H
+H2CS+ + E -> CS + H + H
+H2CS+ + E -> HCS + H
+H2NC+ + E -> CN + H2
+H2NC+ + E -> HNC + H
+H2NO+ + E -> NO + H2
+H2NO+ + E -> HNO + H
+H2PO+ + E -> PH + OH
+H2PO+ + E -> HPO + H
+H2S2+ + E -> HS + HS
+H2S2+ + E -> HS2 + H
+H2SIO+ + E -> SIH + OH
+H2SIO+ + E -> SIO + H2
+H3O+ + E -> OH + H + H
+H3O+ + E -> H2O + H
+H3O+ + E -> OH + H2
+H3O+ + E -> H2 + H + O
+H3S+ + E -> HS + H + H
+H3S+ + E -> H2S + H
+HC2S+ + E -> CS + CH
+HC2S+ + E -> C2S + H
+HCO2+ + E -> CO + H + O
+HCO2+ + E -> OH + CO
+HCO2+ + E -> CO2 + H
+HNCO+ + E -> CO + NH
+HOCS+ + E -> OH + CS
+HOCS+ + E -> OCS + H
+HSIO2+ + E -> SIO + OH
+HSIO2+ + E -> SIO2 + H
+HSO2+ + E -> SO + H + O
+HSO2+ + E -> SO + OH
+HSO2+ + E -> SO2 + H
+NAH2O+ + E -> NA + H2O
+NAH2O+ + E -> NAOH + H
+NH3+ + E -> NH + H + H
+NH3+ + E -> NH2 + H
+PC2H+ + E -> CP + CH
+PC2H+ + E -> CCP + H
+PCH2+ + E -> CP + H2
+PCH2+ + E -> HCP + H
+PH3+ + E -> PH + H2
+PH3+ + E -> PH2 + H
+PNH2+ + E -> NH2 + P
+SIC2H+ + E -> C2H + SI
+SIC2H+ + E -> SIC2 + H
+SIC3+ + E -> SIC + C2
+SIC3+ + E -> SIC2 + C
+SIH3+ + E -> SIH + H2
+SIH3+ + E -> SIH2 + H
+SINCH+ + E -> SIN + CH
+SINCH+ + E -> SINC + H
+SINH2+ + E -> SIN + H2
+SINH2+ + E -> HNSI + H
+C2H2N+ + E -> CH + HCN
+C2H2N+ + E -> CN + CH2
+C2H2N+ + E -> C2N + H2
+C2H2O+ + E -> C2 + H2O
+C2H2O+ + E -> CH2 + CO
+C2H2O+ + E -> C2H2 + O
+C2H3+ + E -> C2H + H + H
+C2H3+ + E -> C2H + H2
+C2H3+ + E -> C2H2 + H
+C2H3+ + E -> C2 + H + H2
+C2H3+ + E -> CH3 + C
+C2H3+ + E -> CH2 + CH
+C3H2+ + E -> C2 + CH2
+H2C3+ + E -> C2 + CH2
+C3H2+ + E -> C3 + H + H
+H2C3+ + E -> C3 + H + H
+C3H2+ + E -> C3 + H2
+H2C3+ + E -> C3 + H2
+C3H2+ + E -> C2H2 + C
+H2C3+ + E -> C2H2 + C
+C3H2+ + E -> C3H + H
+C3HN+ + E -> C2 + HCN
+C3HN+ + E -> C2H + CN
+C3HN+ + E -> C3N + H
+C4H+ + E -> C2H + C2
+C4H+ + E -> C3H + C
+C4H+ + E -> C3 + CH
+C4H+ + E -> C4 + H
+C4N+ + E -> C2N + C2
+C4N+ + E -> C3N + C
+C4P+ + E -> CCP + C2
+C4P+ + E -> C3P + C
+C4S+ + E -> C2S + C2
+C4S+ + E -> C3 + CS
+C4S+ + E -> C3S + C
+C5+ + E -> C3 + C2
+C5+ + E -> C4 + C
+CH2O2+ + E -> CO2 + H + H
+CH4+ + E -> CH2 + H + H
+CH4+ + E -> CH3 + H
+H3CO+ + E -> CO + H + H2
+H3CO+ + E -> HCO + H + H
+H3CO+ + E -> H2CO + H
+H3CS+ + E -> CS + H + H2
+H3CS+ + E -> H2CS + H
+H3S2+ + E -> HS2 + H2
+H3S2+ + E -> H2S2 + H
+H3SIO+ + E -> SIO + H2 + H
+H3SIO+ + E -> H2SIO + H
+HC3O+ + E -> C3H + O
+HC3O+ + E -> C3O + H
+HC3S+ + E -> C2S + CH
+HC3S+ + E -> C3S + H
+NH4+ + E -> NH2 + H + H
+NH4+ + E -> NH2 + H2
+NH4+ + E -> NH3 + H
+OCS+H2 + E -> OCS + H2
+PC2H2+ + E -> P + C2H2
+PC2H2+ + E -> CCP + H2
+PC2H2+ + E -> HCCP + H
+PC3H+ + E -> CCP + CH
+PC3H+ + E -> C3P + H
+PC3H+ + E -> HCCP + C
+PCH3+ + E -> CP + H2 + H
+PCH3+ + E -> HCP + H2
+PCH3+ + E -> CH3 + P
+PNH3+ + E -> NH3 + P
+SIC2H2+ + E -> SIC2 + H2
+SIC2H2+ + E -> SIC2H + H
+SIC3H+ + E -> SI + C3H
+SIC3H+ + E -> SIC3 + H
+SIC4+ + E -> SIC2 + C2
+SIC4+ + E -> SIC3 + C
+SICH3+ + E -> HCSI + H2
+SICH3+ + E -> SICH2 + H
+SIH4+ + E -> SIH2 + H2
+SIH4+ + E -> SIH3 + H
+C2H3N+ + E -> C2N + H2 + H
+C2H3N+ + E -> CH2 + HCN
+C2H3N+ + E -> CH3 + CN
+C2H3N+ + E -> C2H2N + H
+C2H3O+ + E -> CH3 + CO
+C2H3O+ + E -> C2H2O + H
+C2H4+ + E -> C2H2 + H + H
+C2H4+ + E -> C2H2 + H2
+C2H4+ + E -> C2H3 + H
+C2H4+ + E -> C2H + H2 + H
+C2H4+ + E -> CH4 + C
+C2H4+ + E -> CH3 + CH
+C2H4+ + E -> CH2 + CH2
+C3H2N+ + E -> C2H + HNC
+C3H2N+ + E -> HCNC2 + H
+C3H2N+ + E -> HC2NC + H
+C3H2N+ + E -> HC3N + H
+C3H2N+ + E -> HNC3 + H
+C3H3+ + E -> C2H2 + CH
+H3C3+ + E -> C2H2 + CH
+C3H3+ + E -> C3H + H2
+C3H3+ + E -> C3H2 + H
+C4H2+ + E -> C4 + H2
+C4H2+ + E -> C4H + H
+C5H+ + E -> C4H + C
+C5H+ + E -> C5 + H
+C5N+ + E -> C2 + C3N
+C6+ + E -> C4 + C2
+C6+ + E -> C5 + C
+CH3O2+ + E -> CO2 + H2 + H
+CH3O2+ + E -> CH2O2 + H
+CH4N+ + E -> CN + H2 + H2
+CH4N+ + E -> CH2 + NH2
+CH4N+ + E -> HCN + H + H2
+CH4N+ + E -> CH3N + H
+CH4O+ + E -> CH3 + OH
+CH4O+ + E -> H2CO + H2
+CH5+ + E -> CH3 + H2
+CH5+ + E -> CH4 + H
+CH5+ + E -> CH3 + H + H
+CH5+ + E -> CH2 + H2 + H
+CH5+ + E -> CH + H2 + H2
+H2C3O+ + E -> C2H2 + CO
+H2C3O+ + E -> C3H + OH
+H2C3O+ + E -> C3O + H + H
+H2C3O+ + E -> C3O + H2
+HC2NCH+ + E -> C2H + HCN
+HC2NCH+ + E -> C2H2 + CN
+HC2NCH+ + E -> HCNC2 + H
+HC2NCH+ + E -> HC2NC + H
+HC2NCH+ + E -> HC3N + H
+HC2NCH+ + E -> HNC3 + H
+HC4N+ + E -> C3N + CH
+HC4O+ + E -> C3H + CO
+HC4O+ + E -> C3O + CH
+HC4S+ + E -> C2S + C2H
+HC4S+ + E -> C3S + CH
+HC4S+ + E -> C4S + H
+NH2CNH+ + E -> NH2 + HNC
+NH2CNH+ + E -> NH2CN + H
+PC2H3+ + E -> PH + C2H2
+PC2H3+ + E -> CCP + H2 + H
+PC2H3+ + E -> HCCP + H2
+PC4H+ + E -> CP + C3H
+PC4H+ + E -> CCP + C2H
+PC4H+ + E -> C3P + CH
+PC4H+ + E -> C4P + H
+PCH4+ + E -> HCP + H2 + H
+PCH4+ + E -> CH2PH + H
+PCH4+ + E -> CH4 + P
+SIC2H3+ + E -> SIC2H + H2
+SIC2H3+ + E -> SIC2H2 + H
+SIC3H2+ + E -> SIC3 + H2
+SIC3H2+ + E -> SIC3H + H
+SIC4H+ + E -> SIC3 + CH
+SIC4H+ + E -> SIC4 + H
+SICH4+ + E -> SICH2 + H2
+SICH4+ + E -> SICH3 + H
+SIH5+ + E -> SIH3 + H2
+SIH5+ + E -> SIH4 + H
+C2H4N+ + E -> C2H2N + H + H
+C2H4N+ + E -> C2H3N + H
+C2H4O+ + E -> CH3 + HCO
+C2H4O+ + E -> C2H2O + H + H
+C2H4O+ + E -> C2H2O + H2
+C2H5+ + E -> C2H + H2 + H2
+C2H5+ + E -> C2H2 + H2 + H
+C2H5+ + E -> C2H3 + H2
+C2H5+ + E -> C2H4 + H
+C3H3N+ + E -> C3N + H2 + H
+C3H3N+ + E -> HC3N + H2
+C3H4+ + E -> C3H2 + H2
+C3H4+ + E -> C3H3 + H
+C3H4+ + E -> C2H3 + CH
+C3H4+ + E -> C2H2 + CH2
+C3H4+ + E -> C2H + CH3
+C3H4+ + E -> C3H2 + H + H
+C4H3+ + E -> C4H + H2
+C4H3+ + E -> C4H2 + H
+C5H2+ + E -> C5 + H2
+C5H2+ + E -> C5H + H
+C5HN+ + E -> CN + C4H
+C5HN+ + E -> C3N + C2H
+C5HN+ + E -> C5N + H
+C6H+ + E -> C5H + C
+C6H+ + E -> C6 + H
+C7+ + E -> C4 + C3
+C7+ + E -> C5 + C2
+C7+ + E -> C6 + C
+CH5N+ + E -> CH3 + NH2
+CH5N+ + E -> CH3N + H2
+CH5O+ + E -> H2CO + H2 + H
+CH5O+ + E -> CH3 + H2O
+CH5O+ + E -> CH3 + OH + H
+CH5O+ + E -> CH2 + H2O + H
+CH5O+ + E -> CH4O + H
+H2C4N+ + E -> HC3N + CH
+H3C3O+ + E -> C3H + H2O
+H3C3O+ + E -> C3O + H2 + H
+NH2CH2O+ + E -> NH2CHO + H
+NH2CH2O+ + E -> NH3 + CO + H
+NH2CH2O+ + E -> H2CN + H2O
+NH2CH2O+ + E -> OCN + H2 + H2
+NH2CH2O+ + E -> NH2 + H2CO
+PC2H4+ + E -> P + C2H4
+PC2H4+ + E -> CCP + H2 + H2
+PC2H4+ + E -> HCCP + H2 + H
+PC4H2+ + E -> CCP + C2H2
+PC4H2+ + E -> C4P + H2
+C2H5O+ + E -> H2CO + CH3
+C2H5O+ + E -> C2H2O + H2 + H
+C2H5O+ + E -> CH4 + CO + H
+C2H5O+ + E -> C2H4O + H
+C2H6+ + E -> C2H4 + H2
+C2H6+ + E -> C2H5 + H
+C3H4N+ + E -> C3N + H2 + H2
+C3H4N+ + E -> HC3N + H2 + H
+C3H4N+ + E -> C3H3N + H
+C3H5+ + E -> C3H3 + H2
+C3H5+ + E -> C3H4 + H
+C4H4+ + E -> C4H + H2 + H
+C4H4+ + E -> C4H2 + H2
+C4H4+ + E -> C4H3 + H
+C5H2N+ + E -> C5N + H2
+C5H2N+ + E -> HC5N + H
+C5H3+ + E -> C5H + H2
+C5H3+ + E -> C5H2 + H
+C6H2+ + E -> C6 + H + H
+C6H2+ + E -> C6 + H2
+C6H2+ + E -> C6H + H
+C7H+ + E -> C6H + C
+C7H+ + E -> C7 + H
+C7N+ + E -> C2 + C5N
+C8+ + E -> C6 + C2
+C8+ + E -> C7 + C
+CH6N+ + E -> CH3N + H2 + H
+CH6N+ + E -> CH5N + H
+COOCH4+ + E -> CH3 + CO2 + H
+COOCH4+ + E -> CH4O + CO
+H3C4N+ + E -> HC3N + CH2
+C2H5OH+ + E -> C2H2O + H2 + H2
+C2H5OH+ + E -> CH4 + H2CO
+C2H5OH+ + E -> C2H4O + H2
+C2H5OH+ + E -> C2H5 + OH
+C4H4N+ + E -> CH3 + HC3N
+C4H4N+ + E -> CH3C3N + H
+C4H5+ + E -> C4H + H2 + H2
+C4H5+ + E -> C4H2 + H + H2
+C4H5+ + E -> C3H4 + CH
+C4H5+ + E -> C2H2 + C2H3
+C4H5+ + E -> C2H + C2H4
+C5H3N+ + E -> C5N + H2 + H
+C5H3N+ + E -> HC5N + H2
+C5H4+ + E -> C5H + H + H2
+C5H4+ + E -> C5H2 + H2
+C6H3+ + E -> C6H + H + H
+C6H3+ + E -> C6H + H2
+C6H3+ + E -> C6H2 + H
+C7H2+ + E -> C7 + H2
+C7H2+ + E -> C7H + H
+C7HN+ + E -> CN + C6H
+C7HN+ + E -> C7N + H
+C8H+ + E -> C7H + C
+C8H+ + E -> C8 + H
+C9+ + E -> C7 + C2
+C9+ + E -> C8 + C
+CH3OCH3+ + E -> CH3 + CH3 + O
+CH3OCH3+ + E -> H2CO + CH4
+CH3OCH3+ + E -> CH4O + CH2
+H5C2O2+ + E -> CH4O + HCO
+H5C2O2+ + E -> HCOOCH3 + H
+C10+ + E -> C8 + C2
+C10+ + E -> C9 + C
+C10H+ + E -> C10 + H
+C10H+ + E -> C9H + C
+C10H2+ + E -> C10 + H2
+C2H5OH2+ + E -> C2H4 + H2O + H
+C2H5OH2+ + E -> C2H4O + H2 + H
+C2H5OH2+ + E -> C2H5OH + H
+C2H6CO+ + E -> CH3 + CH3 + CO
+C2H6CO+ + E -> C2H4O + CH2
+C5H4N+ + E -> C5N + H2 + H2
+C5H4N+ + E -> HC5N + H2 + H
+C5H5+ + E -> C5H2 + H2 + H
+C5H5+ + E -> CH3C4H + H
+C6H4+ + E -> C6H + H2 + H
+C6H4+ + E -> C6H2 + H2
+C7H2N+ + E -> C7N + H2
+C7H2N+ + E -> HC7N + H
+C7H3+ + E -> C7H + H2
+C7H3+ + E -> C7H2 + H
+C8H2+ + E -> C8 + H2
+C8H2+ + E -> C8H + H
+C9H+ + E -> C8H + C
+C9H+ + E -> C9 + H
+C9N+ + E -> C2 + C7N
+CH3OCH4+ + E -> CH3 + CH4 + O
+CH3OCH4+ + E -> CH4O + CH3
+CH3OCH4+ + E -> CH3OCH3 + H
+C3H6OH+ + E -> C2H4O + CH3
+C3H6OH+ + E -> C2H6CO + H
+C4H7+ + E -> C4H + H2 + H2 + H2
+C4H7+ + E -> C3H3 + CH4
+C4H7+ + E -> C2H3 + C2H4
+C4H7+ + E -> C2H2 + C2H5
+C6H4N+ + E -> CH3 + HC5N
+C6H4N+ + E -> CH3C5N + H
+C6H5+ + E -> C6H + H2 + H2
+C6H5+ + E -> C6H2 + H2 + H
+C7H3N+ + E -> C7N + H2 + H
+C7H3N+ + E -> HC7N + H2
+C7H4+ + E -> C7H + H2 + H
+C7H4+ + E -> C7H2 + H2
+C8H3+ + E -> C8H + H2
+C8H3+ + E -> C8H2 + H
+C9H2+ + E -> C9 + H2
+C9H2+ + E -> C9H + H
+C9HN+ + E -> CN + C8H
+C9HN+ + E -> C9N + H
+C7H5+ + E -> C7H2 + H2 + H
+C7H5+ + E -> CH3C6H + H
+C8H4+ + E -> C8H + H2 + H
+C8H4+ + E -> C8H2 + H2
+C9H2N+ + E -> C9N + H2
+C9H2N+ + E -> HC9N + H
+C9H3+ + E -> C9H + H2
+C9H3+ + E -> C9H2 + H
+C6H7+ + E -> C6H6 + H
+C6H7+ + E -> C6H2 + H2 + H2 + H
+C8H4N+ + E -> CH3 + HC7N
+C8H4N+ + E -> CH3C7N + H
+C8H5+ + E -> C8H + H2 + H2
+C8H5+ + E -> C8H2 + H + H2
+C9H3N+ + E -> C9N + H2 + H
+C9H3N+ + E -> HC9N + H2
+C9H4+ + E -> C9H + H2 + H
+C9H4+ + E -> C9H2 + H2
+C9H5+ + E -> C9H + H2 + H2
+C9H5+ + E -> C9H2 + H2 + H
+C+ + E -> C
+CL+ + E -> CL
+FE+ + E -> FE
+H+ + E -> H
+HE+ + E -> HE
+MG+ + E -> MG
+N+ + E -> N
+NA+ + E -> NA
+O+ + E -> O
+S+ + E -> S
+SI+ + E -> SI
+H2+ + E -> H2
+H2S+ + E -> H2S
+CH3+ + E -> CH3
+H2CO+ + E -> H2CO
+H2CS+ + E -> H2CS
+C+ + C- -> C + C
+C+ + H- -> H + C
+C+ + S- -> C + S
+FE+ + C- -> FE + C
+FE+ + H- -> FE + H
+FE+ + S- -> FE + S
+H+ + C- -> H + C
+H+ + H- -> H + H
+H+ + S- -> H + S
+HE+ + C- -> HE + C
+HE+ + H- -> H + HE
+HE+ + S- -> HE + S
+MG+ + C- -> MG + C
+MG+ + H- -> MG + H
+MG+ + S- -> MG + S
+N+ + C- -> N + C
+N+ + H- -> H + N
+N+ + S- -> N + S
+NA+ + C- -> NA + C
+NA+ + H- -> NA + H
+NA+ + S- -> NA + S
+O+ + C- -> O + C
+O+ + H- -> H + O
+O+ + S- -> O + S
+S+ + C- -> S + C
+S+ + H- -> S + H
+S+ + S- -> S + S
+SI+ + C- -> SI + C
+SI+ + H- -> SI + H
+SI+ + S- -> SI + S
+H2+ + H- -> H + H2
+H3+ + H- -> H2 + H2
+HCO+ + H- -> CO + H2
+H3O+ + H- -> OH + H2 + H
+H3O+ + H- -> H2O + H2
+NH4+ + H- -> NH3 + H2
+C + E -> C-
+H + E -> H-
+O + E -> O-
+S + E -> S-
+C -> C+ + E
+CL -> CL+ + E
+FE -> FE+ + E
+MG -> MG+ + E
+NA -> NA+ + E
+S -> S+ + E
+SI -> SI+ + E
+C2 -> C + C
+C2 -> C2+ + E
+CCL -> CL + C
+CH -> C + H
+CH -> CH+ + E
+CLO -> CL + O
+CN -> C + N
+CO -> C + O
+CS -> C + S
+H2 -> H + H
+HCL -> CL + H
+HS -> H + S
+N2 -> N + N
+NH -> H + N
+NH -> NH+ + E
+NO -> N + O
+NO -> NO+ + E
+NS -> N + S
+O2 -> O + O
+O2 -> O2+ + E
+OH -> O + H
+OH -> OH+ + E
+SIC -> SI + C
+SIH -> SI + H
+SIO -> SI + O
+SIS -> SI + S
+SO -> O + S
+C2H -> C2 + H
+C2H -> C2H+ + E
+C2N -> C2 + N
+C2N -> CN + C
+C2S -> C2 + S
+C3 -> C2 + C
+CH2 -> CH + H
+CH2 -> CH2+ + E
+CO2 -> CO + O
+H2O -> OH + H
+H2O -> H2O+ + E
+H2S -> HS + H
+HCN -> CN + H
+HCO -> H + CO
+HCO -> HCO+ + E
+HNC -> CN + H
+HNO -> NO + H
+NAOH -> NA + OH
+NH2 -> NH + H
+NH2 -> NH2+ + E
+NO2 -> NO + O
+OCN -> O + CN
+OCS -> CO + S
+OCS -> OCS+ + E
+SO2 -> SO + O
+C2H2 -> C2H + H
+C2H2 -> C2H2+ + E
+C3H -> C3 + H
+C3N -> C2 + CN
+C3O -> C2 + CO
+C3S -> C2 + CS
+C4 -> C2 + C2
+C4 -> C3 + C
+CH3 -> CH + H2
+CH3 -> CH2 + H
+CH3 -> CH3+ + E
+H2CO -> CO + H + H
+H2CO -> CO + H2
+H2CO -> HCO+ + H + E
+H2CO -> H2CO+ + E
+H2CS -> CS + H2
+NH3 -> NH + H2
+NH3 -> NH2 + H
+NH3 -> NH3+ + E
+C2H2O -> CH2 + CO
+C2H2O -> C2H2O+ + E
+C2H3 -> C2H2 + H
+C2H3 -> C2H3+ + E
+C3H2 -> C3 + H2
+C3H2 -> C3H + H
+C4H -> C2H + C2
+C4H -> C4 + H
+C4N -> C3 + CN
+C4S -> C3 + CS
+C5 -> C3 + C2
+CH2O2 -> HCO + OH
+CH2O2 -> CH2O2+ + E
+CH3N -> HCN + H2
+CH4 -> CH + H + H2
+CH4 -> CH2 + H2
+CH4 -> CH3 + H
+HC3N -> C2H + CN
+C2H3N -> CH3 + CN
+C2H3N -> C2H3N+ + E
+C2H4 -> C2H2 + H2
+C2H4 -> C2H4+ + E
+C3H3 -> C3H + H2
+C3H3 -> C3H2 + H
+C4H2 -> C2H + C2H
+C4H2 -> C4H + H
+C4H2 -> C4H2+ + E
+C5H -> C2H + C3
+C5H -> C3H + C2
+C5H -> C5 + H
+C5N -> C4 + CN
+CH4O -> H2CO + H2
+CH4O -> CH4O+ + E
+C2H4O -> CH3 + HCO
+C2H4O -> CH4 + CO
+C2H4O -> C2H4O+ + E
+C3H4 -> C3H2 + H2
+C3H4 -> C3H3 + H
+C3H4 -> C3H4+ + E
+C4H4 -> C3H4 + C
+C5H2 -> C3H + C2H
+C5H2 -> C5H + H
+C6H -> C2H + C4
+C6H -> C3H + C3
+CH5N -> CN + H2 + H2 + H
+CH5N -> HCN + H2 + H + H
+CH5N -> CH3 + NH2
+CH5N -> CH3N + H + H
+CH5N -> CH5N+ + E
+HC5N -> H + C5N
+HC5N -> C4H + CN
+CH3C3N -> C3N + CH3
+C2H5OH -> C2H4 + H2O
+C2H5OH -> C2H5OH+ + E
+CH3C4H -> C4H + CH3
+CH3OCH3 -> H2CO + CH4
+CH3OCH3 -> CH3OCH3+ + E
+C2+ -> C+ + C
+CH+ -> C+ + H
+H2+ -> H+ + H
+OH+ -> H+ + O
+SIH+ -> SI+ + H
+C2H+ -> C2+ + H
+CH2+ -> CH+ + H
+H3+ -> H+ + H2
+H3+ -> H2+ + H
+CH3+ -> CH+ + H2
+CH3+ -> CH2+ + H
+C- -> C + E
+H- -> H + E
+O- -> O + E
+S- -> S + E
+CN- -> CN + E
+OH- -> OH + E
+E + GRAIN0 -> GRAIN-
+C+ + GRAIN- -> C + GRAIN0
+FE+ + GRAIN- -> FE + GRAIN0
+H+ + GRAIN- -> H + GRAIN0
+HE+ + GRAIN- -> HE + GRAIN0
+MG+ + GRAIN- -> MG + GRAIN0
+N+ + GRAIN- -> N + GRAIN0
+NA+ + GRAIN- -> NA + GRAIN0
+O+ + GRAIN- -> O + GRAIN0
+S+ + GRAIN- -> S + GRAIN0
+SI+ + GRAIN- -> SI + GRAIN0
+H3+ + GRAIN- -> H2 + H + GRAIN0
+HCO+ + GRAIN- -> H + CO + GRAIN0
+O3 -> O2 + O
+FEH -> FE + H
+HNCO -> NH + CO
+H+ + HNCO -> NH2+ + CO
+HE+ + HNCO -> H+ + OCN + HE
+HC2O -> CO + CH
+HCCN -> C2N + H
+HC3O -> CO + C2H
+MGH2 -> MGH + H
+N2H2 -> NH2 + N
+H+ + N2H2 -> N2H+ + H2
+H3+ + N2H2 -> N2H+ + H2 + H2
+HE+ + N2H2 -> N2+ + H + H + HE
+CHNH -> CH + NH
+H2C3O -> C2H2 + CO
+H2C3N -> C2H2 + CN
+H2C5N -> C4H2 + CN
+H2C7N -> C6H2 + CN
+H2C9N -> C8H2 + CN
+NH2OH -> NH2 + OH
+CH2OH -> CH2 + OH
+C+ + CH2OH -> CH2+ + HCO
+C+ + CH2OH -> H2CO + CH+
+C+ + CH2OH -> H2CO+ + CH
+H3+ + CH2OH -> CH4O+ + H2
+HCO+ + CH2OH -> CH4O+ + CO
+HE+ + CH2OH -> CH2+ + OH + HE
+HE+ + CH2OH -> CH2 + OH+ + HE
+HCOOCH3 -> HCO + CH2OH
+HCOOCH3 -> HCO + CH2OH
+C5H3 -> C5H2 + H
+H3C5N -> C2H3 + C3N
+C6H3 -> C6H2 + H
+C7H3 -> C7H2 + H
+H3C7N -> C2H3 + C5N
+C8H3 -> C8H2 + H
+C9H3 -> C9H2 + H
+H3C9N -> C2H3 + C7N
+CH3NH -> CH3N + H
+H4C3N -> C2H4 + CN
+C5H4 -> C5H2 + H2
+C+ + C5H4 -> C5H4+ + C
+C+ + C5H4 -> C6H3+ + H
+H+ + C5H4 -> C5H3+ + H2
+H+ + C5H4 -> C5H4+ + H
+H3+ + C5H4 -> C5H3+ + H2 + H2
+H3+ + C5H4 -> C5H5+ + H2
+HE+ + C5H4 -> C5H2+ + H2 + HE
+HE+ + C5H4 -> C5H3+ + H + HE
+HE+ + C5H4 -> C3H2+ + C2H2 + HE
+C6H4 -> C6H2 + H2
+C+ + C6H4 -> C6H4+ + C
+C+ + C6H4 -> C7H3+ + H
+H+ + C6H4 -> C6H4+ + H
+H+ + C6H4 -> C6H3+ + H2
+H3+ + C6H4 -> C6H3+ + H2 + H2
+H3+ + C6H4 -> C6H5+ + H2
+HE+ + C6H4 -> C6H2+ + H2 + HE
+HE+ + C6H4 -> C6H3+ + H + HE
+HE+ + C6H4 -> C4H2+ + C2H2 + HE
+C6H6 -> C6H4 + H2
+C7H4 -> C7H2 + H2
+C+ + C7H4 -> C7H4+ + C
+C+ + C7H4 -> C8H3+ + H
+H+ + C7H4 -> C7H4+ + H
+H+ + C7H4 -> C7H3+ + H2
+H3+ + C7H4 -> C7H5+ + H2
+H3+ + C7H4 -> C7H3+ + H2 + H2
+HE+ + C7H4 -> C7H3+ + H + HE
+HE+ + C7H4 -> C5H2+ + C2H2 + HE
+HE+ + C7H4 -> C7H2+ + H2 + HE
+C8H4 -> C8H2 + H2
+C+ + C8H4 -> C8H4+ + C
+C+ + C8H4 -> C9H3+ + H
+H+ + C8H4 -> C8H4+ + H
+H+ + C8H4 -> C8H3+ + H2
+H3+ + C8H4 -> C8H5+ + H2
+H3+ + C8H4 -> C8H3+ + H2 + H2
+HE+ + C8H4 -> C8H3+ + H + HE
+HE+ + C8H4 -> C6H2+ + C2H2 + HE
+HE+ + C8H4 -> C8H2+ + H2 + HE
+C9H4 -> C9H2 + H2
+C+ + C9H4 -> C9H4+ + C
+H+ + C9H4 -> C9H4+ + H
+H+ + C9H4 -> C9H3+ + H2
+H3+ + C9H4 -> C9H5+ + H2
+H3+ + C9H4 -> C9H3+ + H2 + H2
+HE+ + C9H4 -> C9H3+ + H + HE
+HE+ + C9H4 -> C7H2+ + C2H2 + HE
+HE+ + C9H4 -> C9H2+ + H2 + HE
+H5C3N -> C2H5 + CN
+H+ + H5C3N -> C3H4N+ + H2
+H3+ + H5C3N -> C3H4N+ + H2 + H2
+HE+ + H5C3N -> CH3+ + CH2 + CN + HE
+C2H6 -> C2H4 + H2
+C+ + C2H6 -> C2H2+ + CH4
+C+ + C2H6 -> C2H3+ + CH3
+C+ + C2H6 -> C2H5+ + CH
+C+ + C2H6 -> C3H3+ + H2 + H
+H+ + C2H6 -> C2H3+ + H2 + H2
+H+ + C2H6 -> C2H4+ + H2 + H
+H+ + C2H6 -> C2H5+ + H2
+H3+ + C2H6 -> C2H5+ + H2 + H2
+HE+ + C2H6 -> C2H2+ + H2 + H2 + HE
+HE+ + C2H6 -> C2H4+ + H2 + HE
+HE+ + C2H6 -> C2H3+ + H2 + H + HE
+CN + C2H6 -> C2H5 + HCN
+OH + C2H5 -> C2H6 + O
+H2COHOCH2+ + E -> CH4O + HCO
+H2COHOCH2+ + E -> HCOOCH3 + H
+H3CO+ + H2CO -> H2COHOCH2+
+H7C2O2+ + E -> CH4O + H2CO + H
+H7C2O2+ + E -> HCOOCH3 + H2 + H
+CH5O+ + H2CO -> H7C2O2+
+C_DUST + C_DUST -> C2_DUST
+C_DUST + C2_DUST -> C3_DUST
+C_DUST + C2H_DUST -> C3H_DUST
+C_DUST + C2H3_DUST -> C3H3_DUST
+C_DUST + C2N_DUST -> C3N_DUST
+C_DUST + CCO_DUST -> C3O_DUST
+C_DUST + C2S_DUST -> C3S_DUST
+C_DUST + C3_DUST -> C4_DUST
+C_DUST + C3H_DUST -> C4H_DUST
+C_DUST + C4_DUST -> C5_DUST
+C_DUST + C4H_DUST -> C5H_DUST
+C_DUST + C5_DUST -> C6_DUST
+C_DUST + C5H_DUST -> C6H_DUST
+C_DUST + C6_DUST -> C7_DUST
+C_DUST + C6H_DUST -> C7H_DUST
+C_DUST + C7_DUST -> C8_DUST
+C_DUST + C7H_DUST -> C8H_DUST
+C_DUST + C8_DUST -> C9_DUST
+C_DUST + C8H_DUST -> C9H_DUST
+C_DUST + C9_DUST -> C10_DUST
+C_DUST + CH_DUST -> C2H_DUST
+C_DUST + CH2_DUST -> C2H2_DUST
+C_DUST + CH3_DUST -> C2H3_DUST
+C_DUST + CN_DUST -> C2N_DUST
+C_DUST + HS_DUST -> CS_DUST + H_DUST
+C_DUST + N_DUST -> CN_DUST
+C_DUST + NH_DUST -> HNC_DUST
+C_DUST + NH2_DUST -> HNC_DUST + H_DUST
+C_DUST + NO_DUST -> CN_DUST + O_DUST
+C_DUST + NO_DUST -> OCN_DUST
+C_DUST + NS_DUST -> CN_DUST + S_DUST
+C_DUST + O_DUST -> CO_DUST
+C_DUST + O2_DUST -> CO_DUST + O_DUST
+C_DUST + OCN_DUST -> CO_DUST + CN_DUST
+C_DUST + OH_DUST -> CO_DUST + H_DUST
+C_DUST + S_DUST -> CS_DUST
+C_DUST + SO_DUST -> CO_DUST + S_DUST
+CH_DUST + C2_DUST -> C3H_DUST
+CH_DUST + C2H_DUST -> C3H2_DUST
+CH_DUST + C2H3_DUST -> C3H4_DUST
+CH_DUST + C3_DUST -> C4H_DUST
+CH_DUST + C3H_DUST -> C4H2_DUST
+CH_DUST + C4_DUST -> C5H_DUST
+CH_DUST + C4H_DUST -> C5H2_DUST
+CH_DUST + C5_DUST -> C6H_DUST
+CH_DUST + C5H_DUST -> C6H2_DUST
+CH_DUST + C6_DUST -> C7H_DUST
+CH_DUST + C6H_DUST -> C7H2_DUST
+CH_DUST + C7_DUST -> C8H_DUST
+CH_DUST + C7H_DUST -> C8H2_DUST
+CH_DUST + C8_DUST -> C9H_DUST
+CH_DUST + C8H_DUST -> C9H2_DUST
+CH_DUST + CH_DUST -> C2H2_DUST
+CH_DUST + CH2_DUST -> C2H3_DUST
+CH_DUST + CH3_DUST -> C2H4_DUST
+CH_DUST + CN_DUST -> HCCN_DUST
+CH_DUST + HNO_DUST -> NO_DUST + CH2_DUST
+CH_DUST + NH_DUST -> HCN_DUST + H_DUST
+CH_DUST + NH_DUST -> HNC_DUST + H_DUST
+CH_DUST + NH_DUST -> CHNH_DUST
+CH_DUST + NH2_DUST -> CH3N_DUST
+CH_DUST + NO_DUST -> HCN_DUST + O_DUST
+CH_DUST + O2_DUST -> HCO_DUST + O_DUST
+CH2_DUST + CH2_DUST -> C2H4_DUST
+CH2_DUST + CH3_DUST -> C2H5_DUST
+CH2_DUST + CN_DUST -> C2H2N_DUST
+CH2_DUST + HNO_DUST -> CH3_DUST + NO_DUST
+CH2_DUST + NH2_DUST -> CH2NH2_DUST
+CH2_DUST + O2_DUST -> H2CO_DUST + O_DUST
+CH3_DUST + C3N_DUST -> CH3C3N_DUST
+CH3_DUST + C5N_DUST -> CH3C5N_DUST
+CH3_DUST + C7N_DUST -> CH3C7N_DUST
+CH3_DUST + CH2OH_DUST -> C2H5OH_DUST
+CH3_DUST + CH2OH_DUST -> CH3OCH3_DUST
+CH3_DUST + CH3_DUST -> C2H6_DUST
+CH3_DUST + CN_DUST -> C2H3N_DUST
+CH3_DUST + HCO_DUST -> C2H4O_DUST
+CH3_DUST + HNO_DUST -> CH4_DUST + NO_DUST
+CH4_DUST + C2H_DUST -> C2H2_DUST + CH3_DUST
+H_DUST + C_DUST -> CH_DUST
+H_DUST + C2_DUST -> C2H_DUST
+H_DUST + C2H_DUST -> C2H2_DUST
+H_DUST + C2H2_DUST -> C2H3_DUST
+H_DUST + C2H3_DUST -> C2H4_DUST
+H_DUST + C2H4_DUST -> C2H5_DUST
+H_DUST + C2H5_DUST -> C2H6_DUST
+H_DUST + C2H6_DUST -> C2H5_DUST + H2_DUST
+H_DUST + C2N_DUST -> HCCN_DUST
+H_DUST + CCO_DUST -> HC2O_DUST
+H_DUST + C3_DUST -> C3H_DUST
+H_DUST + C3H_DUST -> C3H2_DUST
+H_DUST + C3H2_DUST -> C3H3_DUST
+H_DUST + C3H3_DUST -> C3H4_DUST
+H_DUST + C3H3N_DUST -> H4C3N_DUST
+H_DUST + C3N_DUST -> HC3N_DUST
+H_DUST + C3O_DUST -> HC3O_DUST
+H_DUST + C4_DUST -> C4H_DUST
+H_DUST + C4H_DUST -> C4H2_DUST
+H_DUST + C4H2_DUST -> C4H3_DUST
+H_DUST + C4H3_DUST -> C4H4_DUST
+H_DUST + C5_DUST -> C5H_DUST
+H_DUST + C5H_DUST -> C5H2_DUST
+H_DUST + C5H2_DUST -> C5H3_DUST
+H_DUST + C5H3_DUST -> C5H4_DUST
+H_DUST + C5N_DUST -> HC5N_DUST
+H_DUST + C6_DUST -> C6H_DUST
+H_DUST + C6H_DUST -> C6H2_DUST
+H_DUST + C6H2_DUST -> C6H3_DUST
+H_DUST + C6H3_DUST -> C6H4_DUST
+H_DUST + C7_DUST -> C7H_DUST
+H_DUST + C7H_DUST -> C7H2_DUST
+H_DUST + C7H2_DUST -> C7H3_DUST
+H_DUST + C7H3_DUST -> C7H4_DUST
+H_DUST + C7N_DUST -> HC7N_DUST
+H_DUST + C8_DUST -> C8H_DUST
+H_DUST + C8H_DUST -> C8H2_DUST
+H_DUST + C8H2_DUST -> C8H3_DUST
+H_DUST + C8H3_DUST -> C8H4_DUST
+H_DUST + C9_DUST -> C9H_DUST
+H_DUST + C9H_DUST -> C9H2_DUST
+H_DUST + C9H2_DUST -> C9H3_DUST
+H_DUST + C9H3_DUST -> C9H4_DUST
+H_DUST + C9N_DUST -> HC9N_DUST
+H_DUST + CH_DUST -> CH2_DUST
+H_DUST + CH2_DUST -> CH3_DUST
+H_DUST + C2H2N_DUST -> C2H3N_DUST
+H_DUST + CH3N_DUST -> CH2NH2_DUST
+H_DUST + CH3N_DUST -> CH3NH_DUST
+H_DUST + CH2NH2_DUST -> CH5N_DUST
+H_DUST + CH2OH_DUST -> CH4O_DUST
+H_DUST + CH3_DUST -> CH4_DUST
+H_DUST + CH3NH_DUST -> CH5N_DUST
+H_DUST + CH4_DUST -> CH3_DUST + H2_DUST
+H_DUST + CHNH_DUST -> CH3N_DUST
+H_DUST + CN_DUST -> HCN_DUST
+H_DUST + CO_DUST -> HCO_DUST
+H_DUST + CS_DUST -> HCS_DUST
+H_DUST + FE_DUST -> FEH_DUST
+H_DUST + H_DUST -> H2_DUST
+H_DUST + H2C3N_DUST -> C3H3N_DUST
+H_DUST + H2C5N_DUST -> H3C5N_DUST
+H_DUST + H2C7N_DUST -> H3C7N_DUST
+H_DUST + H2C9N_DUST -> H3C9N_DUST
+H_DUST + H2CN_DUST -> CH3N_DUST
+H_DUST + H2CO_DUST -> HCO_DUST + H2_DUST
+H_DUST + H2CO_DUST -> CH2OH_DUST
+H_DUST + H2O2_DUST -> H2O_DUST + OH_DUST
+H_DUST + H2O2_DUST -> O2H_DUST + H2_DUST
+H_DUST + H2S_DUST -> H2_DUST + HS_DUST
+H_DUST + H4C3N_DUST -> H5C3N_DUST
+H_DUST + HC2O_DUST -> C2H2O_DUST
+H_DUST + HC3N_DUST -> H2C3N_DUST
+H_DUST + HC3O_DUST -> H2C3O_DUST
+H_DUST + HC5N_DUST -> H2C5N_DUST
+H_DUST + HC7N_DUST -> H2C7N_DUST
+H_DUST + HC9N_DUST -> H2C9N_DUST
+H_DUST + HCCN_DUST -> C2H2N_DUST
+H_DUST + HCO_DUST -> H2CO_DUST
+H_DUST + HCS_DUST -> H2CS_DUST
+H_DUST + HNO_DUST -> NO_DUST + H2_DUST
+H_DUST + HS_DUST -> H2S_DUST
+H_DUST + MG_DUST -> MGH_DUST
+H_DUST + MGH_DUST -> MGH2_DUST
+H_DUST + N_DUST -> NH_DUST
+H_DUST + N2H2_DUST -> H2_DUST + N2_DUST + H_DUST
+H_DUST + NA_DUST -> NAH_DUST
+H_DUST + NH_DUST -> NH2_DUST
+H_DUST + NH2_DUST -> NH3_DUST
+H_DUST + NO_DUST -> HNO_DUST
+H_DUST + O_DUST -> OH_DUST
+H_DUST + O2_DUST -> O2H_DUST
+H_DUST + O2H_DUST -> H2O2_DUST
+H_DUST + O3_DUST -> O2_DUST + OH_DUST
+H_DUST + OCN_DUST -> HNCO_DUST
+H_DUST + OCS_DUST -> CO_DUST + HS_DUST
+H_DUST + OH_DUST -> H2O_DUST
+H_DUST + S_DUST -> HS_DUST
+H_DUST + SI_DUST -> SIH_DUST
+H_DUST + SIH_DUST -> SIH2_DUST
+H_DUST + SIH2_DUST -> SIH3_DUST
+H_DUST + SIH3_DUST -> SIH4_DUST
+H_DUST + SO2_DUST -> O2_DUST + HS_DUST
+H2_DUST + C_DUST -> CH2_DUST
+H2_DUST + C2_DUST -> C2H_DUST + H_DUST
+H2_DUST + C2H_DUST -> C2H2_DUST + H_DUST
+H2_DUST + C3_DUST -> C3H_DUST + H_DUST
+H2_DUST + C3H_DUST -> C3H2_DUST + H_DUST
+H2_DUST + C4_DUST -> C4H_DUST + H_DUST
+H2_DUST + C4H_DUST -> C4H2_DUST + H_DUST
+H2_DUST + C5_DUST -> C5H_DUST + H_DUST
+H2_DUST + C5H_DUST -> C5H2_DUST + H_DUST
+H2_DUST + C6_DUST -> C6H_DUST + H_DUST
+H2_DUST + C6H_DUST -> C6H2_DUST + H_DUST
+H2_DUST + C7_DUST -> C7H_DUST + H_DUST
+H2_DUST + C7H_DUST -> C7H2_DUST + H_DUST
+H2_DUST + C8_DUST -> C8H_DUST + H_DUST
+H2_DUST + C8H_DUST -> C8H2_DUST + H_DUST
+H2_DUST + C9_DUST -> C9H_DUST + H_DUST
+H2_DUST + C9H_DUST -> C9H2_DUST + H_DUST
+H2_DUST + CH2_DUST -> CH3_DUST + H_DUST
+H2_DUST + CH3_DUST -> CH4_DUST + H_DUST
+H2_DUST + CN_DUST -> HCN_DUST + H_DUST
+H2_DUST + NH2_DUST -> NH3_DUST + H_DUST
+H2_DUST + OH_DUST -> H2O_DUST + H_DUST
+HCO_DUST + CH2OH_DUST -> HCOOCH3_DUST
+N_DUST + C2_DUST -> C2N_DUST
+N_DUST + C3_DUST -> C3N_DUST
+N_DUST + C3H_DUST -> HC3N_DUST
+N_DUST + C5_DUST -> C5N_DUST
+N_DUST + C5H_DUST -> HC5N_DUST
+N_DUST + C7_DUST -> C7N_DUST
+N_DUST + C7H_DUST -> HC7N_DUST
+N_DUST + C9_DUST -> C9N_DUST
+N_DUST + C9H_DUST -> HC9N_DUST
+N_DUST + CH_DUST -> HCN_DUST
+N_DUST + CH2_DUST -> H2CN_DUST
+N_DUST + CH2OH_DUST -> NH2CHO_DUST
+N_DUST + CH3_DUST -> CH3N_DUST
+N_DUST + HS_DUST -> NS_DUST + H_DUST
+N_DUST + N_DUST -> N2_DUST
+N_DUST + NH_DUST -> N2_DUST + H_DUST
+N_DUST + NH2_DUST -> N2H2_DUST
+N_DUST + NS_DUST -> N2_DUST + S_DUST
+N_DUST + O_DUST -> NO_DUST
+N_DUST + O2H_DUST -> O2_DUST + NH_DUST
+N_DUST + S_DUST -> NS_DUST
+NH_DUST + CH2_DUST -> CH3N_DUST
+NH_DUST + CH3_DUST -> CH3NH_DUST
+NH_DUST + NH_DUST -> N2H2_DUST
+NH_DUST + NH_DUST -> N2_DUST + H2_DUST
+NH_DUST + NO_DUST -> N2_DUST + O_DUST + H_DUST
+NH2_DUST + CH3_DUST -> CH5N_DUST
+NH2_DUST + HCO_DUST -> NH2CHO_DUST
+NH2_DUST + NO_DUST -> H2O_DUST + N2_DUST
+O_DUST + C2_DUST -> CCO_DUST
+O_DUST + C3_DUST -> C3O_DUST
+O_DUST + CH_DUST -> HCO_DUST
+O_DUST + CH2_DUST -> H2CO_DUST
+O_DUST + CH3_DUST -> CH2OH_DUST
+O_DUST + CN_DUST -> OCN_DUST
+O_DUST + CO_DUST -> CO2_DUST
+O_DUST + CS_DUST -> OCS_DUST
+O_DUST + HCO_DUST -> CO2_DUST + H_DUST
+O_DUST + HCO_DUST -> CO_DUST + OH_DUST
+O_DUST + HNO_DUST -> NO_DUST + OH_DUST
+O_DUST + HS_DUST -> SO_DUST + H_DUST
+O_DUST + NH_DUST -> HNO_DUST
+O_DUST + NH2_DUST -> HNO_DUST + H_DUST
+O_DUST + NS_DUST -> NO_DUST + S_DUST
+O_DUST + O_DUST -> O2_DUST
+O_DUST + O2_DUST -> O3_DUST
+O_DUST + O2H_DUST -> O2_DUST + OH_DUST
+O_DUST + OH_DUST -> O2H_DUST
+O_DUST + S_DUST -> SO_DUST
+O_DUST + SO_DUST -> SO2_DUST
+OH_DUST + CH2_DUST -> CH2OH_DUST
+OH_DUST + CH3_DUST -> CH4O_DUST
+OH_DUST + CO_DUST -> CO2_DUST + H_DUST
+OH_DUST + H2CO_DUST -> HCO_DUST + H2O_DUST
+OH_DUST + HCO_DUST -> CH2O2_DUST
+OH_DUST + NH2_DUST -> NH2OH_DUST
+OH_DUST + OH_DUST -> H2O2_DUST
+S_DUST + CH_DUST -> HCS_DUST
+S_DUST + CH3_DUST -> H2CS_DUST + H_DUST
+S_DUST + CO_DUST -> OCS_DUST
+S_DUST + NH_DUST -> NS_DUST + H_DUST
+C_DUST -> C
+C10_DUST -> C10
+C2_DUST -> C2
+C2H_DUST -> C2H
+C2H2_DUST -> C2H2
+C2H3_DUST -> C2H3
+C2H4_DUST -> C2H4
+C2H5_DUST -> C2H5
+C2H5OH_DUST -> C2H5OH
+C2H6_DUST -> C2H6
+C2N_DUST -> C2N
+CCO_DUST -> CCO
+C2S_DUST -> C2S
+C3_DUST -> C3
+C3H_DUST -> C3H
+C3H2_DUST -> C3H2
+C3H3_DUST -> C3H3
+C3H3N_DUST -> C3H3N
+C3H4_DUST -> C3H4
+C3N_DUST -> C3N
+C3O_DUST -> C3O
+C3S_DUST -> C3S
+C4_DUST -> C4
+C4H_DUST -> C4H
+C4H2_DUST -> C4H2
+C4H3_DUST -> C4H3
+C4H4_DUST -> C4H4
+C4N_DUST -> C4N
+C4S_DUST -> C4S
+C5_DUST -> C5
+C5H_DUST -> C5H
+C5H2_DUST -> C5H2
+C5H3_DUST -> C5H3
+C5H4_DUST -> C5H4
+C5N_DUST -> C5N
+C6_DUST -> C6
+C6H_DUST -> C6H
+C6H2_DUST -> C6H2
+C6H3_DUST -> C6H3
+C6H4_DUST -> C6H4
+C6H6_DUST -> C6H6
+C7_DUST -> C7
+C7H_DUST -> C7H
+C7H2_DUST -> C7H2
+C7H3_DUST -> C7H3
+C7H4_DUST -> C7H4
+C7N_DUST -> C7N
+C8_DUST -> C8
+C8H_DUST -> C8H
+C8H2_DUST -> C8H2
+C8H3_DUST -> C8H3
+C8H4_DUST -> C8H4
+C9_DUST -> C9
+C9H_DUST -> C9H
+C9H2_DUST -> C9H2
+C9H3_DUST -> C9H3
+C9H4_DUST -> C9H4
+C9N_DUST -> C9N
+CH_DUST -> CH
+CH2_DUST -> CH2
+C2H2N_DUST -> C2H2N
+C2H2O_DUST -> C2H2O
+CH3N_DUST -> CH3N
+CH2NH2_DUST -> CH2NH2
+CH2OH_DUST -> CH2OH
+CH3_DUST -> CH3
+CH3C3N_DUST -> CH3C3N
+CH3C4H_DUST -> CH3C4H
+CH3C5N_DUST -> CH3C5N
+CH3C6H_DUST -> CH3C6H
+CH3C7N_DUST -> CH3C7N
+C2H4O_DUST -> C2H4O
+C2H3N_DUST -> C2H3N
+CH3NH_DUST -> CH3NH
+CH3OCH3_DUST -> CH3OCH3
+CH4O_DUST -> CH4O
+CH4_DUST -> CH4
+CH5N_DUST -> CH5N
+CHNH_DUST -> CHNH
+CN_DUST -> CN
+CO_DUST -> CO
+CO2_DUST -> CO2
+CS_DUST -> CS
+FE_DUST -> FE
+FEH_DUST -> FEH
+H_DUST -> H
+H2_DUST -> H2
+H2C3N_DUST -> H2C3N
+H2C3O_DUST -> H2C3O
+H2C5N_DUST -> H2C5N
+H2C7N_DUST -> H2C7N
+H2C9N_DUST -> H2C9N
+H2CN_DUST -> H2CN
+H2CO_DUST -> H2CO
+H2CS_DUST -> H2CS
+H2O_DUST -> H2O
+H2O2_DUST -> H2O2
+H2S_DUST -> H2S
+H2S2_DUST -> H2S2
+H3C5N_DUST -> H3C5N
+H3C7N_DUST -> H3C7N
+H3C9N_DUST -> H3C9N
+H4C3N_DUST -> H4C3N
+H5C3N_DUST -> H5C3N
+HC2NC_DUST -> HC3N
+HC2O_DUST -> HC2O
+HC3N_DUST -> HC3N
+HC3O_DUST -> HC3O
+HC5N_DUST -> HC5N
+HC7N_DUST -> HC7N
+HC9N_DUST -> HC9N
+HCCN_DUST -> HCCN
+HCN_DUST -> HCN
+HCNC2_DUST -> HC3N
+HCO_DUST -> HCO
+HCOOCH3_DUST -> HCOOCH3
+CH2O2_DUST -> CH2O2
+HCS_DUST -> HCS
+HE_DUST -> HE
+HNC_DUST -> HNC
+HNC3_DUST -> HC3N
+HNCO_DUST -> HNCO
+HNO_DUST -> HNO
+HS_DUST -> HS
+HS2_DUST -> HS2
+MG_DUST -> MG
+MGH_DUST -> MGH
+MGH2_DUST -> MGH2
+N_DUST -> N
+N2_DUST -> N2
+N2H2_DUST -> N2H2
+NA_DUST -> NA
+NAH_DUST -> NAH
+NAOH_DUST -> NAOH
+NH_DUST -> NH
+NH2_DUST -> NH2
+NH2CHO_DUST -> NH2CHO
+NH2OH_DUST -> NH2OH
+NH3_DUST -> NH3
+NO_DUST -> NO
+NS_DUST -> NS
+O_DUST -> O
+O2_DUST -> O2
+O2H_DUST -> O2H
+O3_DUST -> O3
+OCN_DUST -> OCN
+OCS_DUST -> OCS
+OH_DUST -> OH
+S_DUST -> S
+S2_DUST -> S2
+SI_DUST -> SI
+SIC_DUST -> SIC
+SIH_DUST -> SIH
+SIH2_DUST -> SIH2
+SIH3_DUST -> SIH3
+SIH4_DUST -> SIH4
+SIO_DUST -> SIO
+SIS_DUST -> SIS
+SO_DUST -> SO
+SO2_DUST -> SO2
+C10_DUST -> C9_DUST + C_DUST
+C2_DUST -> C_DUST + C_DUST
+C2H_DUST -> C2_DUST + H_DUST
+C2H2_DUST -> C2H_DUST + H_DUST
+C2H3_DUST -> C2H2_DUST + H_DUST
+C2H4_DUST -> C2H2_DUST + H2_DUST
+C2H5_DUST -> C2H4_DUST + H_DUST
+C2H6_DUST -> C2H4_DUST + H2_DUST
+C2H6CO_DUST -> C2H2O_DUST + CH4_DUST
+C2N_DUST -> C_DUST + CN_DUST
+CCO_DUST -> CO_DUST + C_DUST
+CCO_DUST -> C2_DUST + O_DUST
+C2S_DUST -> CS_DUST + C_DUST
+C3_DUST -> C2_DUST + C_DUST
+C3H_DUST -> C3_DUST + H_DUST
+C3H2_DUST -> C3H_DUST + H_DUST
+C3H3_DUST -> C3H2_DUST + H_DUST
+C3H3N_DUST -> C2H3_DUST + CN_DUST
+C3H4_DUST -> C3H3_DUST + H_DUST
+C3N_DUST -> C2_DUST + CN_DUST
+C3O_DUST -> C2_DUST + CO_DUST
+C3P_DUST -> CCP_DUST + C_DUST
+C3S_DUST -> C2_DUST + CS_DUST
+C4_DUST -> C3_DUST + C_DUST
+C4H_DUST -> C4_DUST + H_DUST
+C4H2_DUST -> C2H_DUST + C2H_DUST
+C4H2_DUST -> C4H_DUST + H_DUST
+C4H3_DUST -> C4H2_DUST + H_DUST
+C4H4_DUST -> C4H2_DUST + H2_DUST
+C4N_DUST -> C3_DUST + CN_DUST
+C4P_DUST -> C3P_DUST + C_DUST
+C4S_DUST -> C3_DUST + CS_DUST
+C5_DUST -> C4_DUST + C_DUST
+C5H_DUST -> C5_DUST + H_DUST
+C5H2_DUST -> C5H_DUST + H_DUST
+C5H3_DUST -> C5H2_DUST + H_DUST
+C5H4_DUST -> C5H2_DUST + H2_DUST
+C5N_DUST -> C4_DUST + CN_DUST
+C6_DUST -> C5_DUST + C_DUST
+C6H_DUST -> C6_DUST + H_DUST
+C6H2_DUST -> C6H_DUST + H_DUST
+C6H3_DUST -> C6H2_DUST + H_DUST
+C6H4_DUST -> C6H2_DUST + H2_DUST
+C6H6_DUST -> C6H4_DUST + H2_DUST
+C7_DUST -> C6_DUST + C_DUST
+C7H_DUST -> C7_DUST + H_DUST
+C7H2_DUST -> C7H_DUST + H_DUST
+C7H3_DUST -> C7H2_DUST + H_DUST
+C7H4_DUST -> C7H2_DUST + H2_DUST
+C7N_DUST -> C6_DUST + CN_DUST
+C8_DUST -> C7_DUST + C_DUST
+C8H_DUST -> C8_DUST + H_DUST
+C8H2_DUST -> C8H_DUST + H_DUST
+C8H3_DUST -> C8H2_DUST + H_DUST
+C8H4_DUST -> C8H2_DUST + H2_DUST
+C9_DUST -> C8_DUST + C_DUST
+C9H_DUST -> C9_DUST + H_DUST
+C9H2_DUST -> C9H_DUST + H_DUST
+C9H3_DUST -> C9H2_DUST + H_DUST
+C9H4_DUST -> C9H2_DUST + H2_DUST
+C9N_DUST -> C8_DUST + CN_DUST
+CCL_DUST -> C_DUST + CL_DUST
+CCP_DUST -> C2_DUST + P_DUST
+CCP_DUST -> CP_DUST + C_DUST
+CH_DUST -> C_DUST + H_DUST
+C2H2N_DUST -> CH2_DUST + CN_DUST
+C2H2O_DUST -> CH2_DUST + CO_DUST
+CH3N_DUST -> HCN_DUST + H2_DUST
+CH2NH2_DUST -> CH2_DUST + NH2_DUST
+CH2OH_DUST -> CH2_DUST + OH_DUST
+CH2PH_DUST -> HCP_DUST + H2_DUST
+CH3_DUST -> CH2_DUST + H_DUST
+CH3C3N_DUST -> CH3_DUST + C3N_DUST
+CH3C4H_DUST -> CH3_DUST + C4H_DUST
+CH3C5N_DUST -> CH3_DUST + C5N_DUST
+CH3C6H_DUST -> CH3_DUST + C6H_DUST
+CH3C7N_DUST -> CH3_DUST + C7N_DUST
+C2H4O_DUST -> CH3_DUST + HCO_DUST
+C2H4O_DUST -> CH4_DUST + CO_DUST
+C2H3N_DUST -> CH3_DUST + CN_DUST
+CH3NH_DUST -> CH3N_DUST + H_DUST
+CH3OCH3_DUST -> H2CO_DUST + CH4_DUST
+CH4O_DUST -> CH3_DUST + OH_DUST
+CH4O_DUST -> H2CO_DUST + H2_DUST
+CH4_DUST -> CH2_DUST + H2_DUST
+CH5N_DUST -> HCN_DUST + H2_DUST + H_DUST + H_DUST
+CHNH_DUST -> CH_DUST + NH_DUST
+CLO_DUST -> CL_DUST + O_DUST
+CN_DUST -> C_DUST + N_DUST
+CO_DUST -> C_DUST + O_DUST
+CO2_DUST -> CO_DUST + O_DUST
+CP_DUST -> C_DUST + P_DUST
+CS_DUST -> C_DUST + S_DUST
+FEH_DUST -> FE_DUST + H_DUST
+H2C3N_DUST -> C2H2_DUST + CN_DUST
+H2C3O_DUST -> C2H2_DUST + CO_DUST
+H2C5N_DUST -> C4H2_DUST + CN_DUST
+H2C7N_DUST -> C6H2_DUST + CN_DUST
+H2C9N_DUST -> C8H2_DUST + CN_DUST
+H2CN_DUST -> CH_DUST + NH_DUST
+H2CO_DUST -> CO_DUST + H2_DUST
+H2CS_DUST -> H2_DUST + CS_DUST
+H2O_DUST -> OH_DUST + H_DUST
+H2O2_DUST -> OH_DUST + OH_DUST
+H2S_DUST -> H2_DUST + S_DUST
+H2S2_DUST -> HS_DUST + HS_DUST
+H2SIO_DUST -> SIO_DUST + H2_DUST
+H3C5N_DUST -> C2H3_DUST + C3N_DUST
+H3C7N_DUST -> C2H3_DUST + C5N_DUST
+H3C9N_DUST -> C2H3_DUST + C7N_DUST
+H4C3N_DUST -> C2H4_DUST + CN_DUST
+H5C3N_DUST -> C2H5_DUST + CN_DUST
+HC2NC_DUST -> C2H_DUST + CN_DUST
+HC2O_DUST -> CO_DUST + CH_DUST
+HC3N_DUST -> C2H_DUST + CN_DUST
+HC3O_DUST -> CO_DUST + C2H_DUST
+HC5N_DUST -> C4H_DUST + CN_DUST
+HC7N_DUST -> C6H_DUST + CN_DUST
+HC9N_DUST -> C8H_DUST + CN_DUST
+HCCN_DUST -> C2N_DUST + H_DUST
+HCCP_DUST -> CCP_DUST + H_DUST
+HCL_DUST -> H_DUST + CL_DUST
+HCN_DUST -> CN_DUST + H_DUST
+HCNC2_DUST -> C2H_DUST + CN_DUST
+HCO_DUST -> CO_DUST + H_DUST
+HCOOCH3_DUST -> HCO_DUST + CH2OH_DUST
+CH2O2_DUST -> HCO_DUST + OH_DUST
+HCP_DUST -> CP_DUST + H_DUST
+HCSI_DUST -> CH_DUST + SI_DUST
+HNC_DUST -> CN_DUST + H_DUST
+HNC3_DUST -> C2H_DUST + CN_DUST
+HNCO_DUST -> NH_DUST + CO_DUST
+HNSI_DUST -> SIN_DUST + H_DUST
+HPO_DUST -> PO_DUST + H_DUST
+HS_DUST -> H_DUST + S_DUST
+HS2_DUST -> HS_DUST + S_DUST
+MGH_DUST -> MG_DUST + H_DUST
+MGH2_DUST -> MGH_DUST + H_DUST
+N2_DUST -> N_DUST + N_DUST
+N2H2_DUST -> NH2_DUST + N_DUST
+N2O_DUST -> NO_DUST + N_DUST
+NAH_DUST -> NA_DUST + H_DUST
+NAOH_DUST -> NA_DUST + OH_DUST
+NH_DUST -> N_DUST + H_DUST
+NH2_DUST -> NH_DUST + H_DUST
+NH2CHO_DUST -> NH2_DUST + HCO_DUST
+NH2CN_DUST -> NH2_DUST + CN_DUST
+NH2OH_DUST -> NH2_DUST + OH_DUST
+NH3_DUST -> NH2_DUST + H_DUST
+NH3_DUST -> NH_DUST + H2_DUST
+NO_DUST -> N_DUST + O_DUST
+NO2_DUST -> NO_DUST + O_DUST
+NS_DUST -> N_DUST + S_DUST
+O2_DUST -> O_DUST + O_DUST
+O2H_DUST -> O2_DUST + H_DUST
+O2H_DUST -> O_DUST + OH_DUST
+O3_DUST -> O2_DUST + O_DUST
+OCN_DUST -> CN_DUST + O_DUST
+OCS_DUST -> CO_DUST + S_DUST
+OH_DUST -> O_DUST + H_DUST
+PH_DUST -> P_DUST + H_DUST
+PH2_DUST -> PH_DUST + H_DUST
+PN_DUST -> P_DUST + N_DUST
+PO_DUST -> P_DUST + O_DUST
+S2_DUST -> S_DUST + S_DUST
+SIC_DUST -> SI_DUST + C_DUST
+SIC2_DUST -> SIC_DUST + C_DUST
+SIC2H_DUST -> SIC2_DUST + H_DUST
+SIC2H2_DUST -> SIC2_DUST + H2_DUST
+SIC3_DUST -> SIC2_DUST + C_DUST
+SIC3H_DUST -> SIC3_DUST + H_DUST
+SIC4_DUST -> SIC2_DUST + C2_DUST
+SICH2_DUST -> SIC_DUST + H2_DUST
+SICH3_DUST -> SICH2_DUST + H_DUST
+SIH_DUST -> SI_DUST + H_DUST
+SIH2_DUST -> SIH_DUST + H_DUST
+SIH3_DUST -> SIH2_DUST + H_DUST
+SIH4_DUST -> SIH2_DUST + H2_DUST
+SIN_DUST -> SI_DUST + N_DUST
+SINC_DUST -> SI_DUST + CN_DUST
+SIO_DUST -> SI_DUST + O_DUST
+SIO2_DUST -> SIO_DUST + O_DUST
+SIS_DUST -> SI_DUST + S_DUST
+SO_DUST -> S_DUST + O_DUST
+SO2_DUST -> SO_DUST + O_DUST
+C2H2_DUST -> C2H_DUST + H_DUST
+C2H2_DUST -> C2_DUST + H_DUST + H_DUST
+C2H2_DUST -> CH_DUST + CH_DUST
+C2H4_DUST -> C2H2_DUST + H_DUST + H_DUST
+C2H4_DUST -> C2H2_DUST + H2_DUST
+C2H4_DUST -> C2H3_DUST + H_DUST
+C2H5OH_DUST -> C2H5_DUST + OH_DUST
+C2H5OH_DUST -> C2H2O_DUST + H2_DUST + H2_DUST
+C2H5OH_DUST -> CH4_DUST + H2CO_DUST
+C2H5OH_DUST -> C2H4O_DUST + H2_DUST
+C3H4_DUST -> C3H2_DUST + H2_DUST
+C3H4_DUST -> C3H3_DUST + H_DUST
+C4H2_DUST -> C4_DUST + H2_DUST
+C4H2_DUST -> C4H_DUST + H_DUST
+CH2_DUST -> C_DUST + H2_DUST
+CH2_DUST -> CH_DUST + H_DUST
+CH2_DUST -> C_DUST + H_DUST + H_DUST
+C2H2O_DUST -> C2_DUST + H2O_DUST
+C2H2O_DUST -> CH2_DUST + CO_DUST
+C2H2O_DUST -> C2H2_DUST + O_DUST
+CH3_DUST -> C_DUST + H2_DUST + H_DUST
+CH3_DUST -> CH_DUST + H_DUST + H_DUST
+CH3_DUST -> CH_DUST + H2_DUST
+CH3_DUST -> CH2_DUST + H_DUST
+C2H4O_DUST -> CH3_DUST + HCO_DUST
+C2H4O_DUST -> C2H2O_DUST + H_DUST + H_DUST
+C2H4O_DUST -> C2H2O_DUST + H2_DUST
+C2H3N_DUST -> CH3_DUST + CN_DUST
+C2H3N_DUST -> C2H2N_DUST + H_DUST
+C2H3N_DUST -> C2N_DUST + H2_DUST + H_DUST
+C2H3N_DUST -> CH2_DUST + HCN_DUST
+CH3OCH3_DUST -> CH4O_DUST + CH2_DUST
+CH3OCH3_DUST -> CH3_DUST + CH3_DUST + O_DUST
+CH3OCH3_DUST -> H2CO_DUST + CH4_DUST
+CH4O_DUST -> H2CO_DUST + H_DUST + H_DUST
+CH4O_DUST -> HCO_DUST + H_DUST + H_DUST + H_DUST
+CH4O_DUST -> CO_DUST + H2_DUST + H_DUST + H_DUST
+CH4O_DUST -> CH3_DUST + OH_DUST
+CH4O_DUST -> H2CO_DUST + H2_DUST
+CH5N_DUST -> CH3_DUST + NH2_DUST
+CH5N_DUST -> CH3N_DUST + H2_DUST
+CO_DUST -> O_DUST + C_DUST
+H2S_DUST -> S_DUST + H_DUST + H_DUST
+H2S_DUST -> HS_DUST + H_DUST
+HCO_DUST -> CO_DUST + H_DUST
+CH2O2_DUST -> CO2_DUST + H_DUST + H_DUST
+HCS_DUST -> CS_DUST + H_DUST
+HNO_DUST -> NO_DUST + H_DUST
+NH2_DUST -> NH_DUST + H_DUST
+NH2_DUST -> N_DUST + H_DUST + H_DUST
+NH3_DUST -> NH2_DUST + H_DUST
+NH3_DUST -> NH_DUST + H_DUST + H_DUST
+NO_DUST -> N_DUST + O_DUST
+O2_DUST -> O_DUST + O_DUST
+OCS_DUST -> CS_DUST + O_DUST
+OCS_DUST -> CO_DUST + S_DUST
+C10_DUST -> C9_DUST + C_DUST
+C2_DUST -> C_DUST + C_DUST
+C2H_DUST -> C2_DUST + H_DUST
+C2H2_DUST -> C2H_DUST + H_DUST
+C2H3_DUST -> C2H2_DUST + H_DUST
+C2H4_DUST -> C2H2_DUST + H2_DUST
+C2H5_DUST -> C2H4_DUST + H_DUST
+C2H5OH_DUST -> C2H4_DUST + H2O_DUST
+C2H6_DUST -> C2H4_DUST + H2_DUST
+C2H6CO_DUST -> C2H2O_DUST + CH4_DUST
+C2N_DUST -> C2_DUST + N_DUST
+C2N_DUST -> CN_DUST + C_DUST
+CCO_DUST -> CO_DUST + C_DUST
+CCO_DUST -> C2_DUST + O_DUST
+C2S_DUST -> C2_DUST + S_DUST
+C3_DUST -> C2_DUST + C_DUST
+C3H_DUST -> C3_DUST + H_DUST
+C3H2_DUST -> C3_DUST + H2_DUST
+C3H2_DUST -> C3H_DUST + H_DUST
+C3H3_DUST -> C3H2_DUST + H_DUST
+C3H3_DUST -> C3H_DUST + H2_DUST
+C3H3N_DUST -> C2H3_DUST + CN_DUST
+C3H4_DUST -> C3H2_DUST + H2_DUST
+C3H4_DUST -> C3H3_DUST + H_DUST
+C3N_DUST -> C2_DUST + CN_DUST
+C3O_DUST -> C2_DUST + CO_DUST
+C3P_DUST -> CCP_DUST + C_DUST
+C3S_DUST -> C2_DUST + CS_DUST
+C4_DUST -> C2_DUST + C2_DUST
+C4_DUST -> C3_DUST + C_DUST
+C4H_DUST -> C2H_DUST + C2_DUST
+C4H_DUST -> C4_DUST + H_DUST
+C4H2_DUST -> C2H_DUST + C2H_DUST
+C4H2_DUST -> C4H_DUST + H_DUST
+C4H3_DUST -> C4H2_DUST + H_DUST
+C4H4_DUST -> C3H4_DUST + C_DUST
+C4N_DUST -> C3_DUST + CN_DUST
+C4P_DUST -> C3P_DUST + C_DUST
+C4S_DUST -> C3_DUST + CS_DUST
+C5_DUST -> C3_DUST + C2_DUST
+C5H_DUST -> C2H_DUST + C3_DUST
+C5H_DUST -> C3H_DUST + C2_DUST
+C5H_DUST -> C5_DUST + H_DUST
+C5H2_DUST -> C3H_DUST + C2H_DUST
+C5H2_DUST -> C5H_DUST + H_DUST
+C5H3_DUST -> C5H2_DUST + H_DUST
+C5H4_DUST -> C5H2_DUST + H2_DUST
+C5N_DUST -> C4_DUST + CN_DUST
+C6_DUST -> C5_DUST + C_DUST
+C6H_DUST -> C3H_DUST + C3_DUST
+C6H_DUST -> C2H_DUST + C4_DUST
+C6H2_DUST -> C6H_DUST + H_DUST
+C6H3_DUST -> C6H2_DUST + H_DUST
+C6H4_DUST -> C6H2_DUST + H2_DUST
+C6H6_DUST -> C6H4_DUST + H2_DUST
+C7_DUST -> C6_DUST + C_DUST
+C7H_DUST -> C7_DUST + H_DUST
+C7H2_DUST -> C7H_DUST + H_DUST
+C7H3_DUST -> C7H2_DUST + H_DUST
+C7H4_DUST -> C7H2_DUST + H2_DUST
+C7N_DUST -> C6_DUST + CN_DUST
+C8_DUST -> C7_DUST + C_DUST
+C8H_DUST -> C8_DUST + H_DUST
+C8H2_DUST -> C8H_DUST + H_DUST
+C8H3_DUST -> C8H2_DUST + H_DUST
+C8H4_DUST -> C8H2_DUST + H2_DUST
+C9_DUST -> C8_DUST + C_DUST
+C9H_DUST -> C9_DUST + H_DUST
+C9H2_DUST -> C9H_DUST + H_DUST
+C9H3_DUST -> C9H2_DUST + H_DUST
+C9H4_DUST -> C9H2_DUST + H2_DUST
+C9N_DUST -> C8_DUST + CN_DUST
+CCL_DUST -> CL_DUST + C_DUST
+CCP_DUST -> CP_DUST + C_DUST
+CCP_DUST -> C2_DUST + P_DUST
+CH_DUST -> C_DUST + H_DUST
+CH2_DUST -> CH_DUST + H_DUST
+C2H2N_DUST -> CH2_DUST + CN_DUST
+C2H2O_DUST -> CH2_DUST + CO_DUST
+CH3N_DUST -> HCN_DUST + H2_DUST
+CH2NH2_DUST -> CH2_DUST + NH2_DUST
+CH2OH_DUST -> CH2_DUST + OH_DUST
+CH2PH_DUST -> HCP_DUST + H2_DUST
+CH3_DUST -> CH_DUST + H2_DUST
+CH3_DUST -> CH2_DUST + H_DUST
+CH3C3N_DUST -> C3N_DUST + CH3_DUST
+CH3C4H_DUST -> C4H_DUST + CH3_DUST
+CH3C5N_DUST -> CH3_DUST + C5N_DUST
+CH3C6H_DUST -> CH3_DUST + C6H_DUST
+CH3C7N_DUST -> CH3_DUST + C7N_DUST
+C2H4O_DUST -> CH4_DUST + CO_DUST
+C2H4O_DUST -> CH3_DUST + HCO_DUST
+C2H3N_DUST -> CH3_DUST + CN_DUST
+CH3NH_DUST -> CH3N_DUST + H_DUST
+CH3OCH3_DUST -> H2CO_DUST + CH4_DUST
+CH4O_DUST -> H2CO_DUST + H2_DUST
+CH4_DUST -> CH2_DUST + H2_DUST
+CH4_DUST -> CH_DUST + H2_DUST + H_DUST
+CH4_DUST -> CH3_DUST + H_DUST
+CH5N_DUST -> CH3N_DUST + H_DUST + H_DUST
+CH5N_DUST -> CN_DUST + H2_DUST + H2_DUST + H_DUST
+CH5N_DUST -> HCN_DUST + H2_DUST + H_DUST + H_DUST
+CH5N_DUST -> CH3_DUST + NH2_DUST
+CHNH_DUST -> CH_DUST + NH_DUST
+CLO_DUST -> CL_DUST + O_DUST
+CN_DUST -> C_DUST + N_DUST
+CO_DUST -> C_DUST + O_DUST
+CO2_DUST -> CO_DUST + O_DUST
+CP_DUST -> C_DUST + P_DUST
+CS_DUST -> C_DUST + S_DUST
+H2C3N_DUST -> C2H2_DUST + CN_DUST
+H2C3O_DUST -> C2H2_DUST + CO_DUST
+H2C5N_DUST -> C4H2_DUST + CN_DUST
+H2C7N_DUST -> C6H2_DUST + CN_DUST
+H2C9N_DUST -> C8H2_DUST + CN_DUST
+H2CN_DUST -> HCN_DUST + H_DUST
+H2CO_DUST -> CO_DUST + H2_DUST
+H2CO_DUST -> CO_DUST + H_DUST + H_DUST
+H2CS_DUST -> CS_DUST + H2_DUST
+H2O_DUST -> OH_DUST + H_DUST
+H2O2_DUST -> OH_DUST + OH_DUST
+H2S_DUST -> HS_DUST + H_DUST
+H2S2_DUST -> HS_DUST + HS_DUST
+H2SIO_DUST -> SIO_DUST + H2_DUST
+H3C5N_DUST -> C2H3_DUST + C3N_DUST
+H3C7N_DUST -> C2H3_DUST + C5N_DUST
+H3C9N_DUST -> C2H3_DUST + C7N_DUST
+H4C3N_DUST -> C2H4_DUST + CN_DUST
+H5C3N_DUST -> C2H5_DUST + CN_DUST
+HC2NC_DUST -> C2H_DUST + CN_DUST
+HC2O_DUST -> CO_DUST + CH_DUST
+HC3N_DUST -> C2H_DUST + CN_DUST
+HC3O_DUST -> CO_DUST + C2H_DUST
+HC5N_DUST -> C4H_DUST + CN_DUST
+HC5N_DUST -> H_DUST + C5N_DUST
+HC7N_DUST -> C6H_DUST + CN_DUST
+HC9N_DUST -> C8H_DUST + CN_DUST
+HCCN_DUST -> C2N_DUST + H_DUST
+HCCP_DUST -> CCP_DUST + H_DUST
+HCL_DUST -> CL_DUST + H_DUST
+HCN_DUST -> CN_DUST + H_DUST
+HCNC2_DUST -> C2H_DUST + CN_DUST
+HCO_DUST -> H_DUST + CO_DUST
+HCOOCH3_DUST -> HCO_DUST + CH2OH_DUST
+CH2O2_DUST -> HCO_DUST + OH_DUST
+HCP_DUST -> CP_DUST + H_DUST
+HCSI_DUST -> CH_DUST + SI_DUST
+HNC_DUST -> CN_DUST + H_DUST
+HNC3_DUST -> C2H_DUST + CN_DUST
+HNCO_DUST -> NH_DUST + CO_DUST
+HNO_DUST -> NO_DUST + H_DUST
+HNSI_DUST -> SIN_DUST + H_DUST
+HPO_DUST -> PO_DUST + H_DUST
+HS_DUST -> H_DUST + S_DUST
+HS2_DUST -> HS_DUST + S_DUST
+MGH_DUST -> MG_DUST + H_DUST
+MGH2_DUST -> MGH_DUST + H_DUST
+N2_DUST -> N_DUST + N_DUST
+N2H2_DUST -> NH2_DUST + N_DUST
+N2O_DUST -> N2_DUST + O_DUST
+NAH_DUST -> NA_DUST + H_DUST
+NAOH_DUST -> NA_DUST + OH_DUST
+NH_DUST -> H_DUST + N_DUST
+NH2_DUST -> NH_DUST + H_DUST
+NH2CHO_DUST -> NH2_DUST + HCO_DUST
+NH2CN_DUST -> NH2_DUST + CN_DUST
+NH2OH_DUST -> NH2_DUST + OH_DUST
+NH3_DUST -> NH_DUST + H2_DUST
+NH3_DUST -> NH2_DUST + H_DUST
+NO_DUST -> N_DUST + O_DUST
+NO2_DUST -> NO_DUST + O_DUST
+NS_DUST -> N_DUST + S_DUST
+O2_DUST -> O_DUST + O_DUST
+O2H_DUST -> OH_DUST + O_DUST
+O2H_DUST -> O2_DUST + H_DUST
+O3_DUST -> O2_DUST + O_DUST
+OCN_DUST -> O_DUST + CN_DUST
+OCS_DUST -> CO_DUST + S_DUST
+OH_DUST -> O_DUST + H_DUST
+PH_DUST -> P_DUST + H_DUST
+PH2_DUST -> PH_DUST + H_DUST
+PN_DUST -> N_DUST + P_DUST
+PO_DUST -> O_DUST + P_DUST
+S2_DUST -> S_DUST + S_DUST
+SIC_DUST -> SI_DUST + C_DUST
+SIC2_DUST -> SIC_DUST + C_DUST
+SIC2H_DUST -> SIC2_DUST + H_DUST
+SIC2H2_DUST -> SIC2_DUST + H2_DUST
+SIC3_DUST -> SIC2_DUST + C_DUST
+SIC3H_DUST -> SIC3_DUST + H_DUST
+SIC4_DUST -> SIC2_DUST + C2_DUST
+SICH2_DUST -> SIC_DUST + H2_DUST
+SICH3_DUST -> SICH2_DUST + H_DUST
+SIH_DUST -> SI_DUST + H_DUST
+SIH2_DUST -> SIH_DUST + H_DUST
+SIH3_DUST -> SIH2_DUST + H_DUST
+SIH4_DUST -> SIH2_DUST + H2_DUST
+SIN_DUST -> SI_DUST + N_DUST
+SINC_DUST -> CN_DUST + SI_DUST
+SIO_DUST -> SI_DUST + O_DUST
+SIO2_DUST -> SIO_DUST + O_DUST
+SIS_DUST -> SI_DUST + S_DUST
+SO_DUST -> O_DUST + S_DUST
+SO2_DUST -> SO_DUST + O_DUST
+C10_DUST -> C8_DUST + C2_DUST
+C10_DUST -> C9_DUST + C_DUST
+C2_DUST -> C_DUST + C_DUST
+C2H_DUST -> C2_DUST + H_DUST
+C2H_DUST -> CH_DUST + C_DUST
+C2H2_DUST -> C2H_DUST + H_DUST
+C2H2_DUST -> C2_DUST + H_DUST + H_DUST
+C2H2_DUST -> CH_DUST + CH_DUST
+C2H3_DUST -> C2H_DUST + H2_DUST
+C2H3_DUST -> C2H2_DUST + H_DUST
+C2H3_DUST -> C2H_DUST + H_DUST + H_DUST
+C2H4_DUST -> C2H2_DUST + H_DUST + H_DUST
+C2H4_DUST -> C2H2_DUST + H2_DUST
+C2H4_DUST -> C2H3_DUST + H_DUST
+C2H5_DUST -> C2H4_DUST + H_DUST
+C2H5_DUST -> C2H_DUST + H2_DUST + H2_DUST
+C2H5_DUST -> C2H2_DUST + H2_DUST + H_DUST
+C2H5_DUST -> C2H3_DUST + H2_DUST
+C2H5OH_DUST -> C2H5_DUST + OH_DUST
+C2H5OH_DUST -> C2H2O_DUST + H2_DUST + H2_DUST
+C2H5OH_DUST -> CH4_DUST + H2CO_DUST
+C2H5OH_DUST -> C2H4O_DUST + H2_DUST
+C2H6CO_DUST -> C2H4O_DUST + CH2_DUST
+C2H6CO_DUST -> CH3_DUST + CH3_DUST + CO_DUST
+CCO_DUST -> CO_DUST + C_DUST
+C3H3N_DUST -> C3N_DUST + H2_DUST + H_DUST
+C3H3N_DUST -> HC3N_DUST + H2_DUST
+C3H4_DUST -> C3H2_DUST + H2_DUST
+C3H4_DUST -> C3H3_DUST + H_DUST
+C4H2_DUST -> C4_DUST + H2_DUST
+C4H2_DUST -> C4H_DUST + H_DUST
+C4P_DUST -> C3P_DUST + C_DUST
+C4P_DUST -> CCP_DUST + C2_DUST
+C6_DUST -> C5_DUST + C_DUST
+C6_DUST -> C4_DUST + C2_DUST
+C6H2_DUST -> C6_DUST + H2_DUST
+C6H2_DUST -> C6H_DUST + H_DUST
+C6H2_DUST -> C6_DUST + H_DUST + H_DUST
+C7_DUST -> C6_DUST + C_DUST
+C7_DUST -> C5_DUST + C2_DUST
+C7_DUST -> C4_DUST + C3_DUST
+C7H_DUST -> C7_DUST + H_DUST
+C7H_DUST -> C6H_DUST + C_DUST
+C7H2_DUST -> C7H_DUST + H_DUST
+C7H2_DUST -> C7_DUST + H2_DUST
+C8_DUST -> C7_DUST + C_DUST
+C8_DUST -> C6_DUST + C2_DUST
+C8H_DUST -> C8_DUST + H_DUST
+C8H_DUST -> C7H_DUST + C_DUST
+C8H2_DUST -> C8_DUST + H2_DUST
+C8H2_DUST -> C8H_DUST + H_DUST
+C9_DUST -> C8_DUST + C_DUST
+C9_DUST -> C7_DUST + C2_DUST
+C9H_DUST -> C8H_DUST + C_DUST
+C9H_DUST -> C9_DUST + H_DUST
+C9H2_DUST -> C9H_DUST + H_DUST
+C9H2_DUST -> C9_DUST + H2_DUST
+C9N_DUST -> C2_DUST + C7N_DUST
+CCP_DUST -> CP_DUST + C_DUST
+CCP_DUST -> C2_DUST + P_DUST
+CH_DUST -> C_DUST + H_DUST
+CH2_DUST -> C_DUST + H2_DUST
+CH2_DUST -> CH_DUST + H_DUST
+CH2_DUST -> C_DUST + H_DUST + H_DUST
+C2H2N_DUST -> CH_DUST + HCN_DUST
+C2H2N_DUST -> CN_DUST + CH2_DUST
+C2H2N_DUST -> C2N_DUST + H2_DUST
+C2H2O_DUST -> C2_DUST + H2O_DUST
+C2H2O_DUST -> CH2_DUST + CO_DUST
+C2H2O_DUST -> C2H2_DUST + O_DUST
+CH2PH_DUST -> CP_DUST + H2_DUST + H_DUST
+CH2PH_DUST -> HCP_DUST + H2_DUST
+CH2PH_DUST -> CH3_DUST + P_DUST
+CH3_DUST -> H2_DUST + C_DUST + H_DUST
+CH3_DUST -> CH_DUST + H_DUST + H_DUST
+CH3_DUST -> CH_DUST + H2_DUST
+CH3_DUST -> CH2_DUST + H_DUST
+CH3C6H_DUST -> C7H2_DUST + H2_DUST
+CH3C6H_DUST -> C7H_DUST + H2_DUST + H_DUST
+C2H4O_DUST -> CH3_DUST + HCO_DUST
+C2H4O_DUST -> C2H2O_DUST + H_DUST + H_DUST
+C2H4O_DUST -> C2H2O_DUST + H2_DUST
+C2H3N_DUST -> CH3_DUST + CN_DUST
+C2H3N_DUST -> C2H2N_DUST + H_DUST
+C2H3N_DUST -> C2N_DUST + H2_DUST + H_DUST
+C2H3N_DUST -> CH2_DUST + HCN_DUST
+CH3OCH3_DUST -> CH4O_DUST + CH2_DUST
+CH3OCH3_DUST -> CH3_DUST + CH3_DUST + O_DUST
+CH3OCH3_DUST -> H2CO_DUST + CH4_DUST
+CH4O_DUST -> CH3_DUST + OH_DUST
+CH4O_DUST -> H2CO_DUST + H2_DUST
+CH5N_DUST -> CH3_DUST + NH2_DUST
+CH5N_DUST -> CH3N_DUST + H2_DUST
+CP_DUST -> C_DUST + P_DUST
+H2CN_DUST -> CN_DUST + H_DUST + H_DUST
+H2CN_DUST -> HCN_DUST + H_DUST
+H2CN_DUST -> HNC_DUST + H_DUST
+H2CO_DUST -> HCO_DUST + H_DUST
+H2CO_DUST -> CO_DUST + H_DUST + H_DUST
+H2CO_DUST -> CO_DUST + H_DUST + H_DUST
+H2O_DUST -> H2_DUST + O_DUST
+H2O_DUST -> OH_DUST + H_DUST
+H2O_DUST -> O_DUST + H_DUST + H_DUST
+H2S2_DUST -> HS_DUST + HS_DUST
+H2S2_DUST -> HS2_DUST + H_DUST
+H2SIO_DUST -> SIH_DUST + OH_DUST
+H2SIO_DUST -> SIO_DUST + H2_DUST
+HC7N_DUST -> C7N_DUST + H_DUST
+HC7N_DUST -> CN_DUST + C6H_DUST
+HC9N_DUST -> C9N_DUST + H_DUST
+HC9N_DUST -> CN_DUST + C8H_DUST
+HCCP_DUST -> CCP_DUST + H_DUST
+HCCP_DUST -> CP_DUST + CH_DUST
+HCO_DUST -> CO_DUST + H_DUST
+HCOOCH3_DUST -> CH4O_DUST + CO_DUST
+HCOOCH3_DUST -> CH3_DUST + CO2_DUST + H_DUST
+CH2O2_DUST -> CO2_DUST + H_DUST + H_DUST
+HCP_DUST -> CH_DUST + P_DUST
+HCP_DUST -> CP_DUST + H_DUST
+HCS_DUST -> CS_DUST + H_DUST
+HCSI_DUST -> SI_DUST + CH_DUST
+HCSI_DUST -> SIC_DUST + H_DUST
+HNSI_DUST -> SIN_DUST + H_DUST
+HNSI_DUST -> NH_DUST + SI_DUST
+HPO_DUST -> PO_DUST + H_DUST
+HPO_DUST -> PH_DUST + O_DUST
+HS2_DUST -> HS_DUST + S_DUST
+HS2_DUST -> S2_DUST + H_DUST
+NH_DUST -> N_DUST + H_DUST
+NH2_DUST -> NH_DUST + H_DUST
+NH2_DUST -> N_DUST + H_DUST + H_DUST
+NH3_DUST -> NH2_DUST + H_DUST
+NH3_DUST -> NH_DUST + H_DUST + H_DUST
+NO_DUST -> N_DUST + O_DUST
+O2_DUST -> O_DUST + O_DUST
+O2H_DUST -> O2_DUST + H_DUST
+OCS_DUST -> CS_DUST + O_DUST
+OCS_DUST -> CO_DUST + S_DUST
+OH_DUST -> O_DUST + H_DUST
+PH_DUST -> P_DUST + H_DUST
+PH2_DUST -> P_DUST + H2_DUST
+PH2_DUST -> PH_DUST + H_DUST
+PN_DUST -> P_DUST + N_DUST
+PO_DUST -> P_DUST + O_DUST
+S2_DUST -> S_DUST + S_DUST
+SIC2_DUST -> SI_DUST + C2_DUST
+SIC2_DUST -> SIC_DUST + C_DUST
+SIC2H_DUST -> C2H_DUST + SI_DUST
+SIC2H_DUST -> SIC2_DUST + H_DUST
+SIC2H2_DUST -> SIC2_DUST + H2_DUST
+SIC2H2_DUST -> SIC2H_DUST + H_DUST
+SIC3_DUST -> SIC_DUST + C2_DUST
+SIC3_DUST -> SIC2_DUST + C_DUST
+SIC3H_DUST -> SI_DUST + C3H_DUST
+SIC3H_DUST -> SIC3_DUST + H_DUST
+SIC4_DUST -> SIC2_DUST + C2_DUST
+SIC4_DUST -> SIC3_DUST + C_DUST
+SICH2_DUST -> SI_DUST + CH2_DUST
+SICH2_DUST -> SIC_DUST + H2_DUST
+SICH2_DUST -> HCSI_DUST + H_DUST
+SICH3_DUST -> HCSI_DUST + H2_DUST
+SICH3_DUST -> SICH2_DUST + H_DUST
+SIH2_DUST -> SI_DUST + H2_DUST
+SIH2_DUST -> SIH_DUST + H_DUST
+SIH2_DUST -> SI_DUST + H_DUST + H_DUST
+SIH3_DUST -> SIH_DUST + H2_DUST
+SIH3_DUST -> SIH2_DUST + H_DUST
+SIH4_DUST -> SIH2_DUST + H2_DUST
+SIH4_DUST -> SIH3_DUST + H_DUST
+SIN_DUST -> SI_DUST + N_DUST
+SINC_DUST -> SI_DUST + CN_DUST
+C -> C_DUST
+C10 -> C10_DUST
+C2 -> C2_DUST
+C2H -> C2H_DUST
+C2H2 -> C2H2_DUST
+C2H3 -> C2H3_DUST
+C2H4 -> C2H4_DUST
+C2H5 -> C2H5_DUST
+C2H5OH -> C2H5OH_DUST
+C2H6 -> C2H6_DUST
+C2H6CO -> C2H6CO_DUST
+C2N -> C2N_DUST
+CCO -> CCO_DUST
+C2S -> C2S_DUST
+C3 -> C3_DUST
+C3H -> C3H_DUST
+C3H2 -> C3H2_DUST
+C3H3 -> C3H3_DUST
+C3H3N -> C3H3N_DUST
+C3H4 -> C3H4_DUST
+C3N -> C3N_DUST
+C3O -> C3O_DUST
+C3P -> C3P_DUST
+C3S -> C3S_DUST
+C4 -> C4_DUST
+C4H -> C4H_DUST
+C4H2 -> C4H2_DUST
+C4H3 -> C4H3_DUST
+C4H4 -> C4H4_DUST
+C4N -> C4N_DUST
+C4P -> C4P_DUST
+C4S -> C4S_DUST
+C5 -> C5_DUST
+C5H -> C5H_DUST
+C5H2 -> C5H2_DUST
+C5H3 -> C5H3_DUST
+C5H4 -> C5H4_DUST
+C5N -> C5N_DUST
+C6 -> C6_DUST
+C6H -> C6H_DUST
+C6H2 -> C6H2_DUST
+C6H3 -> C6H3_DUST
+C6H4 -> C6H4_DUST
+C6H6 -> C6H6_DUST
+C7 -> C7_DUST
+C7H -> C7H_DUST
+C7H2 -> C7H2_DUST
+C7H3 -> C7H3_DUST
+C7H4 -> C7H4_DUST
+C7N -> C7N_DUST
+C8 -> C8_DUST
+C8H -> C8H_DUST
+C8H2 -> C8H2_DUST
+C8H3 -> C8H3_DUST
+C8H4 -> C8H4_DUST
+C9 -> C9_DUST
+C9H -> C9H_DUST
+C9H2 -> C9H2_DUST
+C9H3 -> C9H3_DUST
+C9H4 -> C9H4_DUST
+C9N -> C9N_DUST
+CCL -> CCL_DUST
+CCP -> CCP_DUST
+CH -> CH_DUST
+CH2 -> CH2_DUST
+C2H2N -> C2H2N_DUST
+C2H2O -> C2H2O_DUST
+CH3N -> CH3N_DUST
+CH2NH2 -> CH2NH2_DUST
+CH2OH -> CH2OH_DUST
+CH2PH -> CH2PH_DUST
+CH3 -> CH3_DUST
+CH3C3N -> CH3C3N_DUST
+CH3C4H -> CH3C4H_DUST
+CH3C5N -> CH3C5N_DUST
+CH3C6H -> CH3C6H_DUST
+CH3C7N -> CH3C7N_DUST
+C2H4O -> C2H4O_DUST
+C2H3N -> C2H3N_DUST
+CH3NH -> CH3NH_DUST
+CH3OCH3 -> CH3OCH3_DUST
+CH4O -> CH4O_DUST
+CH4 -> CH4_DUST
+CH5N -> CH5N_DUST
+CHNH -> CHNH_DUST
+CL -> CL_DUST
+CLO -> CLO_DUST
+CN -> CN_DUST
+CO -> CO_DUST
+CO2 -> CO2_DUST
+CP -> CP_DUST
+CS -> CS_DUST
+FE -> FE_DUST
+FEH -> FEH_DUST
+H -> H_DUST
+H2 -> H2_DUST
+H2C3N -> H2C3N_DUST
+H2C3O -> H2C3O_DUST
+H2C5N -> H2C5N_DUST
+H2C7N -> H2C7N_DUST
+H2C9N -> H2C9N_DUST
+H2CN -> H2CN_DUST
+H2CO -> H2CO_DUST
+H2CS -> H2CS_DUST
+H2O -> H2O_DUST
+H2O2 -> H2O2_DUST
+H2S -> H2S_DUST
+H2S2 -> H2S2_DUST
+H2SIO -> H2SIO_DUST
+H3C5N -> H3C5N_DUST
+H3C7N -> H3C7N_DUST
+H3C9N -> H3C9N_DUST
+H4C3N -> H4C3N_DUST
+H5C3N -> H5C3N_DUST
+HC2NC -> HC2NC_DUST
+HC2O -> HC2O_DUST
+HC3N -> HC3N_DUST
+HC3O -> HC3O_DUST
+HC5N -> HC5N_DUST
+HC7N -> HC7N_DUST
+HC9N -> HC9N_DUST
+HCCN -> HCCN_DUST
+HCCP -> HCCP_DUST
+HCL -> HCL_DUST
+HCN -> HCN_DUST
+HCNC2 -> HCNC2_DUST
+HCO -> HCO_DUST
+HCOOCH3 -> HCOOCH3_DUST
+CH2O2 -> CH2O2_DUST
+HCP -> HCP_DUST
+HCS -> HCS_DUST
+HCSI -> HCSI_DUST
+HE -> HE_DUST
+HNC -> HNC_DUST
+HNC3 -> HNC3_DUST
+HNCO -> HNCO_DUST
+HNO -> HNO_DUST
+HNSI -> HNSI_DUST
+HPO -> HPO_DUST
+HS -> HS_DUST
+HS2 -> HS2_DUST
+MG -> MG_DUST
+MGH -> MGH_DUST
+MGH2 -> MGH2_DUST
+N -> N_DUST
+N2 -> N2_DUST
+N2H2 -> N2H2_DUST
+N2O -> N2O_DUST
+NA -> NA_DUST
+NAH -> NAH_DUST
+NAOH -> NAOH_DUST
+NH -> NH_DUST
+NH2 -> NH2_DUST
+NH2CHO -> NH2CHO_DUST
+NH2CN -> NH2CN_DUST
+NH2OH -> NH2OH_DUST
+NH3 -> NH3_DUST
+NO -> NO_DUST
+NO2 -> NO2_DUST
+NS -> NS_DUST
+O -> O_DUST
+O2 -> O2_DUST
+O2H -> O2H_DUST
+O3 -> O3_DUST
+OCN -> OCN_DUST
+OCS -> OCS_DUST
+OH -> OH_DUST
+P -> P_DUST
+PH -> PH_DUST
+PH2 -> PH2_DUST
+PN -> PN_DUST
+PO -> PO_DUST
+S -> S_DUST
+S2 -> S2_DUST
+SI -> SI_DUST
+SIC -> SIC_DUST
+SIC2 -> SIC2_DUST
+SIC2H -> SIC2H_DUST
+SIC2H2 -> SIC2H2_DUST
+SIC3 -> SIC3_DUST
+SIC3H -> SIC3H_DUST
+SIC4 -> SIC4_DUST
+SICH2 -> SICH2_DUST
+SICH3 -> SICH3_DUST
+SIH -> SIH_DUST
+SIH2 -> SIH2_DUST
+SIH3 -> SIH3_DUST
+SIH4 -> SIH4_DUST
+SIN -> SIN_DUST
+SINC -> SINC_DUST
+SIO -> SIO_DUST
+SIO2 -> SIO2_DUST
+SIS -> SIS_DUST
+SO -> SO_DUST
+SO2 -> SO2_DUST

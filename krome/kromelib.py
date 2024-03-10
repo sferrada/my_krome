@@ -1,48 +1,42 @@
-# KROME is a nice and friendly chemistry package for a wide range of
-# astrophysical simulations. Given a chemical network (in CSV format)
-# it automatically generates all the routines needed to solve the kinetic
-# of the system, modelled as system of coupled Ordinary Differential
-# Equations.
-# It provides different options which make it unique and very flexible.
-# Any suggestions and comments are welcomed. KROME is an open-source
-# package, GNU-licensed, and any improvements provided by
-# the users is well accepted. See disclaimer below and GNU License
-# in gpl-3.0.txt.
-#
-# more details in http://kromepackage.org/
-# also see https://bitbucket.org/krome/krome_stable
-#
-# more details in http://kromepackage.org/
-# also see https://bitbucket.org/krome/krome_stable
-#
-# Written and developed by Tommaso Grassi
-# tgrassi@nbi.dk,
-# Starplan Center, Copenhagen.
-# Niels Bohr Institute, Copenhagen.
-#
-# and Stefano Bovino
-# stefano.bovino@uni-hamburg.de
-# Hamburger Sternwarte, Hamburg.
-#
-# Contributors: J.Boulangier, T.Frostholm, D.Galli, F.A.Gianturco, T.Haugboelle,
-#  A.Lupi, J.Prieto, J.Ramsey, D.R.G.Schleicher, D.Seifried, E.Simoncini,
-#  E.Tognelli
-#
-# KROME is provided "as it is", without any warranty.
-# The Authors assume no liability for any damages of any kind
-# (direct or indirect damages, contractual or non-contractual
-# damages, pecuniary or non-pecuniary damages), directly or
-# indirectly derived or arising from the correct or incorrect
-# usage of KROME, in any possible environment, or arising from
-# the impossibility to use, fully or partially, the software,
-# or any bug or malefunction.
-# Such exclusion of liability expressly includes any damages
-# including the loss of data of any kind (including personal data)
+"""
+	KROME is a nice and friendly chemistry package for a wide range of
+	astrophysical simulations. Given a chemical network (in CSV format)
+	it automatically generates all the routines needed to solve the kinetic
+	of the system, modelled as system of coupled Ordinary Differential
+	Equations.
+	It provides different options which make it unique and very flexible.
+	Any suggestions and comments are welcomed. KROME is an open-source
+	package, GNU-licensed, and any improvements provided by
+	the users is well accepted. See disclaimer below and GNU License
+	in gpl-3.0.txt.
 
-# THIS FILE CONTAINS FUNCTIONS AND CLASSES FOR THE MAIN
-# KROME PYTHON SCRIPT
+	more details in http://kromepackage.org/
+	also see https://bitbucket.org/krome/krome_stable
 
+	Written and developed by Tommaso Grassi
+	tgrassi@nbi.dk,
+	Starplan Center, Copenhagen.
+	Niels Bohr Institute, Copenhagen.
 
+	and Stefano Bovino
+	stefano.bovino@uni-hamburg.de
+	Hamburger Sternwarte, Hamburg.
+
+	Others (alphabetically): D.Galli, F.A.Gianturco, T.Haugboelle,
+	J.Prieto, J.Ramsey, D.R.G.Schleicher, D.Seifried, E.Simoncini,
+	E.Tognelli
+
+	KROME is provided \"as it is\", without any warranty.
+	The Authors assume no liability for any damages of any kind
+	(direct or indirect damages, contractual or non-contractual
+	damages, pecuniary or non-pecuniary damages), directly or
+	indirectly derived or arising from the correct or incorrect
+	usage of KROME, in any possible environment, or arising from
+	the impossibility to use, fully or partially, the software,
+	or any bug or malefunction.
+	Such exclusion of liability expressly includes any damages
+	including the loss of data of any kind (including personal data)
+"""
 import sys
 import os
 ##################################
@@ -2004,8 +1998,9 @@ def getRomanName(argmetal):
 def get_file_list():
 	files = []
 	files.append("krome")
-	files.append("kromeobj.py")
-	files.append("kromelib.py")
+	files.append("krome/__main__.py")
+	files.append("krome/kromeobj.py")
+	files.append("krome/kromelib.py")
 	files.append("patches")
 	files.append("tests")
 	files.append("tests/test.f90")

@@ -218,6 +218,34 @@ contains
 
 #ENDIFKROME
 
+! #IFKROME_useSemenov
+!   !******************************
+!   !this function sets dust variables for Semenov's framework
+!   ! works. it might be incomplete...
+!   subroutine krome_get_dust_variables(ngas,dust_gas_ratio,rho0) #KROME_bindC
+!     use krome_commons
+!     use krome_subs
+!     use krome_constants
+!     use krome_getphys
+!     use krome_grfuncs
+!     implicit none
+!     #KROME_double :: rhogas,dmass,d2g
+!     #KROME_double_value :: rho0,dust_gas_ratio
+!     real*8::ngas(nmols)
+! 
+!     d2g = dust_gas_ratio
+!     rhogas = get_rho(ngas)
+! 
+!     dmass = 4./3d0*pi*rho0*krome_dust_asize3
+!     xdust = dust_gas_ratio*rhogas/(dmass)
+! 
+!     Ebinding(:) = get_EbindBare()
+!     call dust_nu0_evaluation()
+!     call dust_evap70()
+! 
+!   end subroutine krome_get_dust_variables
+! #ENDIFKROME_useSemenov
+
 #IFKROME_useDust
 
   !*************************
