@@ -13,7 +13,6 @@ from pykrome import PyKROME
 
 if __name__ == "__main__":
     pyk = PyKROME()
-    pyk.lib.krome_init()
 
     # Define KROME params
     x_H = 2e4
@@ -31,6 +30,9 @@ if __name__ == "__main__":
     pyk.lib.krome_set_user_gsize(adust)
     pyk.lib.krome_set_user_gsize2(adust2)
     pyk.lib.krome_set_user_crflux(CR_ion)
+
+    # Initialise KROME
+    pyk.lib.krome_init()
 
     # Set initial abundances
     x_min = 1e-40
@@ -61,6 +63,8 @@ if __name__ == "__main__":
     dust_abun = dust_to_gas * rho_gas / dust_mass / mmw
 
     x_mol[pyk.krome_idx_GRAIN0] = dust_abun
+    # print(dust_abun)
+    # exit(1)
     pyk.lib.krome_set_user_xdust(dust_abun)
 
     # Set initial time and time step

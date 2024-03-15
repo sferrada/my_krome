@@ -1,0 +1,9 @@
+-n networks/react_Semenov
+-interfacePy
+-useSemenov
+-noSinkCheck
+-noRecCheck
+-iRHS
+-RTOL=1e-6
+-noVerbatimFile
+# react_primordial

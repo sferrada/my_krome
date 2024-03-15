@@ -4,7 +4,7 @@ import os
 import matplotlib.pyplot as plt
 
 data_krome   = np.genfromtxt("fort.66",delimiter='  ')
-data_semenov = np.genfromtxt("semenov.dat",delimiter='  ')
+data_semenov = np.genfromtxt("semenov.dat")
 
 #Krome out
 time  = np.array(data_krome[:,0])
