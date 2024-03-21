@@ -6,7 +6,7 @@ import numpy.ctypeslib as npctypes
 # define aliases for complicated variable types
 int_byref = ctypes.POINTER(ctypes.c_int)
 dble_byref = ctypes.POINTER(ctypes.c_double)
-array_1d_int = npctypes.ndpointer(dtype=np.int64,ndim=1,flags='CONTIGUOUS')
+array_1d_int = npctypes.ndpointer(dtype=np.int32,ndim=1,flags='CONTIGUOUS')
 array_1d_double = npctypes.ndpointer(dtype=np.double,ndim=1,flags='CONTIGUOUS')
 array_2d_double = npctypes.ndpointer(dtype=np.double,ndim=2,flags='CONTIGUOUS')
 

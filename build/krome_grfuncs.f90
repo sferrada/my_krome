@@ -8,7 +8,7 @@ contains
 
   ! *************************************************************
   !  This file has been generated with:
-  !  KROME 14.08.dev on 2024-03-14 13:09:11
+  !  KROME 14.08.dev on 2024-03-19 13:48:05
   !  Changeset xxxxxxx
   !  see http://kromepackage.org
   !
@@ -141,16 +141,20 @@ contains
     p3 = pexp + 3d0
     p4 = pexp + 4d0
 
-    ndns = (4d0 * user_xdust * pi * user_gsize2)/app2
-    p = alpha*exp(-Ea/Tdust)  !IF SEMENOV
-    if(p .gt. 1d-20 .and. p.le.1d0) then
-      Preac=p
-    else
-      Preac=0d0
-    endif
+    !number of sites cm-3/mly
+    ndns = rhog/(4d0/3d0*rho0*app2)*(amax**p3-amin**p3) &
+        / (amax**p4-amin**p4) * p4 / p3
 
-    iTd23 = 0.77d0/Tdust !Semenov
-    Ebare(:) = Ebinding(:) !IF Semenov
+    !reduced mass
+    mred = mass(idx1)*mass(idx2)/(mass(idx1)+mass(idx2))
+
+    !tunneling probability
+    Preac = exp(-2d0*ar/hbar*sqrt(2d0*mred*Ea*boltzmann_erg))
+    !exponent
+    iTd23 = 2d0/3d0/Tdust
+
+    !get Ebind, K
+    Ebare(:) = get_Ebind_bare()
 
     !ice/bare fraction
     fbare = 1d0
@@ -275,57 +279,6 @@ contains
     k = krate_stick(n(:),idx,Tdust,amin,amax,pexp,rho0,d2g)
 
   end function krate_stickSi
-
-  !***************************
-  !total evaporation rate:thermal + non-thermal, 1/s
-  !mainly used for Semenov2010 test
-  function krate_evaporation_total(idx) result(k)
-    use krome_commons
-    use krome_getphys
-    implicit none
-    integer,intent(in)::idx
-    real*8::k
-
-    k =  krate_evap_semenov_thermal(idx) + krate_evap_semenov_nonthermal(idx)
-
-  end function krate_evaporation_total
-
-  ! ******************************
-  function krate_evap_semenov_thermal(idx) result(kt)
-    use krome_commons
-    use krome_getphys
-    implicit none
-    integer,intent(in)::idx
-    real*8::k, Ebind(nspec), nu0, invTdust
-    real*8::kt
-
-    nu0 = 1d12 !1/s
-    invTdust = 1d0 / user_Tdust
-    Ebind(:) = Ebinding(:)
-
-    kt = nu0*exp(-Ebind(idx)*invTdust)
-
-  end function krate_evap_semenov_thermal
-
-  !***************************
-  !total evaporation rate:thermal + non-thermal, 1/s
-  !mainly used for Semenov2010 test
-  function krate_evap_semenov_nonthermal(idx) result(knt)
-    use krome_commons
-    use krome_getphys
-    implicit none
-    integer,intent(in)::idx
-    real*8,parameter::crnot=1.3d-17
-    real*8::nu0
-    real*8::f70, knt, kevap70(nspec)
-
-    nu0 = 1d12 !1/s
-    f70 = 3.16d-19*user_crflux / crnot
-
-    kevap70(:) = get_kevap70()
-    knt = f70 * kevap70(idx)
-
-  end function krate_evap_semenov_nonthermal
 
   !***************************
   !evaporation rate, 1/s

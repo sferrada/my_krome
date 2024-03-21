@@ -2,6 +2,7 @@
 !############### MODULE ##############
 module krome_main
 
+  use iso_c_binding
   integer::krome_call_to_fex
   !$omp threadprivate(krome_call_to_fex)
 
@@ -9,7 +10,7 @@ contains
 
   ! *************************************************************
   !  This file has been generated with:
-  !  KROME 14.08.dev on 2024-03-14 13:09:12
+  !  KROME 14.08.dev on 2024-03-19 13:48:05
   !  Changeset xxxxxxx
   !  see http://kromepackage.org
   !
@@ -24,6 +25,15 @@ contains
 
   !*******************************
   !KROME main (interface to the solver library)
+  subroutine krome_c(x,Tgas,dt  ) bind(C,name='krome')
+    use krome_commons
+    use krome_user
+    implicit none
+    real(kind=c_double) :: Tgas,dt
+    real(kind=c_double) :: x(nmols)
+    real*8 :: rhogas
+    call krome(x,Tgas,dt  )
+  end subroutine krome_c
 
   subroutine krome(x,Tgas,dt  )
     use krome_commons
@@ -46,9 +56,9 @@ contains
     !DLSODES variables
     integer,parameter::meth=2 !1=adam, 2=BDF
     integer::neq(1),itol,itask,istate,iopt,lrw,liw,mf
-    integer::iwork(15050)
+    integer::iwork(129)
     real*8::atol(nspec),rtol(nspec)
-    real*8::rwork(1082169)
+    real*8::rwork(821)
     logical::got_error,equil
 
     !****************************
@@ -150,7 +160,7 @@ contains
 
   !*********************************
   !integrates to equilibrium using constant temperature
-  subroutine krome_equilibrium(x,Tgas,verbosity)
+  subroutine krome_equilibrium(x,Tgas,verbosity) bind(C)
     use krome_ode
     use krome_subs
     use krome_commons
@@ -162,14 +172,14 @@ contains
     integer::i,imax
     integer,optional::verbosity
     integer::verbose
-    real*8 :: Tgas
-    real*8 :: x(nmols)
+    real(kind=c_double), value :: Tgas
+    real(kind=c_double) :: x(nmols)
     real*8 :: rhogas
     real*8::tloc,n(nspec),mass(nspec),ni(nspec)
     real*8::dt,xin
-    integer::iwork(15050)
+    integer::iwork(129)
     real*8::atol(nspec),rtol(nspec)
-    real*8::rwork(1082169)
+    real*8::rwork(821)
     real*8::ertol,eatol,max_time,t_tot,ntot_tol,err_species
     logical::converged
 
@@ -429,7 +439,7 @@ subroutine krome_dump(n,rwork,iwork,ni)
 end subroutine krome_dump
 
 !********************************
-subroutine krome_init()
+subroutine krome_init() bind(C)
   use krome_commons
   use krome_tabs
   use krome_subs
@@ -482,42 +492,47 @@ subroutine krome_init()
   !get machine precision
   krome_epsilon = epsilon(0d0)
 
-  !get binding energies
-  Ebinding(:) = get_EbindBare()
   !load verbatim reactions
   call loadReactionsVerbatim()
 
 end subroutine krome_init
 
 !****************************
-function krome_get_coe(x,Tgas)
+function krome_get_coe(x,Tgas) bind(C)
   !krome_get_coe: public interface to obtain rate coefficients
   use krome_commons
   use krome_subs
   use krome_tabs
   implicit none
-  real*8 :: krome_get_coe(nrea), x(nmols), Tgas
+  real(kind=c_double) :: x(nmols)
+  real(kind=c_double), value :: Tgas
+  real(kind=c_double), target :: coes(nrea)
+  type(c_ptr) :: krome_get_coe
   real*8::n(nspec)
 
   n(:) = 0d0
   n(1:nmols) = x(:)
   n(idx_Tgas) = Tgas
-  krome_get_coe(:) = coe_tab(n(:))
+  coes(:) = coe_tab(n(:))
+  krome_get_coe = c_loc(coes)
 
 end function krome_get_coe
 
 !****************************
-function krome_get_coeT(Tgas)
+function krome_get_coeT(Tgas) bind(C)
   !krome_get_coeT: public interface to obtain rate coefficients
   ! with argument Tgas only
   use krome_commons
   use krome_subs
   use krome_tabs
   implicit none
-  real*8 :: krome_get_coeT(nrea),Tgas
+  real(kind=c_double), value :: Tgas
+  real(kind=c_double), target :: coeTs(nrea)
+  type(c_ptr) :: krome_get_coeT
   real*8::n(nspec)
   n(idx_Tgas) = Tgas
-  krome_get_coeT(:) = coe_tab(n(:))
+  coeTs(:) = coe_tab(n(:))
+  krome_get_coeT = c_loc(coeTs)
 end function krome_get_coeT
 
 end module krome_main

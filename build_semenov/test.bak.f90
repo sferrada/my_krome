@@ -67,6 +67,9 @@ program test_krome
   xdust=d2g*rhogas/(dmass*1.43d0) !From Semenov 2010
   call krome_set_user_xdust(xdust)     !set average dust size: 0.1 micron
   x(KROME_idx_GRAIN0) =  xdust
+  print '(a16,E11.3)',"Dust abundance: ",xdust
+  ! exit fortran code
+  stop
 
   dt = 1d0*spy !time-step (s)
   t = 0d0 !initial time (s)
